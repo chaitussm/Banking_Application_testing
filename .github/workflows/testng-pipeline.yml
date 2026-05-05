@@ -24,25 +24,19 @@ jobs:
           java-version: '17'
           cache: maven
 
-      - name: Install Playwright system dependencies
+      - name: Install Playwright browsers and OS dependencies
         run: |
-          sudo apt-get update
-          sudo apt-get install -y --no-install-recommends \
-            libatk1.0-0 \
-            libatk-bridge2.0-0 \
-            libcups2 \
-            libdrm2 \
-            libatspi2.0-0 \
-            libxcomposite1 \
-            libxdamage1 \
-            libxfixes3 \
-            libxrandr2 \
-            libgbm1 \
-            libxkbcommon0 \
-            libasound2
+          mvn -B compile
+          mvn -B exec:java -e \
+            -D exec.mainClass=com.microsoft.playwright.CLI \
+            -D exec.args="install chromium"
+          sudo mvn -B exec:java -e \
+            -D exec.mainClass=com.microsoft.playwright.CLI \
+            -D exec.args="install-deps chromium"
 
       - name: Run TestNG suite
         run: mvn -B clean test
+        continue-on-error: false
 
       - name: Generate Surefire HTML report
         if: always()
