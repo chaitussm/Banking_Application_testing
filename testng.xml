@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="NovaBank Banking Application Test Suite" verbose="1">
+
+  <test name="Login Tests">
+    <classes>
+      <class name="com.novabank.tests.LoginTest"/>
+    </classes>
+  </test>
+
+  <test name="Register Tests">
+    <classes>
+      <class name="com.novabank.tests.RegisterTest"/>
+    </classes>
+  </test>
+
+  <test name="Forgot Password Tests">
+    <classes>
+      <class name="com.novabank.tests.ForgotPasswordTest"/>
+    </classes>
+  </test>
+
+  <test name="Dashboard Tests">
+    <classes>
+      <class name="com.novabank.tests.DashboardTest"/>
+    </classes>
+  </test>
+
+  <test name="Users Tests">
+    <classes>
+      <class name="com.novabank.tests.UsersTest"/>
+    </classes>
+  </test>
+
+  <test name="Accounts Tests">
+    <classes>
+      <class name="com.novabank.tests.AccountsTest"/>
+    </classes>
+  </test>
+
+  <test name="Transactions Tests">
+    <classes>
+      <class name="com.novabank.tests.TransactionsTest"/>
+    </classes>
+  </test>
+
+  <test name="Transfers Tests">
+    <classes>
+      <class name="com.novabank.tests.TransfersTest"/>
+    </classes>
+  </test>
+
+</suite>
