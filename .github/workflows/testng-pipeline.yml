@@ -92,7 +92,7 @@ jobs:
           SHA: ${{ github.sha }}
           RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
         run: |
-          python3 << 'PYEOF'
+          python3 << 'REPORT_SCRIPT'
           import os
           import glob
           import html
@@ -100,4 +100,111 @@ jobs:
 
           xml_files = sorted(glob.glob('target/surefire-reports/junitreports/TEST-*.xml'))
 
-         
+          total = passed = failed = skipped = 0
+          rows = []
+
+          for xf in xml_files:
+              try:
+                  tree = ET.parse(xf)
+                  root = tree.getroot()
+                  suite_name = root.attrib.get('name', os.path.basename(xf))
+                  for tc in root.findall('testcase'):
+                      classname = tc.attrib.get('classname', '')
+                      name      = tc.attrib.get('name', '')
+                      time_val  = tc.attrib.get('time', '0')
+                      if tc.find('failure') is not None or tc.find('error') is not None:
+                          status = 'FAIL'
+                          color  = '#e74c3c'
+                          failed += 1
+                      elif tc.find('skipped') is not None:
+                          status = 'SKIP'
+                          color  = '#f39c12'
+                          skipped += 1
+                      else:
+                          status = 'PASS'
+                          color  = '#27ae60'
+                          passed += 1
+                      total += 1
+                      rows.append(
+                          f'<tr><td>{html.escape(suite_name)}</td>'
+                          f'<td>{html.escape(classname)}</td>'
+                          f'<td>{html.escape(name)}</td>'
+                          f'<td style="color:{color};font-weight:bold">{status}</td>'
+                          f'<td>{html.escape(time_val)}s</td></tr>'
+                      )
+              except Exception as e:
+                  rows.append(f'<tr><td colspan="5">Error parsing {html.escape(xf)}: {html.escape(str(e))}</td></tr>')
+
+          job_status  = os.environ.get('JOB_STATUS', 'unknown')
+          branch      = os.environ.get('BRANCH', '')
+          sha         = os.environ.get('SHA', '')
+          run_url     = os.environ.get('RUN_URL', '#')
+          banner_color = '#27ae60' if job_status == 'success' else '#e74c3c'
+
+          table_rows = '\n'.join(rows) if rows else '<tr><td colspan="5">No test results found.</td></tr>'
+
+          report_html = f"""<!DOCTYPE html>
+          <html>
+          <head><meta charset="UTF-8"><title>TestNG Report</title></head>
+          <body style="font-family:Arial,sans-serif;margin:0;padding:20px;background:#f4f4f4">
+            <div style="max-width:900px;margin:auto;background:#fff;border-radius:8px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.15)">
+              <div style="background:{banner_color};color:#fff;padding:20px 30px">
+                <h2 style="margin:0">TestNG Pipeline Report</h2>
+                <p style="margin:4px 0 0">Status: <strong>{html.escape(job_status.upper())}</strong></p>
+              </div>
+              <div style="padding:20px 30px">
+                <table style="border-collapse:collapse;width:100%;margin-bottom:20px">
+                  <tr>
+                    <td style="padding:8px 16px;background:#ecf0f1"><strong>Branch</strong></td>
+                    <td style="padding:8px 16px">{html.escape(branch)}</td>
+                    <td style="padding:8px 16px;background:#ecf0f1"><strong>Commit</strong></td>
+                    <td style="padding:8px 16px">{html.escape(sha[:8])}</td>
+                  </tr>
+                  <tr>
+                    <td style="padding:8px 16px;background:#ecf0f1"><strong>Total</strong></td>
+                    <td style="padding:8px 16px">{total}</td>
+                    <td style="padding:8px 16px;background:#ecf0f1"><strong>Passed / Failed / Skipped</strong></td>
+                    <td style="padding:8px 16px">
+                      <span style="color:#27ae60">{passed}</span> /
+                      <span style="color:#e74c3c">{failed}</span> /
+                      <span style="color:#f39c12">{skipped}</span>
+                    </td>
+                  </tr>
+                </table>
+                <table border="1" cellpadding="6" cellspacing="0"
+                       style="border-collapse:collapse;width:100%;font-size:13px">
+                  <thead style="background:#2c3e50;color:#fff">
+                    <tr><th>Suite</th><th>Class</th><th>Test</th><th>Status</th><th>Time</th></tr>
+                  </thead>
+                  <tbody>
+                    {table_rows}
+                  </tbody>
+                </table>
+                <p style="margin-top:20px">
+                  <a href="{run_url}" style="background:#2c3e50;color:#fff;padding:10px 20px;text-decoration:none;border-radius:4px">
+                    View Full Run
+                  </a>
+                </p>
+              </div>
+            </div>
+          </body>
+          </html>"""
+
+          with open('email-report.html', 'w') as f:
+              f.write(report_html)
+          print('email-report.html written successfully.')
+          REPORT_SCRIPT
+
+      - name: Send email with HTML report and zip attachment
+        if: always()
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: ${{ secrets.SMTP_SERVER }}
+          server_port: 587
+          username: ${{ secrets.SMTP_USERNAME }}
+          password: ${{ secrets.SMTP_PASSWORD }}
+          subject: "TestNG Pipeline – ${{ env.JOB_STATUS }} | ${{ github.ref_name }} @ ${{ github.sha }}"
+          to: ${{ secrets.EMAIL_TO }}
+          from: ${{ secrets.SMTP_USERNAME }}
+          html_body: file://email-report.html
+          attachments: test-reports.zip
