@@ -71,10 +71,18 @@ jobs:
             target/surefire-reports/**
           if-no-files-found: warn
 
-      - name: Zip reports for email attachment
+      - name: Zip reports
         if: always()
         run: |
           zip -r test-reports.zip test-output/ target/surefire-reports/ target/site/ 2>/dev/null || true
+
+      - name: Upload zipped reports artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-reports-zip
+          path: test-reports.zip
+          if-no-files-found: warn
 
       - name: Send test report email
         if: always()
@@ -85,7 +93,7 @@ jobs:
           secure: true
           username: ${{ secrets.SMTP_USERNAME }}
           password: ${{ secrets.SMTP_PASSWORD }}
-          subject: "NovaBank Tests ${{ job.status == 'success' && '✅ PASSED' || '❌ FAILED' }} — ${{ github.ref_name }} @ ${{ github.sha }}"
+          subject: "NovaBank Tests - ${{ job.status }} - ${{ github.ref_name }}"
           to: chaitanyassm@outlook.com
           from: NovaBank CI <${{ secrets.SMTP_USERNAME }}>
           body: |
@@ -96,5 +104,4 @@ jobs:
             Commit  : ${{ github.sha }}
             Workflow: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
 
-            The ExtentReport HTML and screenshots are attached.
-          attachments: test-reports.zip
+            The zip report is available in the GitHub Actions artifacts for this run.
