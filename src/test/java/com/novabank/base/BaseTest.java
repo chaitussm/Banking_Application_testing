@@ -43,9 +43,10 @@ public class BaseTest {
     @BeforeSuite
     public void launchBrowser() {
         playwright = Playwright.create();
+        boolean headless = Boolean.parseBoolean(System.getenv().getOrDefault("HEADLESS", "true"));
         browser = playwright.chromium().launch(
             new BrowserType.LaunchOptions()
-                .setHeadless(false)
+                .setHeadless(headless)
         );
     }
 
