@@ -24,6 +24,49 @@ jobs:
           java-version: '17'
           cache: maven
 
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Clone Banking Application
+        run: git clone --depth 1 https://github.com/chaitussm/Banking_Application.git banking-app
+
+      - name: Start backend service
+        working-directory: banking-app/backend
+        run: |
+          npm install
+          npm run dev &
+          echo "Backend started"
+
+      - name: Start frontend service
+        working-directory: banking-app/frontend
+        run: |
+          npm install
+          npm run dev &
+          echo "Frontend started"
+
+      - name: Wait for backend and frontend to be ready
+        run: |
+          echo "Waiting for backend on port 4000..."
+          for i in $(seq 1 30); do
+            if curl -sf http://localhost:4000/health; then
+              echo "Backend is ready"
+              break
+            fi
+            echo "Attempt $i: backend not ready, retrying in 3s..."
+            sleep 3
+          done
+          echo "Waiting for frontend on port 5173..."
+          for i in $(seq 1 30); do
+            if curl -sf http://localhost:5173; then
+              echo "Frontend is ready"
+              break
+            fi
+            echo "Attempt $i: frontend not ready, retrying in 3s..."
+            sleep 3
+          done
+
       - name: Install Playwright browsers and OS dependencies
         run: mvn -B exec:java -e \
           -D exec.mainClass=com.microsoft.playwright.CLI \
@@ -31,7 +74,6 @@ jobs:
 
       - name: Run TestNG suite
         run: mvn -B clean test
-        continue-on-error: false
 
       - name: Generate Surefire HTML report
         if: always()
