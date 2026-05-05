@@ -1,5 +1,0 @@
-#surefire_0
-#Tue May 05 18:32:38 CEST 2026
-basedir=/Users/chanukyasds/Desktop/Study/Banking_Application_testing
-localRepository=/Users/chanukyasds/.m2/repository
-test=ForgotPasswordTest

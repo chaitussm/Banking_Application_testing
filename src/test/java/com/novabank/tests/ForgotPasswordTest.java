@@ -80,8 +80,11 @@ public class ForgotPasswordTest extends BaseTest {
         page.waitForURL("**/dashboard");
         Assert.assertTrue(page.url().contains("/dashboard"), "User should be able to login after password reset");
 
+        // Logout so we can access the forgot-password page to restore original password
+        page.click("button.logout-btn");
+        page.waitForURL("**/login");
+
         // Restore original password
-        loginPage.navigate();
         forgotPasswordPage.navigate();
         forgotPasswordPage.resetPassword(TestData.CUSTOMER1_EMAIL, TestData.CUSTOMER1_PASSWORD);
         page.waitForSelector("p.credit");

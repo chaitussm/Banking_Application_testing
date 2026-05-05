@@ -1,111 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[UI health-check passed: reachable at http://localhost:5173]]>
     </line>
   </reporter-output>
-  <suite started-at="2026-05-05T18:29:38 CEST" name="Surefire suite" finished-at="2026-05-05T18:29:42 CEST" duration-ms="3472">
+  <suite started-at="2026-05-05T18:42:12 CEST" name="Surefire suite" finished-at="2026-05-05T18:42:14 CEST" duration-ms="2735">
     <groups>
     </groups>
-    <test started-at="2026-05-05T18:29:38 CEST" name="Surefire test" finished-at="2026-05-05T18:29:42 CEST" duration-ms="3472">
-      <class name="com.novabank.tests.DashboardTest">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.novabank.tests.DashboardTest@23a5fd2]" started-at="2026-05-05T18:29:37 CEST" name="launchBrowser" finished-at="2026-05-05T18:29:38 CEST" duration-ms="1298" status="PASS">
+    <test started-at="2026-05-05T18:42:12 CEST" name="Surefire test" finished-at="2026-05-05T18:42:14 CEST" duration-ms="2735">
+      <class name="com.novabank.tests.UsersTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.novabank.tests.UsersTest@62bd765]" started-at="2026-05-05T18:42:10 CEST" name="launchBrowser" finished-at="2026-05-05T18:42:12 CEST" duration-ms="1268" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="createContextAndPage()[pri:0, instance:com.novabank.tests.DashboardTest@23a5fd2]" started-at="2026-05-05T18:29:38 CEST" name="createContextAndPage" finished-at="2026-05-05T18:29:39 CEST" duration-ms="327" status="PASS">
+        <test-method is-config="true" signature="createContextAndPage()[pri:0, instance:com.novabank.tests.UsersTest@62bd765]" started-at="2026-05-05T18:42:12 CEST" name="createContextAndPage" finished-at="2026-05-05T18:42:12 CEST" duration-ms="285" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[UI health-check passed: reachable at http://localhost:5173]]>
             </line>
           </reporter-output>
         </test-method> <!-- createContextAndPage -->
-        <test-method signature="testCustomerDoesNotSeeUsersNavLink()[pri:0, instance:com.novabank.tests.DashboardTest@23a5fd2]" started-at="2026-05-05T18:29:39 CEST" name="testCustomerDoesNotSeeUsersNavLink" description="Customer does not see Users nav link" finished-at="2026-05-05T18:29:39 CEST" duration-ms="279" status="PASS">
+        <test-method signature="testCustomerIsRedirectedFromUsersPage()[pri:0, instance:com.novabank.tests.UsersTest@62bd765]" started-at="2026-05-05T18:42:12 CEST" name="testCustomerIsRedirectedFromUsersPage" description="Customer is redirected to /unauthorized when accessing Users page" finished-at="2026-05-05T18:42:12 CEST" duration-ms="371" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCustomerDoesNotSeeUsersNavLink -->
-        <test-method is-config="true" signature="closeContextAndPage()[pri:0, instance:com.novabank.tests.DashboardTest@23a5fd2]" started-at="2026-05-05T18:29:39 CEST" name="closeContextAndPage" finished-at="2026-05-05T18:29:39 CEST" duration-ms="4" status="PASS">
+        </test-method> <!-- testCustomerIsRedirectedFromUsersPage -->
+        <test-method is-config="true" signature="closeContextAndPage()[pri:0, instance:com.novabank.tests.UsersTest@62bd765]" started-at="2026-05-05T18:42:12 CEST" name="closeContextAndPage" finished-at="2026-05-05T18:42:12 CEST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeContextAndPage -->
-        <test-method is-config="true" signature="createContextAndPage()[pri:0, instance:com.novabank.tests.DashboardTest@23a5fd2]" started-at="2026-05-05T18:29:39 CEST" name="createContextAndPage" finished-at="2026-05-05T18:29:39 CEST" duration-ms="32" status="PASS">
+        <test-method is-config="true" signature="createContextAndPage()[pri:0, instance:com.novabank.tests.UsersTest@62bd765]" started-at="2026-05-05T18:42:12 CEST" name="createContextAndPage" finished-at="2026-05-05T18:42:12 CEST" duration-ms="34" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createContextAndPage -->
-        <test-method signature="testDashboardHeading()[pri:0, instance:com.novabank.tests.DashboardTest@23a5fd2]" started-at="2026-05-05T18:29:39 CEST" name="testDashboardHeading" description="Dashboard shows correct heading" finished-at="2026-05-05T18:29:39 CEST" duration-ms="279" status="PASS">
+        <test-method signature="testManagerCanAccessUsersPage()[pri:0, instance:com.novabank.tests.UsersTest@62bd765]" started-at="2026-05-05T18:42:12 CEST" name="testManagerCanAccessUsersPage" description="Manager can access the Users page" finished-at="2026-05-05T18:42:13 CEST" duration-ms="704" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testDashboardHeading -->
-        <test-method is-config="true" signature="closeContextAndPage()[pri:0, instance:com.novabank.tests.DashboardTest@23a5fd2]" started-at="2026-05-05T18:29:39 CEST" name="closeContextAndPage" finished-at="2026-05-05T18:29:39 CEST" duration-ms="4" status="PASS">
+        </test-method> <!-- testManagerCanAccessUsersPage -->
+        <test-method is-config="true" signature="closeContextAndPage()[pri:0, instance:com.novabank.tests.UsersTest@62bd765]" started-at="2026-05-05T18:42:13 CEST" name="closeContextAndPage" finished-at="2026-05-05T18:42:13 CEST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeContextAndPage -->
-        <test-method is-config="true" signature="createContextAndPage()[pri:0, instance:com.novabank.tests.DashboardTest@23a5fd2]" started-at="2026-05-05T18:29:39 CEST" name="createContextAndPage" finished-at="2026-05-05T18:29:39 CEST" duration-ms="33" status="PASS">
+        <test-method is-config="true" signature="createContextAndPage()[pri:0, instance:com.novabank.tests.UsersTest@62bd765]" started-at="2026-05-05T18:42:13 CEST" name="createContextAndPage" finished-at="2026-05-05T18:42:13 CEST" duration-ms="33" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createContextAndPage -->
-        <test-method signature="testDashboardShowsCustomerName()[pri:0, instance:com.novabank.tests.DashboardTest@23a5fd2]" started-at="2026-05-05T18:29:39 CEST" name="testDashboardShowsCustomerName" description="Dashboard displays logged-in customer&#039;s name and role" finished-at="2026-05-05T18:29:39 CEST" duration-ms="261" status="PASS">
+        <test-method signature="testUnauthorizedPageContent()[pri:0, instance:com.novabank.tests.UsersTest@62bd765]" started-at="2026-05-05T18:42:13 CEST" name="testUnauthorizedPageContent" description="Unauthorized page shows proper message for customer" finished-at="2026-05-05T18:42:13 CEST" duration-ms="325" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testDashboardShowsCustomerName -->
-        <test-method is-config="true" signature="closeContextAndPage()[pri:0, instance:com.novabank.tests.DashboardTest@23a5fd2]" started-at="2026-05-05T18:29:39 CEST" name="closeContextAndPage" finished-at="2026-05-05T18:29:39 CEST" duration-ms="4" status="PASS">
+        </test-method> <!-- testUnauthorizedPageContent -->
+        <test-method is-config="true" signature="closeContextAndPage()[pri:0, instance:com.novabank.tests.UsersTest@62bd765]" started-at="2026-05-05T18:42:13 CEST" name="closeContextAndPage" finished-at="2026-05-05T18:42:13 CEST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeContextAndPage -->
-        <test-method is-config="true" signature="createContextAndPage()[pri:0, instance:com.novabank.tests.DashboardTest@23a5fd2]" started-at="2026-05-05T18:29:39 CEST" name="createContextAndPage" finished-at="2026-05-05T18:29:40 CEST" duration-ms="32" status="PASS">
+        <test-method is-config="true" signature="createContextAndPage()[pri:0, instance:com.novabank.tests.UsersTest@62bd765]" started-at="2026-05-05T18:42:13 CEST" name="createContextAndPage" finished-at="2026-05-05T18:42:13 CEST" duration-ms="32" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createContextAndPage -->
-        <test-method signature="testDashboardShowsManagerName()[pri:0, instance:com.novabank.tests.DashboardTest@23a5fd2]" started-at="2026-05-05T18:29:40 CEST" name="testDashboardShowsManagerName" description="Dashboard displays manager&#039;s name and role" finished-at="2026-05-05T18:29:40 CEST" duration-ms="262" status="PASS">
+        <test-method signature="testUsersPageDisplaysSeededUserNames()[pri:0, instance:com.novabank.tests.UsersTest@62bd765]" started-at="2026-05-05T18:42:13 CEST" name="testUsersPageDisplaysSeededUserNames" description="Users page displays correct seeded user names" finished-at="2026-05-05T18:42:14 CEST" duration-ms="291" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testDashboardShowsManagerName -->
-        <test-method is-config="true" signature="closeContextAndPage()[pri:0, instance:com.novabank.tests.DashboardTest@23a5fd2]" started-at="2026-05-05T18:29:40 CEST" name="closeContextAndPage" finished-at="2026-05-05T18:29:40 CEST" duration-ms="4" status="PASS">
+        </test-method> <!-- testUsersPageDisplaysSeededUserNames -->
+        <test-method is-config="true" signature="closeContextAndPage()[pri:0, instance:com.novabank.tests.UsersTest@62bd765]" started-at="2026-05-05T18:42:14 CEST" name="closeContextAndPage" finished-at="2026-05-05T18:42:14 CEST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeContextAndPage -->
-        <test-method is-config="true" signature="createContextAndPage()[pri:0, instance:com.novabank.tests.DashboardTest@23a5fd2]" started-at="2026-05-05T18:29:40 CEST" name="createContextAndPage" finished-at="2026-05-05T18:29:40 CEST" duration-ms="31" status="PASS">
+        <test-method is-config="true" signature="createContextAndPage()[pri:0, instance:com.novabank.tests.UsersTest@62bd765]" started-at="2026-05-05T18:42:14 CEST" name="createContextAndPage" finished-at="2026-05-05T18:42:14 CEST" duration-ms="32" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createContextAndPage -->
-        <test-method signature="testDashboardShowsStatCards()[pri:0, instance:com.novabank.tests.DashboardTest@23a5fd2]" started-at="2026-05-05T18:29:40 CEST" name="testDashboardShowsStatCards" description="Dashboard displays 4 stat cards after login" finished-at="2026-05-05T18:29:40 CEST" duration-ms="253" status="PASS">
+        <test-method signature="testUsersPageShowsSeededUsers()[pri:0, instance:com.novabank.tests.UsersTest@62bd765]" started-at="2026-05-05T18:42:14 CEST" name="testUsersPageShowsSeededUsers" description="Users page shows 3 seeded users for manager" finished-at="2026-05-05T18:42:14 CEST" duration-ms="281" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testDashboardShowsStatCards -->
-        <test-method is-config="true" signature="closeContextAndPage()[pri:0, instance:com.novabank.tests.DashboardTest@23a5fd2]" started-at="2026-05-05T18:29:40 CEST" name="closeContextAndPage" finished-at="2026-05-05T18:29:40 CEST" duration-ms="2" status="PASS">
+        </test-method> <!-- testUsersPageShowsSeededUsers -->
+        <test-method is-config="true" signature="closeContextAndPage()[pri:0, instance:com.novabank.tests.UsersTest@62bd765]" started-at="2026-05-05T18:42:14 CEST" name="closeContextAndPage" finished-at="2026-05-05T18:42:14 CEST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeContextAndPage -->
-        <test-method is-config="true" signature="createContextAndPage()[pri:0, instance:com.novabank.tests.DashboardTest@23a5fd2]" started-at="2026-05-05T18:29:40 CEST" name="createContextAndPage" finished-at="2026-05-05T18:29:40 CEST" duration-ms="32" status="PASS">
+        <test-method is-config="true" signature="createContextAndPage()[pri:0, instance:com.novabank.tests.UsersTest@62bd765]" started-at="2026-05-05T18:42:14 CEST" name="createContextAndPage" finished-at="2026-05-05T18:42:14 CEST" duration-ms="33" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createContextAndPage -->
-        <test-method signature="testLogoutRedirectsToLogin()[pri:0, instance:com.novabank.tests.DashboardTest@23a5fd2]" started-at="2026-05-05T18:29:40 CEST" name="testLogoutRedirectsToLogin" description="Logout button logs user out and redirects to login" finished-at="2026-05-05T18:29:40 CEST" duration-ms="275" status="PASS">
+        <test-method signature="testUsersPageSubtitle()[pri:0, instance:com.novabank.tests.UsersTest@62bd765]" started-at="2026-05-05T18:42:14 CEST" name="testUsersPageSubtitle" description="Users page subtitle mentions seeded users" finished-at="2026-05-05T18:42:14 CEST" duration-ms="282" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testLogoutRedirectsToLogin -->
-        <test-method is-config="true" signature="closeContextAndPage()[pri:0, instance:com.novabank.tests.DashboardTest@23a5fd2]" started-at="2026-05-05T18:29:40 CEST" name="closeContextAndPage" finished-at="2026-05-05T18:29:40 CEST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeContextAndPage -->
-        <test-method is-config="true" signature="createContextAndPage()[pri:0, instance:com.novabank.tests.DashboardTest@23a5fd2]" started-at="2026-05-05T18:29:40 CEST" name="createContextAndPage" finished-at="2026-05-05T18:29:40 CEST" duration-ms="33" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createContextAndPage -->
-        <test-method signature="testManagerSeesUsersNavLink()[pri:0, instance:com.novabank.tests.DashboardTest@23a5fd2]" started-at="2026-05-05T18:29:40 CEST" name="testManagerSeesUsersNavLink" description="Manager sees Users nav link; customer does not" finished-at="2026-05-05T18:29:42 CEST" duration-ms="1301" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testManagerSeesUsersNavLink -->
-        <test-method is-config="true" signature="closeContextAndPage()[pri:0, instance:com.novabank.tests.DashboardTest@23a5fd2]" started-at="2026-05-05T18:29:42 CEST" name="closeContextAndPage" finished-at="2026-05-05T18:29:42 CEST" duration-ms="5" status="PASS">
+        </test-method> <!-- testUsersPageSubtitle -->
+        <test-method is-config="true" signature="closeContextAndPage()[pri:0, instance:com.novabank.tests.UsersTest@62bd765]" started-at="2026-05-05T18:42:14 CEST" name="closeContextAndPage" finished-at="2026-05-05T18:42:14 CEST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeContextAndPage -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.novabank.tests.DashboardTest@23a5fd2]" started-at="2026-05-05T18:29:42 CEST" name="closeBrowser" finished-at="2026-05-05T18:29:42 CEST" duration-ms="17" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.novabank.tests.UsersTest@62bd765]" started-at="2026-05-05T18:42:14 CEST" name="closeBrowser" finished-at="2026-05-05T18:42:14 CEST" duration-ms="17" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- com.novabank.tests.DashboardTest -->
+      </class> <!-- com.novabank.tests.UsersTest -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
 </testng-results>

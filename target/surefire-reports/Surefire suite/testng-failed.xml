@@ -3,16 +3,18 @@
 <suite name="Failed suite [Surefire suite]" verbose="0">
   <test thread-count="5" name="Surefire test(failed)" verbose="0">
     <classes>
-      <class name="com.novabank.tests.DashboardTest">
+      <class name="com.novabank.tests.UsersTest">
         <methods>
-          <include name="testDashboardHeading"/>
+          <include name="testUsersPageSubtitle"/>
+          <include name="testUsersPageShowsSeededUsers"/>
           <include name="launchBrowser"/>
           <include name="closeContextAndPage"/>
           <include name="createContextAndPage"/>
-          <include name="testDashboardShowsStatCards"/>
+          <include name="testManagerCanAccessUsersPage"/>
           <include name="closeBrowser"/>
+          <include name="testUnauthorizedPageContent"/>
         </methods>
-      </class> <!-- com.novabank.tests.DashboardTest -->
+      </class> <!-- com.novabank.tests.UsersTest -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->

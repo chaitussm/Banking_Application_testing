@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.novabank.tests.LoginTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.900 s -- in com.novabank.tests.LoginTest

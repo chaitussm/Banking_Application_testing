@@ -12,7 +12,7 @@ public class TransactionsPage {
 
     private final Page page;
 
-    private static final String HEADING = "h2";
+    private static final String HEADING = "h2:has-text('Transactions')";
     private static final String ACCOUNT_SELECT = "select:first-of-type";
     private static final String KIND_SELECT = "select:last-of-type";
     private static final String SUBMIT_BUTTON = "button[type='submit']";
@@ -28,7 +28,12 @@ public class TransactionsPage {
     }
 
     public boolean isTransactionsPageDisplayed() {
-        return page.textContent(HEADING).equals("Transactions");
+        try {
+            page.waitForSelector(HEADING, new Page.WaitForSelectorOptions().setTimeout(5000));
+            return page.url().contains("/transactions") && page.locator(HEADING).isVisible();
+        } catch (Exception ignored) {
+            return false;
+        }
     }
 
     public void selectAccount(String accountNameOrId) {

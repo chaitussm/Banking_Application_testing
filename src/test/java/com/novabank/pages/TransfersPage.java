@@ -12,7 +12,7 @@ public class TransfersPage {
 
     private final Page page;
 
-    private static final String HEADING = "h2";
+    private static final String HEADING = "h2:has-text('Transfers')";
     private static final String FROM_ACCOUNT_SELECT = "select:first-of-type";
     private static final String TO_ACCOUNT_SELECT = "select:last-of-type";
     private static final String AMOUNT_INPUT = ".simple-form input:first-of-type";
@@ -31,7 +31,12 @@ public class TransfersPage {
     }
 
     public boolean isTransfersPageDisplayed() {
-        return page.textContent(HEADING).equals("Transfers");
+        try {
+            page.waitForSelector(HEADING, new Page.WaitForSelectorOptions().setTimeout(5000));
+            return page.url().contains("/transfers") && page.locator(HEADING).isVisible();
+        } catch (Exception ignored) {
+            return false;
+        }
     }
 
     public void selectFromAccount(String accountLabel) {

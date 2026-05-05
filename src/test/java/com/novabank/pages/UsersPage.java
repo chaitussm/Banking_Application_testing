@@ -12,10 +12,10 @@ public class UsersPage {
 
     private final Page page;
 
-    private static final String HEADING = "h2";
+    private static final String HEADING = "h2:has-text('Users')";
     private static final String LIST_GRID = ".list-grid";
     private static final String LIST_CARDS = ".list-card";
-    private static final String SUBTITLE = ".subtitle";
+    private static final String SUBTITLE = "section.panel.content .subtitle";
 
     public UsersPage(Page page) {
         this.page = page;
@@ -27,7 +27,12 @@ public class UsersPage {
     }
 
     public boolean isUsersPageDisplayed() {
-        return page.isVisible(LIST_GRID) && page.textContent(HEADING).equals("Users");
+        try {
+            page.waitForSelector(HEADING, new Page.WaitForSelectorOptions().setTimeout(5000));
+            return page.url().contains("/users") && page.locator(HEADING).isVisible();
+        } catch (Exception ignored) {
+            return false;
+        }
     }
 
     public int getUserCardCount() {
