@@ -84,6 +84,151 @@ jobs:
           path: test-reports.zip
           if-no-files-found: warn
 
+      - name: Generate HTML email report
+        if: always()
+        env:
+          JOB_STATUS: ${{ job.status }}
+          BRANCH: ${{ github.ref_name }}
+          SHA: ${{ github.sha }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          python3 << 'PYEOF'
+          import os
+          import glob
+          import xml.etree.ElementTree as ET
+
+          xml_files = sorted(glob.glob('target/surefire-reports/junitreports/TEST-*.xml'))
+
+          total = passed = failed = skipped = 0
+          rows = []
+
+          for xml_file in xml_files:
+              try:
+                  tree = ET.parse(xml_file)
+                  root = tree.getroot()
+                  for tc in root.findall('testcase'):
+                      classname = tc.get('classname', '')
+                      name = tc.get('name', '')
+                      skip = tc.find('skipped')
+                      failure = tc.find('failure')
+                      error = tc.find('error')
+                      total += 1
+                      if skip is not None:
+                          status = 'SKIPPED'
+                          skipped += 1
+                          bg = '#fff3cd'
+                          fg = '#856404'
+                      elif failure is not None or error is not None:
+                          status = 'FAILED'
+                          failed += 1
+                          bg = '#f8d7da'
+                          fg = '#721c24'
+                      else:
+                          status = 'PASSED'
+                          passed += 1
+                          bg = '#d4edda'
+                          fg = '#155724'
+                      rows.append(
+                          f'<tr>'
+                          f'<td style="padding:6px 10px;border:1px solid #dee2e6;">{classname}</td>'
+                          f'<td style="padding:6px 10px;border:1px solid #dee2e6;">{name}</td>'
+                          f'<td style="padding:6px 10px;border:1px solid #dee2e6;background:{bg};color:{fg};font-weight:bold;">{status}</td>'
+                          f'</tr>'
+                      )
+              except Exception as e:
+                  print(f'Warning: could not parse {xml_file}: {e}')
+
+          job_status = os.environ.get('JOB_STATUS', 'unknown')
+          branch = os.environ.get('BRANCH', '')
+          sha = os.environ.get('SHA', '')
+          run_url = os.environ.get('RUN_URL', '')
+
+          status_color = '#155724' if job_status.lower() == 'success' else '#721c24'
+          status_bg = '#d4edda' if job_status.lower() == 'success' else '#f8d7da'
+
+          rows_html = '\n'.join(rows) if rows else (
+              '<tr><td colspan="3" style="padding:10px;text-align:center;color:#666;">'
+              'No test results found.</td></tr>'
+          )
+
+          html = f"""<!DOCTYPE html>
+          <html lang="en">
+          <head><meta charset="UTF-8"><title>NovaBank Test Report</title></head>
+          <body style="font-family:Arial,sans-serif;color:#333;margin:0;padding:20px;background:#f4f6f8;">
+          <div style="max-width:820px;margin:auto;background:#fff;border-radius:6px;padding:28px;border:1px solid #dee2e6;">
+            <h2 style="margin-top:0;border-bottom:2px solid #dee2e6;padding-bottom:12px;">
+              NovaBank Banking Application &#8212; Test Report
+            </h2>
+
+            <table style="border-collapse:collapse;margin-bottom:20px;width:100%;">
+              <tr>
+                <td style="padding:5px 14px 5px 0;font-weight:bold;width:130px;">Status</td>
+                <td style="padding:5px 10px;background:{status_bg};color:{status_color};font-weight:bold;border-radius:4px;">
+                  {job_status.upper()}
+                </td>
+              </tr>
+              <tr>
+                <td style="padding:5px 14px 5px 0;font-weight:bold;">Branch</td>
+                <td style="padding:5px 0;">{branch}</td>
+              </tr>
+              <tr>
+                <td style="padding:5px 14px 5px 0;font-weight:bold;">Commit</td>
+                <td style="padding:5px 0;font-family:monospace;">{sha}</td>
+              </tr>
+              <tr>
+                <td style="padding:5px 14px 5px 0;font-weight:bold;">Workflow&nbsp;Run</td>
+                <td style="padding:5px 0;">
+                  <a href="{run_url}" style="color:#0366d6;">{run_url}</a>
+                </td>
+              </tr>
+            </table>
+
+            <h3 style="margin-bottom:8px;">Summary</h3>
+            <table style="border-collapse:collapse;margin-bottom:20px;">
+              <tr>
+                <td style="padding:10px 20px;background:#28a745;color:#fff;font-weight:bold;border-radius:4px 0 0 4px;">
+                  &#10003; Passed: {passed}
+                </td>
+                <td style="padding:10px 20px;background:#dc3545;color:#fff;font-weight:bold;">
+                  &#10007; Failed: {failed}
+                </td>
+                <td style="padding:10px 20px;background:#ffc107;color:#333;font-weight:bold;">
+                  &#8212; Skipped: {skipped}
+                </td>
+                <td style="padding:10px 20px;background:#6c757d;color:#fff;font-weight:bold;border-radius:0 4px 4px 0;">
+                  Total: {total}
+                </td>
+              </tr>
+            </table>
+
+            <h3 style="margin-bottom:8px;">Test Results</h3>
+            <table style="border-collapse:collapse;width:100%;">
+              <thead>
+                <tr style="background:#f2f2f2;">
+                  <th style="padding:8px 10px;border:1px solid #dee2e6;text-align:left;">Class</th>
+                  <th style="padding:8px 10px;border:1px solid #dee2e6;text-align:left;">Test Name</th>
+                  <th style="padding:8px 10px;border:1px solid #dee2e6;text-align:left;">Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                {rows_html}
+              </tbody>
+            </table>
+
+            <p style="margin-top:20px;font-size:12px;color:#666;border-top:1px solid #dee2e6;padding-top:12px;">
+              The full zipped report is attached to this email and is also available as an artifact
+              in the <a href="{run_url}" style="color:#0366d6;">workflow run</a>.
+            </p>
+          </div>
+          </body>
+          </html>"""
+
+          with open('email-report.html', 'w') as f:
+              f.write(html)
+
+          print(f'email-report.html generated: total={total}, passed={passed}, failed={failed}, skipped={skipped}')
+          PYEOF
+
       - name: Send test report email
         if: always()
         uses: dawidd6/action-send-mail@v3
@@ -96,12 +241,5 @@ jobs:
           subject: "NovaBank Tests - ${{ job.status }} - ${{ github.ref_name }}"
           to: chaitanyassm@outlook.com
           from: NovaBank CI <${{ secrets.SMTP_USERNAME }}>
-          body: |
-            NovaBank Banking Application Test Run
-
-            Status  : ${{ job.status }}
-            Branch  : ${{ github.ref_name }}
-            Commit  : ${{ github.sha }}
-            Workflow: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
-
-            The zip report is available in the GitHub Actions artifacts for this run.
+          html_body: file://email-report.html
+          attachments: test-reports.zip
