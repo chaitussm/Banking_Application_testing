@@ -1,0 +1,16 @@
+# Maven build output
+target/
+
+# ExtentReports HTML report and screenshots
+test-output/
+
+# IDE files
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+
+# OS files
+.DS_Store
+Thumbs.db

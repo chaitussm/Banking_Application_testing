@@ -1,14 +1,24 @@
 package com.novabank.base;
 
+import com.aventstack.extentreports.ExtentTest;
 import com.microsoft.playwright.*;
+import com.novabank.utils.ExtentManager;
 import com.novabank.utils.TestData;
+import java.io.File;
+import java.lang.reflect.Method;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.time.Duration;
+import java.util.Base64;
+import org.testng.ITestResult;
 import org.testng.Reporter;
 import org.testng.SkipException;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Test;
 
 /**
  * Base test class that manages Playwright lifecycle.
@@ -28,6 +38,7 @@ public class BaseTest {
 
     protected BrowserContext context;
     protected Page page;
+    protected ExtentTest extentTest;
 
     @BeforeSuite
     public void launchBrowser() {
@@ -46,10 +57,19 @@ public class BaseTest {
         if (playwright != null) {
             playwright.close();
         }
+        ExtentManager.getInstance().flush();
     }
 
     @BeforeMethod
-    public void createContextAndPage() {
+    public void createContextAndPage(Method method) {
+        // Create extent test entry first so @AfterMethod can always log to it
+        Test testAnnotation = method.getAnnotation(Test.class);
+        String description = (testAnnotation != null && !testAnnotation.description().isEmpty())
+            ? testAnnotation.description()
+            : method.getName();
+        extentTest = ExtentManager.getInstance().createTest(
+            getClass().getSimpleName() + " :: " + method.getName(), description);
+
         ensureApplicationIsReachable();
 
         context = browser.newContext(
@@ -128,8 +148,47 @@ public class BaseTest {
         return false;
     }
 
-    @AfterMethod
-    public void closeContextAndPage() {
+    @AfterMethod(alwaysRun = true)
+    public void afterMethod(ITestResult result) {
+        // Capture screenshot before closing page
+        if (page != null) {
+            try {
+                String screenshotDir = "test-output/screenshots";
+                new File(screenshotDir).mkdirs();
+
+                String status = switch (result.getStatus()) {
+                    case ITestResult.FAILURE -> "FAIL";
+                    case ITestResult.SKIP    -> "SKIP";
+                    default                  -> "PASS";
+                };
+
+                String fileName = result.getTestClass().getRealClass().getSimpleName()
+                    + "_" + result.getMethod().getMethodName()
+                    + "_" + status
+                    + "_" + System.currentTimeMillis() + ".png";
+
+                Path screenshotPath = Paths.get(screenshotDir, fileName);
+                page.screenshot(new Page.ScreenshotOptions().setPath(screenshotPath).setFullPage(true));
+
+                if (extentTest != null) {
+                    String base64 = Base64.getEncoder().encodeToString(Files.readAllBytes(screenshotPath));
+                    extentTest.addScreenCaptureFromBase64String(base64, status + " Screenshot");
+                }
+            } catch (Exception ignored) {
+                // Screenshot capture is best-effort; don't fail the test for it
+            }
+        }
+
+        // Log pass/fail/skip to extent report
+        if (extentTest != null) {
+            switch (result.getStatus()) {
+                case ITestResult.FAILURE -> extentTest.fail(result.getThrowable());
+                case ITestResult.SKIP    -> extentTest.skip(
+                    result.getThrowable() != null ? result.getThrowable().getMessage() : "Skipped");
+                default                  -> extentTest.pass("Test passed");
+            }
+        }
+
         if (page != null) {
             page.close();
         }

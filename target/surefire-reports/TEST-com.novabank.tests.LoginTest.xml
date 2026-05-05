@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.novabank.tests.LoginTest" time="3.9" tests="7" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.novabank.tests.LoginTest" time="8.375" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="25"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/Users/chanukyasds/Desktop/Study/Banking_Application_testing/target/test-classes:/Users/chanukyasds/Desktop/Study/Banking_Application_testing/target/classes:/Users/chanukyasds/.m2/repository/com/microsoft/playwright/playwright/1.44.0/playwright-1.44.0.jar:/Users/chanukyasds/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/chanukyasds/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/chanukyasds/.m2/repository/com/microsoft/playwright/driver/1.44.0/driver-1.44.0.jar:/Users/chanukyasds/.m2/repository/com/microsoft/playwright/driver-bundle/1.44.0/driver-bundle-1.44.0.jar:/Users/chanukyasds/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar:/Users/chanukyasds/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/chanukyasds/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/chanukyasds/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/chanukyasds/.m2/repository/org/slf4j/slf4j-simple/2.0.13/slf4j-simple-2.0.13.jar:"/>
+    <property name="java.class.path" value="/Users/chanukyasds/Desktop/Study/Banking_Application_testing/target/test-classes:/Users/chanukyasds/Desktop/Study/Banking_Application_testing/target/classes:/Users/chanukyasds/.m2/repository/com/microsoft/playwright/playwright/1.44.0/playwright-1.44.0.jar:/Users/chanukyasds/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/chanukyasds/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/chanukyasds/.m2/repository/com/microsoft/playwright/driver/1.44.0/driver-1.44.0.jar:/Users/chanukyasds/.m2/repository/com/microsoft/playwright/driver-bundle/1.44.0/driver-bundle-1.44.0.jar:/Users/chanukyasds/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar:/Users/chanukyasds/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/chanukyasds/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/chanukyasds/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/chanukyasds/.m2/repository/org/slf4j/slf4j-simple/2.0.13/slf4j-simple-2.0.13.jar:/Users/chanukyasds/.m2/repository/com/aventstack/extentreports/5.1.2/extentreports-5.1.2.jar:/Users/chanukyasds/.m2/repository/io/reactivex/rxjava3/rxjava/3.1.6/rxjava-3.1.6.jar:/Users/chanukyasds/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/chanukyasds/.m2/repository/org/freemarker/freemarker/2.3.32/freemarker-2.3.32.jar:/Users/chanukyasds/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar:"/>
     <property name="java.vm.vendor" value="Homebrew"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
@@ -13,11 +13,11 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/25.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/chanukyasds/Desktop/Study/Banking_Application_testing/target/surefire/surefirebooter-20260505183645026_3.jar /Users/chanukyasds/Desktop/Study/Banking_Application_testing/target/surefire 2026-05-05T18-36-44_997-jvmRun1 surefire-20260505183645026_1tmp surefire_0-20260505183645026_2tmp"/>
+    <property name="sun.java.command" value="/Users/chanukyasds/Desktop/Study/Banking_Application_testing/target/surefire/surefirebooter-20260505184804852_3.jar /Users/chanukyasds/Desktop/Study/Banking_Application_testing/target/surefire 2026-05-05T18-48-04_819-jvmRun1 surefire-20260505184804852_1tmp surefire_0-20260505184804852_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="test" value="LoginTest"/>
-    <property name="surefire.test.class.path" value="/Users/chanukyasds/Desktop/Study/Banking_Application_testing/target/test-classes:/Users/chanukyasds/Desktop/Study/Banking_Application_testing/target/classes:/Users/chanukyasds/.m2/repository/com/microsoft/playwright/playwright/1.44.0/playwright-1.44.0.jar:/Users/chanukyasds/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/chanukyasds/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/chanukyasds/.m2/repository/com/microsoft/playwright/driver/1.44.0/driver-1.44.0.jar:/Users/chanukyasds/.m2/repository/com/microsoft/playwright/driver-bundle/1.44.0/driver-bundle-1.44.0.jar:/Users/chanukyasds/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar:/Users/chanukyasds/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/chanukyasds/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/chanukyasds/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/chanukyasds/.m2/repository/org/slf4j/slf4j-simple/2.0.13/slf4j-simple-2.0.13.jar:"/>
+    <property name="surefire.test.class.path" value="/Users/chanukyasds/Desktop/Study/Banking_Application_testing/target/test-classes:/Users/chanukyasds/Desktop/Study/Banking_Application_testing/target/classes:/Users/chanukyasds/.m2/repository/com/microsoft/playwright/playwright/1.44.0/playwright-1.44.0.jar:/Users/chanukyasds/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/chanukyasds/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/chanukyasds/.m2/repository/com/microsoft/playwright/driver/1.44.0/driver-1.44.0.jar:/Users/chanukyasds/.m2/repository/com/microsoft/playwright/driver-bundle/1.44.0/driver-bundle-1.44.0.jar:/Users/chanukyasds/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar:/Users/chanukyasds/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/chanukyasds/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/chanukyasds/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/chanukyasds/.m2/repository/org/slf4j/slf4j-simple/2.0.13/slf4j-simple-2.0.13.jar:/Users/chanukyasds/.m2/repository/com/aventstack/extentreports/5.1.2/extentreports-5.1.2.jar:/Users/chanukyasds/.m2/repository/io/reactivex/rxjava3/rxjava/3.1.6/rxjava-3.1.6.jar:/Users/chanukyasds/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/chanukyasds/.m2/repository/org/freemarker/freemarker/2.3.32/freemarker-2.3.32.jar:/Users/chanukyasds/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/chanukyasds"/>
     <property name="user.language" value="en"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/chanukyasds/Desktop/Study/Banking_Application_testing/target/surefire/surefirebooter-20260505183645026_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/chanukyasds/Desktop/Study/Banking_Application_testing/target/surefire/surefirebooter-20260505184804852_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="25.0.2"/>
@@ -61,7 +61,7 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="69.0"/>
   </properties>
-  <testcase name="testCustomer1LoginSuccess" classname="com.novabank.tests.LoginTest" time="0.343">
+  <testcase name="testCustomer1LoginSuccess" classname="com.novabank.tests.LoginTest" time="0.362">
     <system-out><![CDATA[UI health-check passed: reachable at http://localhost:5173
 UI health-check passed: reachable at http://localhost:5173
 ]]></system-out>
@@ -70,10 +70,10 @@ SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="testCustomer2LoginSuccess" classname="com.novabank.tests.LoginTest" time="0.413"/>
-  <testcase name="testLoginPageLinks" classname="com.novabank.tests.LoginTest" time="0.182"/>
-  <testcase name="testLoginWithInvalidEmail" classname="com.novabank.tests.LoginTest" time="0.24"/>
-  <testcase name="testLoginWithInvalidPassword" classname="com.novabank.tests.LoginTest" time="0.31"/>
-  <testcase name="testManagerLoginSuccess" classname="com.novabank.tests.LoginTest" time="0.281"/>
-  <testcase name="testUnauthenticatedUserRedirectedToLogin" classname="com.novabank.tests.LoginTest" time="0.181"/>
+  <testcase name="testCustomer2LoginSuccess" classname="com.novabank.tests.LoginTest" time="0.378"/>
+  <testcase name="testLoginPageLinks" classname="com.novabank.tests.LoginTest" time="0.438"/>
+  <testcase name="testLoginWithInvalidEmail" classname="com.novabank.tests.LoginTest" time="0.357"/>
+  <testcase name="testLoginWithInvalidPassword" classname="com.novabank.tests.LoginTest" time="0.558"/>
+  <testcase name="testManagerLoginSuccess" classname="com.novabank.tests.LoginTest" time="0.498"/>
+  <testcase name="testUnauthenticatedUserRedirectedToLogin" classname="com.novabank.tests.LoginTest" time="0.22"/>
 </testsuite>
