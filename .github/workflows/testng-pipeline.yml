@@ -70,3 +70,31 @@ jobs:
             target/site/**
             target/surefire-reports/**
           if-no-files-found: warn
+
+      - name: Zip reports for email attachment
+        if: always()
+        run: |
+          zip -r test-reports.zip test-output/ target/surefire-reports/ target/site/ 2>/dev/null || true
+
+      - name: Send test report email
+        if: always()
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: ${{ secrets.SMTP_SERVER }}
+          server_port: ${{ secrets.SMTP_PORT }}
+          secure: true
+          username: ${{ secrets.SMTP_USERNAME }}
+          password: ${{ secrets.SMTP_PASSWORD }}
+          subject: "NovaBank Tests ${{ job.status == 'success' && '✅ PASSED' || '❌ FAILED' }} — ${{ github.ref_name }} @ ${{ github.sha }}"
+          to: chaitanyassm@outlook.com
+          from: NovaBank CI <${{ secrets.SMTP_USERNAME }}>
+          body: |
+            NovaBank Banking Application Test Run
+
+            Status  : ${{ job.status }}
+            Branch  : ${{ github.ref_name }}
+            Commit  : ${{ github.sha }}
+            Workflow: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+
+            The ExtentReport HTML and screenshots are attached.
+          attachments: test-reports.zip
