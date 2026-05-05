@@ -49,23 +49,36 @@ jobs:
       - name: Wait for backend and frontend to be ready
         run: |
           echo "Waiting for backend on port 4000..."
+          backend_ready=false
           for i in $(seq 1 30); do
             if curl -sf http://localhost:4000/health; then
               echo "Backend is ready"
+              backend_ready=true
               break
             fi
             echo "Attempt $i: backend not ready, retrying in 3s..."
             sleep 3
           done
+          if [ "$backend_ready" != "true" ]; then
+            echo "Backend did not become ready within timeout"
+            exit 1
+          fi
+
           echo "Waiting for frontend on port 5173..."
+          frontend_ready=false
           for i in $(seq 1 30); do
             if curl -sf http://localhost:5173; then
               echo "Frontend is ready"
+              frontend_ready=true
               break
             fi
             echo "Attempt $i: frontend not ready, retrying in 3s..."
             sleep 3
           done
+          if [ "$frontend_ready" != "true" ]; then
+            echo "Frontend did not become ready within timeout"
+            exit 1
+          fi
 
       - name: Install Playwright browsers and OS dependencies
         run: mvn -B exec:java -e \
@@ -73,6 +86,8 @@ jobs:
           -D exec.args="install --with-deps chromium"
 
       - name: Run TestNG suite
+        env:
+          UI_TESTS_REQUIRE_APP: 'true'
         run: mvn -B clean test
 
       - name: Generate Surefire HTML report

@@ -12,8 +12,7 @@ public class DashboardPage {
 
     private final Page page;
 
-    private static final String HEADING = "h2";
-    private static final String STATS_GRID = ".stats-grid";
+    private static final String HEADING = "h2:has-text('Dashboard')";
     private static final String STAT_CARDS = ".stat-card";
     private static final String LOGOUT_BUTTON = "button.logout-btn";
     private static final String HERO_SUBTITLE = ".hero-card .subtitle";
@@ -29,7 +28,12 @@ public class DashboardPage {
     }
 
     public boolean isDashboardDisplayed() {
-        return page.isVisible(STATS_GRID);
+        try {
+            page.waitForSelector(STAT_CARDS, new Page.WaitForSelectorOptions().setTimeout(5000));
+            return page.locator(STAT_CARDS).count() >= 4;
+        } catch (Exception ignored) {
+            return false;
+        }
     }
 
     public String getHeading() {

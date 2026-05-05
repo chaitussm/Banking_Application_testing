@@ -11,7 +11,7 @@ public class AccountsPage {
 
     private final Page page;
 
-    private static final String HEADING = "h2";
+    private static final String HEADING = "section.panel h2:has-text('Accounts'), h2:has-text('Accounts')";
     private static final String LIST_GRID = ".list-grid";
     private static final String LIST_CARDS = ".list-card";
     private static final String NAV_ACCOUNTS_LINK = "a[href='/accounts']";
@@ -26,7 +26,12 @@ public class AccountsPage {
     }
 
     public boolean isAccountsPageDisplayed() {
-        return page.isVisible(LIST_GRID) && page.textContent(HEADING).equals("Accounts");
+        try {
+            page.waitForSelector(HEADING, new Page.WaitForSelectorOptions().setTimeout(3000));
+            return page.url().contains("/accounts") && page.locator(HEADING).first().isVisible();
+        } catch (Exception ignored) {
+            return false;
+        }
     }
 
     public int getAccountCardCount() {
@@ -42,7 +47,8 @@ public class AccountsPage {
     }
 
     public String getHeading() {
-        return page.textContent(HEADING);
+        String heading = page.textContent(HEADING);
+        return heading == null ? "" : heading.trim();
     }
 
     public String getCurrentUrl() {

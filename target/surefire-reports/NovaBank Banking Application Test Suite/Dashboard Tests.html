@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/0/7</td>
 </tr><tr>
-<td>Started on:</td><td>Tue May 05 05:15:33 UTC 2026</td>
+<td>Started on:</td><td>Tue May 05 17:59:15 CEST 2026</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (50 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (3 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,64 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.novabank.tests.DashboardTest.createContextAndPage()'><b>createContextAndPage</b><br>Test class: com.novabank.tests.DashboardTest</td>
+<td><div><pre>java.lang.IllegalStateException: UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead.
+	at com.novabank.base.BaseTest.handleUnavailableApp(BaseTest.java:99)
+	at com.novabank.base.BaseTest.ensureApplicationIsReachable(BaseTest.java:69)
+	at com.novabank.base.BaseTest.createContextAndPage(BaseTest.java:57)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace402695541", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace402695541'><pre>java.lang.IllegalStateException: UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead.
+	at com.novabank.base.BaseTest.handleUnavailableApp(BaseTest.java:99)
+	at com.novabank.base.BaseTest.ensureApplicationIsReachable(BaseTest.java:69)
+	at com.novabank.base.BaseTest.createContextAndPage(BaseTest.java:57)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>0</td>
+<td>com.novabank.tests.DashboardTest@6ce139a4</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -79,72 +137,67 @@ function toggleAllBoxes() {
 <td title='com.novabank.tests.DashboardTest.closeContextAndPage()'><b>closeContextAndPage</b><br>Test class: com.novabank.tests.DashboardTest</td>
 <td></td>
 <td>0</td>
-<td>com.novabank.tests.DashboardTest@147ed70f</td></tr>
+<td>com.novabank.tests.DashboardTest@6ce139a4</td></tr>
 <tr>
 <td title='com.novabank.tests.DashboardTest.closeContextAndPage()'><b>closeContextAndPage</b><br>Test class: com.novabank.tests.DashboardTest</td>
 <td></td>
 <td>0</td>
-<td>com.novabank.tests.DashboardTest@147ed70f</td></tr>
+<td>com.novabank.tests.DashboardTest@6ce139a4</td></tr>
 <tr>
 <td title='com.novabank.tests.DashboardTest.closeContextAndPage()'><b>closeContextAndPage</b><br>Test class: com.novabank.tests.DashboardTest</td>
 <td></td>
 <td>0</td>
-<td>com.novabank.tests.DashboardTest@147ed70f</td></tr>
-<tr>
-<td title='com.novabank.tests.DashboardTest.createContextAndPage()'><b>createContextAndPage</b><br>Test class: com.novabank.tests.DashboardTest</td>
-<td></td>
-<td>0</td>
-<td>com.novabank.tests.DashboardTest@147ed70f</td></tr>
+<td>com.novabank.tests.DashboardTest@6ce139a4</td></tr>
 <tr>
 <td title='com.novabank.tests.DashboardTest.closeContextAndPage()'><b>closeContextAndPage</b><br>Test class: com.novabank.tests.DashboardTest</td>
 <td></td>
 <td>0</td>
-<td>com.novabank.tests.DashboardTest@147ed70f</td></tr>
+<td>com.novabank.tests.DashboardTest@6ce139a4</td></tr>
+<tr>
+<td title='com.novabank.tests.DashboardTest.createContextAndPage()'><b>createContextAndPage</b><br>Test class: com.novabank.tests.DashboardTest</td>
+<td></td>
+<td>0</td>
+<td>com.novabank.tests.DashboardTest@6ce139a4</td></tr>
 <tr>
 <td title='com.novabank.tests.DashboardTest.closeContextAndPage()'><b>closeContextAndPage</b><br>Test class: com.novabank.tests.DashboardTest</td>
 <td></td>
 <td>0</td>
-<td>com.novabank.tests.DashboardTest@147ed70f</td></tr>
+<td>com.novabank.tests.DashboardTest@6ce139a4</td></tr>
 <tr>
 <td title='com.novabank.tests.DashboardTest.createContextAndPage()'><b>createContextAndPage</b><br>Test class: com.novabank.tests.DashboardTest</td>
 <td></td>
 <td>0</td>
-<td>com.novabank.tests.DashboardTest@147ed70f</td></tr>
-<tr>
-<td title='com.novabank.tests.DashboardTest.createContextAndPage()'><b>createContextAndPage</b><br>Test class: com.novabank.tests.DashboardTest</td>
-<td></td>
-<td>0</td>
-<td>com.novabank.tests.DashboardTest@147ed70f</td></tr>
+<td>com.novabank.tests.DashboardTest@6ce139a4</td></tr>
 <tr>
 <td title='com.novabank.tests.DashboardTest.closeContextAndPage()'><b>closeContextAndPage</b><br>Test class: com.novabank.tests.DashboardTest</td>
 <td></td>
 <td>0</td>
-<td>com.novabank.tests.DashboardTest@147ed70f</td></tr>
+<td>com.novabank.tests.DashboardTest@6ce139a4</td></tr>
 <tr>
 <td title='com.novabank.tests.DashboardTest.createContextAndPage()'><b>createContextAndPage</b><br>Test class: com.novabank.tests.DashboardTest</td>
 <td></td>
 <td>0</td>
-<td>com.novabank.tests.DashboardTest@147ed70f</td></tr>
+<td>com.novabank.tests.DashboardTest@6ce139a4</td></tr>
 <tr>
 <td title='com.novabank.tests.DashboardTest.createContextAndPage()'><b>createContextAndPage</b><br>Test class: com.novabank.tests.DashboardTest</td>
 <td></td>
 <td>0</td>
-<td>com.novabank.tests.DashboardTest@147ed70f</td></tr>
-<tr>
-<td title='com.novabank.tests.DashboardTest.createContextAndPage()'><b>createContextAndPage</b><br>Test class: com.novabank.tests.DashboardTest</td>
-<td></td>
-<td>0</td>
-<td>com.novabank.tests.DashboardTest@147ed70f</td></tr>
-<tr>
-<td title='com.novabank.tests.DashboardTest.createContextAndPage()'><b>createContextAndPage</b><br>Test class: com.novabank.tests.DashboardTest</td>
-<td></td>
-<td>0</td>
-<td>com.novabank.tests.DashboardTest@147ed70f</td></tr>
+<td>com.novabank.tests.DashboardTest@6ce139a4</td></tr>
 <tr>
 <td title='com.novabank.tests.DashboardTest.closeContextAndPage()'><b>closeContextAndPage</b><br>Test class: com.novabank.tests.DashboardTest</td>
 <td></td>
 <td>0</td>
-<td>com.novabank.tests.DashboardTest@147ed70f</td></tr>
+<td>com.novabank.tests.DashboardTest@6ce139a4</td></tr>
+<tr>
+<td title='com.novabank.tests.DashboardTest.createContextAndPage()'><b>createContextAndPage</b><br>Test class: com.novabank.tests.DashboardTest</td>
+<td></td>
+<td>0</td>
+<td>com.novabank.tests.DashboardTest@6ce139a4</td></tr>
+<tr>
+<td title='com.novabank.tests.DashboardTest.createContextAndPage()'><b>createContextAndPage</b><br>Test class: com.novabank.tests.DashboardTest</td>
+<td></td>
+<td>0</td>
+<td>com.novabank.tests.DashboardTest@6ce139a4</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
@@ -155,40 +208,348 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.novabank.tests.DashboardTest.testDashboardShowsStatCards()'><b>testDashboardShowsStatCards</b><br>Test class: com.novabank.tests.DashboardTest<br>Test method: Dashboard displays 4 stat cards after login</td>
-<td></td>
-<td>0</td>
-<td>com.novabank.tests.DashboardTest@147ed70f</td></tr>
-<tr>
-<td title='com.novabank.tests.DashboardTest.testManagerSeesUsersNavLink()'><b>testManagerSeesUsersNavLink</b><br>Test class: com.novabank.tests.DashboardTest<br>Test method: Manager sees Users nav link; customer does not</td>
-<td></td>
-<td>0</td>
-<td>com.novabank.tests.DashboardTest@147ed70f</td></tr>
-<tr>
-<td title='com.novabank.tests.DashboardTest.testDashboardShowsCustomerName()'><b>testDashboardShowsCustomerName</b><br>Test class: com.novabank.tests.DashboardTest<br>Test method: Dashboard displays logged-in customer's name and role</td>
-<td></td>
-<td>0</td>
-<td>com.novabank.tests.DashboardTest@147ed70f</td></tr>
-<tr>
 <td title='com.novabank.tests.DashboardTest.testDashboardShowsManagerName()'><b>testDashboardShowsManagerName</b><br>Test class: com.novabank.tests.DashboardTest<br>Test method: Dashboard displays manager's name and role</td>
-<td></td>
+<td><div><pre>java.lang.IllegalStateException: UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead.
+	at com.novabank.base.BaseTest.handleUnavailableApp(BaseTest.java:99)
+	at com.novabank.base.BaseTest.ensureApplicationIsReachable(BaseTest.java:69)
+	at com.novabank.base.BaseTest.createContextAndPage(BaseTest.java:57)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace985324122", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace985324122'><pre>java.lang.IllegalStateException: UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead.
+	at com.novabank.base.BaseTest.handleUnavailableApp(BaseTest.java:99)
+	at com.novabank.base.BaseTest.ensureApplicationIsReachable(BaseTest.java:69)
+	at com.novabank.base.BaseTest.createContextAndPage(BaseTest.java:57)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
 <td>0</td>
-<td>com.novabank.tests.DashboardTest@147ed70f</td></tr>
+<td>com.novabank.tests.DashboardTest@6ce139a4</td></tr>
 <tr>
 <td title='com.novabank.tests.DashboardTest.testLogoutRedirectsToLogin()'><b>testLogoutRedirectsToLogin</b><br>Test class: com.novabank.tests.DashboardTest<br>Test method: Logout button logs user out and redirects to login</td>
-<td></td>
+<td><div><pre>java.lang.IllegalStateException: UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead.
+	at com.novabank.base.BaseTest.handleUnavailableApp(BaseTest.java:99)
+	at com.novabank.base.BaseTest.ensureApplicationIsReachable(BaseTest.java:69)
+	at com.novabank.base.BaseTest.createContextAndPage(BaseTest.java:57)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace893591815", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace893591815'><pre>java.lang.IllegalStateException: UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead.
+	at com.novabank.base.BaseTest.handleUnavailableApp(BaseTest.java:99)
+	at com.novabank.base.BaseTest.ensureApplicationIsReachable(BaseTest.java:69)
+	at com.novabank.base.BaseTest.createContextAndPage(BaseTest.java:57)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
 <td>0</td>
-<td>com.novabank.tests.DashboardTest@147ed70f</td></tr>
+<td>com.novabank.tests.DashboardTest@6ce139a4</td></tr>
 <tr>
 <td title='com.novabank.tests.DashboardTest.testCustomerDoesNotSeeUsersNavLink()'><b>testCustomerDoesNotSeeUsersNavLink</b><br>Test class: com.novabank.tests.DashboardTest<br>Test method: Customer does not see Users nav link</td>
-<td></td>
+<td><div><pre>java.lang.IllegalStateException: UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead.
+	at com.novabank.base.BaseTest.handleUnavailableApp(BaseTest.java:99)
+	at com.novabank.base.BaseTest.ensureApplicationIsReachable(BaseTest.java:69)
+	at com.novabank.base.BaseTest.createContextAndPage(BaseTest.java:57)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace319689067", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace319689067'><pre>java.lang.IllegalStateException: UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead.
+	at com.novabank.base.BaseTest.handleUnavailableApp(BaseTest.java:99)
+	at com.novabank.base.BaseTest.ensureApplicationIsReachable(BaseTest.java:69)
+	at com.novabank.base.BaseTest.createContextAndPage(BaseTest.java:57)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
 <td>0</td>
-<td>com.novabank.tests.DashboardTest@147ed70f</td></tr>
+<td>com.novabank.tests.DashboardTest@6ce139a4</td></tr>
+<tr>
+<td title='com.novabank.tests.DashboardTest.testManagerSeesUsersNavLink()'><b>testManagerSeesUsersNavLink</b><br>Test class: com.novabank.tests.DashboardTest<br>Test method: Manager sees Users nav link; customer does not</td>
+<td><div><pre>java.lang.IllegalStateException: UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead.
+	at com.novabank.base.BaseTest.handleUnavailableApp(BaseTest.java:99)
+	at com.novabank.base.BaseTest.ensureApplicationIsReachable(BaseTest.java:69)
+	at com.novabank.base.BaseTest.createContextAndPage(BaseTest.java:57)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace643489709", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace643489709'><pre>java.lang.IllegalStateException: UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead.
+	at com.novabank.base.BaseTest.handleUnavailableApp(BaseTest.java:99)
+	at com.novabank.base.BaseTest.ensureApplicationIsReachable(BaseTest.java:69)
+	at com.novabank.base.BaseTest.createContextAndPage(BaseTest.java:57)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>0</td>
+<td>com.novabank.tests.DashboardTest@6ce139a4</td></tr>
 <tr>
 <td title='com.novabank.tests.DashboardTest.testDashboardHeading()'><b>testDashboardHeading</b><br>Test class: com.novabank.tests.DashboardTest<br>Test method: Dashboard shows correct heading</td>
-<td></td>
+<td><div><pre>java.lang.IllegalStateException: UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead.
+	at com.novabank.base.BaseTest.handleUnavailableApp(BaseTest.java:99)
+	at com.novabank.base.BaseTest.ensureApplicationIsReachable(BaseTest.java:69)
+	at com.novabank.base.BaseTest.createContextAndPage(BaseTest.java:57)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace56861999", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace56861999'><pre>java.lang.IllegalStateException: UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead.
+	at com.novabank.base.BaseTest.handleUnavailableApp(BaseTest.java:99)
+	at com.novabank.base.BaseTest.ensureApplicationIsReachable(BaseTest.java:69)
+	at com.novabank.base.BaseTest.createContextAndPage(BaseTest.java:57)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
 <td>0</td>
-<td>com.novabank.tests.DashboardTest@147ed70f</td></tr>
+<td>com.novabank.tests.DashboardTest@6ce139a4</td></tr>
+<tr>
+<td title='com.novabank.tests.DashboardTest.testDashboardShowsCustomerName()'><b>testDashboardShowsCustomerName</b><br>Test class: com.novabank.tests.DashboardTest<br>Test method: Dashboard displays logged-in customer's name and role</td>
+<td><div><pre>java.lang.IllegalStateException: UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead.
+	at com.novabank.base.BaseTest.handleUnavailableApp(BaseTest.java:99)
+	at com.novabank.base.BaseTest.ensureApplicationIsReachable(BaseTest.java:69)
+	at com.novabank.base.BaseTest.createContextAndPage(BaseTest.java:57)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace172678484", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace172678484'><pre>java.lang.IllegalStateException: UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead.
+	at com.novabank.base.BaseTest.handleUnavailableApp(BaseTest.java:99)
+	at com.novabank.base.BaseTest.ensureApplicationIsReachable(BaseTest.java:69)
+	at com.novabank.base.BaseTest.createContextAndPage(BaseTest.java:57)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>0</td>
+<td>com.novabank.tests.DashboardTest@6ce139a4</td></tr>
+<tr>
+<td title='com.novabank.tests.DashboardTest.testDashboardShowsStatCards()'><b>testDashboardShowsStatCards</b><br>Test class: com.novabank.tests.DashboardTest<br>Test method: Dashboard displays 4 stat cards after login</td>
+<td><div><pre>java.lang.IllegalStateException: UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead.
+	at com.novabank.base.BaseTest.handleUnavailableApp(BaseTest.java:99)
+	at com.novabank.base.BaseTest.ensureApplicationIsReachable(BaseTest.java:69)
+	at com.novabank.base.BaseTest.createContextAndPage(BaseTest.java:57)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace13226198", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace13226198'><pre>java.lang.IllegalStateException: UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead.
+	at com.novabank.base.BaseTest.handleUnavailableApp(BaseTest.java:99)
+	at com.novabank.base.BaseTest.ensureApplicationIsReachable(BaseTest.java:69)
+	at com.novabank.base.BaseTest.createContextAndPage(BaseTest.java:57)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>0</td>
+<td>com.novabank.tests.DashboardTest@6ce139a4</td></tr>
 </table><p>
 </body>
 </html>

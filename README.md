@@ -19,6 +19,12 @@
    mvn -B clean test
    ```
 
+	Optional: fail fast when frontend is down instead of skipping UI tests:
+
+	```bash
+	UI_TESTS_REQUIRE_APP=true mvn -B clean test
+	```
+
 4. Generate and open HTML reports:
 
    ```bash
@@ -100,5 +106,7 @@ The HTML reports show per-test status:
 	- Fix checklist:
 	  - Ensure Java 17 is available.
 	  - Ensure Linux dependencies above are installed.
+	  - If frontend is intentionally offline, run with `UI_TESTS_REQUIRE_APP=false` (default) to skip UI tests.
+	  - If CI must fail when frontend is offline, run with `UI_TESTS_REQUIRE_APP=true`.
 	  - Re-run with debug logs: `mvn -e -X clean test`.
 	  - Review `target/surefire-reports/` for root cause details.

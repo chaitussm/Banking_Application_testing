@@ -43,8 +43,8 @@
           <include name="testPasswordResetSuccessForExistingUser"/>
           <include name="testForgotPasswordPageIsAccessible"/>
           <include name="launchBrowser"/>
-          <include name="testUserCanLoginAfterPasswordReset"/>
           <include name="closeContextAndPage"/>
+          <include name="testUserCanLoginAfterPasswordReset"/>
           <include name="createContextAndPage"/>
           <include name="testPasswordResetFailsForUnknownEmail"/>
           <include name="closeBrowser"/>
@@ -80,12 +80,12 @@
           <include name="testUsersPageSubtitle"/>
           <include name="testUsersPageShowsSeededUsers"/>
           <include name="launchBrowser"/>
-          <include name="testUsersPageDisplaysSeededUserNames"/>
           <include name="closeContextAndPage"/>
+          <include name="testUsersPageDisplaysSeededUserNames"/>
           <include name="createContextAndPage"/>
           <include name="testManagerCanAccessUsersPage"/>
-          <include name="closeBrowser"/>
           <include name="testUnauthorizedPageContent"/>
+          <include name="closeBrowser"/>
         </methods>
       </class> <!-- com.novabank.tests.UsersTest -->
     </classes>
@@ -95,8 +95,8 @@
       <class name="com.novabank.tests.AccountsTest">
         <methods>
           <include name="launchBrowser"/>
-          <include name="closeContextAndPage"/>
           <include name="testUnauthenticatedAccountsAccessRedirects"/>
+          <include name="closeContextAndPage"/>
           <include name="createContextAndPage"/>
           <include name="testAccountsPageIsAccessible"/>
           <include name="testAccountsPageHeading"/>
@@ -130,8 +130,8 @@
           <include name="testUnauthenticatedTransfersAccessRedirects"/>
           <include name="testTransfersPageIsAccessible"/>
           <include name="testTransfersFormElementsPresent"/>
-          <include name="launchBrowser"/>
           <include name="testTransfersPageHeading"/>
+          <include name="launchBrowser"/>
           <include name="closeContextAndPage"/>
           <include name="createContextAndPage"/>
           <include name="closeBrowser"/>

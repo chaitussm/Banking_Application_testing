@@ -1,139 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="28.476" tests="128" errors="0" skipped="127" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="1.864" tests="126" errors="0" skipped="118" failures="8">
   <properties>
     <property name="java.specification.version" value="25"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/workspaces/Banking_Application_testing/target/test-classes:/workspaces/Banking_Application_testing/target/classes:/home/codespace/.m2/repository/com/microsoft/playwright/playwright/1.44.0/playwright-1.44.0.jar:/home/codespace/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/home/codespace/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/home/codespace/.m2/repository/com/microsoft/playwright/driver/1.44.0/driver-1.44.0.jar:/home/codespace/.m2/repository/com/microsoft/playwright/driver-bundle/1.44.0/driver-bundle-1.44.0.jar:/home/codespace/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar:/home/codespace/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/home/codespace/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/home/codespace/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/home/codespace/.m2/repository/org/slf4j/slf4j-simple/2.0.13/slf4j-simple-2.0.13.jar:"/>
-    <property name="java.vm.vendor" value="Microsoft"/>
+    <property name="java.class.path" value="/Users/chanukyasds/Desktop/Study/Banking_Application_testing/target/test-classes:/Users/chanukyasds/Desktop/Study/Banking_Application_testing/target/classes:/Users/chanukyasds/.m2/repository/com/microsoft/playwright/playwright/1.44.0/playwright-1.44.0.jar:/Users/chanukyasds/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/chanukyasds/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/chanukyasds/.m2/repository/com/microsoft/playwright/driver/1.44.0/driver-1.44.0.jar:/Users/chanukyasds/.m2/repository/com/microsoft/playwright/driver-bundle/1.44.0/driver-bundle-1.44.0.jar:/Users/chanukyasds/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar:/Users/chanukyasds/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/chanukyasds/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/chanukyasds/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/chanukyasds/.m2/repository/org/slf4j/slf4j-simple/2.0.13/slf4j-simple-2.0.13.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="java.vendor.url" value="https://www.microsoft.com"/>
-    <property name="user.timezone" value="Etc/UTC"/>
-    <property name="os.name" value="Linux"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="Europe/Amsterdam"/>
+    <property name="os.name" value="Mac OS X"/>
     <property name="java.vm.specification.version" value="25"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="sun.boot.library.path" value="/usr/local/sdkman/candidates/java/25.0.2-ms/lib"/>
-    <property name="sun.java.command" value="/workspaces/Banking_Application_testing/target/surefire/surefirebooter-20260505051505058_3.jar /workspaces/Banking_Application_testing/target/surefire 2026-05-05T05-15-04_609-jvmRun1 surefire-20260505051505058_1tmp surefire_0-20260505051505058_2tmp"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/25.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/chanukyasds/Desktop/Study/Banking_Application_testing/target/surefire/surefirebooter-20260505175913278_3.jar /Users/chanukyasds/Desktop/Study/Banking_Application_testing/target/surefire 2026-05-05T17-59-13_250-jvmRun1 surefire-20260505175913278_1tmp surefire_0-20260505175913278_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/workspaces/Banking_Application_testing/target/test-classes:/workspaces/Banking_Application_testing/target/classes:/home/codespace/.m2/repository/com/microsoft/playwright/playwright/1.44.0/playwright-1.44.0.jar:/home/codespace/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/home/codespace/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/home/codespace/.m2/repository/com/microsoft/playwright/driver/1.44.0/driver-1.44.0.jar:/home/codespace/.m2/repository/com/microsoft/playwright/driver-bundle/1.44.0/driver-bundle-1.44.0.jar:/home/codespace/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar:/home/codespace/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/home/codespace/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/home/codespace/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/home/codespace/.m2/repository/org/slf4j/slf4j-simple/2.0.13/slf4j-simple-2.0.13.jar:"/>
+    <property name="surefire.test.class.path" value="/Users/chanukyasds/Desktop/Study/Banking_Application_testing/target/test-classes:/Users/chanukyasds/Desktop/Study/Banking_Application_testing/target/classes:/Users/chanukyasds/.m2/repository/com/microsoft/playwright/playwright/1.44.0/playwright-1.44.0.jar:/Users/chanukyasds/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/chanukyasds/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/chanukyasds/.m2/repository/com/microsoft/playwright/driver/1.44.0/driver-1.44.0.jar:/Users/chanukyasds/.m2/repository/com/microsoft/playwright/driver-bundle/1.44.0/driver-bundle-1.44.0.jar:/Users/chanukyasds/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar:/Users/chanukyasds/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/chanukyasds/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/chanukyasds/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/chanukyasds/.m2/repository/org/slf4j/slf4j-simple/2.0.13/slf4j-simple-2.0.13.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="user.home" value="/home/codespace"/>
+    <property name="user.home" value="/Users/chanukyasds"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.version.date" value="2026-01-20"/>
-    <property name="java.home" value="/usr/local/sdkman/candidates/java/25.0.2-ms"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/25.0.2/libexec/openjdk.jdk/Contents/Home"/>
     <property name="file.separator" value="/"/>
-    <property name="basedir" value="/workspaces/Banking_Application_testing"/>
-    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="basedir" value="/Users/chanukyasds/Desktop/Study/Banking_Application_testing"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/workspaces/Banking_Application_testing/target/surefire/surefirebooter-20260505051505058_3.jar"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/chanukyasds/Desktop/Study/Banking_Application_testing/target/surefire/surefirebooter-20260505175913278_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="25.0.2+10-LTS"/>
-    <property name="user.name" value="codespace"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="25.0.2"/>
+    <property name="user.name" value="chanukyasds"/>
     <property name="stdout.encoding" value="UTF-8"/>
     <property name="path.separator" value=":"/>
-    <property name="os.version" value="6.8.0-1044-azure"/>
+    <property name="os.version" value="26.3.1"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
-    <property name="java.vendor.version" value="Microsoft-13053558"/>
-    <property name="localRepository" value="/home/codespace/.m2/repository"/>
-    <property name="java.vendor.url.bug" value="https://github.com/microsoft/openjdk/issues"/>
-    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/chanukyasds/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/01/j2lg4y595_gbntknwjlnmxh00000gn/T/"/>
     <property name="java.version" value="25.0.2"/>
-    <property name="user.dir" value="/workspaces/Banking_Application_testing"/>
-    <property name="os.arch" value="amd64"/>
+    <property name="user.dir" value="/Users/chanukyasds/Desktop/Study/Banking_Application_testing"/>
+    <property name="os.arch" value="aarch64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="native.encoding" value="UTF-8"/>
-    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.library.path" value="/Users/chanukyasds/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="stderr.encoding" value="UTF-8"/>
-    <property name="java.vendor" value="Microsoft"/>
-    <property name="java.vm.version" value="25.0.2+10-LTS"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="25.0.2"/>
     <property name="stdin.encoding" value="UTF-8"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="69.0"/>
   </properties>
-  <testcase name="launchBrowser" classname="com.novabank.tests.TransfersTest" time="27.123">
-    <failure message="Error {&#10;  message=&apos;&#10;╔══════════════════════════════════════════════════════════════════════════════════════════════════════╗&#10;║ Host system is missing dependencies to run browsers.                                                 ║&#10;║ Please install them with the following command:                                                      ║&#10;║                                                                                                      ║&#10;║     sudo mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args=&quot;install-deps&quot; ║&#10;║                                                                                                      ║&#10;║ Alternatively, use apt:                                                                              ║&#10;║     sudo apt-get install libatk1.0-0\                                                                ║&#10;║         libatk-bridge2.0-0\                                                                          ║&#10;║         libcups2\                                                                                    ║&#10;║         libdrm2\                                                                                     ║&#10;║         libatspi2.0-0\                                                                               ║&#10;║         libxcomposite1\                                                                              ║&#10;║         libxdamage1\                                                                                 ║&#10;║         libxfixes3\                                                                                  ║&#10;║         libxrandr2\                                                                                  ║&#10;║         libgbm1\                                                                                     ║&#10;║         libxkbcommon0\                                                                               ║&#10;║         libasound2                                                                                   ║&#10;║                                                                                                      ║&#10;║ &lt;3 Playwright Team                                                                                   ║&#10;╚══════════════════════════════════════════════════════════════════════════════════════════════════════╝&#10;  name=&apos;Error&#10;  stack=&apos;Error: &#10;╔══════════════════════════════════════════════════════════════════════════════════════════════════════╗&#10;║ Host system is missing dependencies to run browsers.                                                 ║&#10;║ Please install them with the following command:                                                      ║&#10;║                                                                                                      ║&#10;║     sudo mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args=&quot;install-deps&quot; ║&#10;║                                                                                                      ║&#10;║ Alternatively, use apt:                                                                              ║&#10;║     sudo apt-get install libatk1.0-0\                                                                ║&#10;║         libatk-bridge2.0-0\                                                                          ║&#10;║         libcups2\                                                                                    ║&#10;║         libdrm2\                                                                                     ║&#10;║         libatspi2.0-0\                                                                               ║&#10;║         libxcomposite1\                                                                              ║&#10;║         libxdamage1\                                                                                 ║&#10;║         libxfixes3\                                                                                  ║&#10;║         libxrandr2\                                                                                  ║&#10;║         libgbm1\                                                                                     ║&#10;║         libxkbcommon0\                                                                               ║&#10;║         libasound2                                                                                   ║&#10;║                                                                                                      ║&#10;║ &lt;3 Playwright Team                                                                                   ║&#10;╚══════════════════════════════════════════════════════════════════════════════════════════════════════╝&#10;    at validateDependenciesLinux (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/dependencies.js:216:9)&#10;    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)&#10;    at async Registry._validateHostRequirements (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/index.js:603:43)&#10;    at async Registry._validateHostRequirementsForExecutableIfNeeded (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/index.js:701:7)&#10;    at async Registry.validateHostRequirementsForExecutablesIfNeeded (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/index.js:690:43)&#10;    at async Chromium._launchProcess (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:167:7)&#10;    at async Chromium._innerLaunch (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:103:9)&#10;    at async Chromium._innerLaunchWithRetries (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:84:14)&#10;    at async ProgressController.run (/tmp/playwright-java-15635618044500116852/package/lib/server/progress.js:82:22)&#10;    at async Chromium.launch (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:61:21)&#10;}" type="com.microsoft.playwright.PlaywrightException"><![CDATA[com.microsoft.playwright.PlaywrightException: 
-Error {
-  message='
-╔══════════════════════════════════════════════════════════════════════════════════════════════════════╗
-║ Host system is missing dependencies to run browsers.                                                 ║
-║ Please install them with the following command:                                                      ║
-║                                                                                                      ║
-║     sudo mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="install-deps" ║
-║                                                                                                      ║
-║ Alternatively, use apt:                                                                              ║
-║     sudo apt-get install libatk1.0-0\                                                                ║
-║         libatk-bridge2.0-0\                                                                          ║
-║         libcups2\                                                                                    ║
-║         libdrm2\                                                                                     ║
-║         libatspi2.0-0\                                                                               ║
-║         libxcomposite1\                                                                              ║
-║         libxdamage1\                                                                                 ║
-║         libxfixes3\                                                                                  ║
-║         libxrandr2\                                                                                  ║
-║         libgbm1\                                                                                     ║
-║         libxkbcommon0\                                                                               ║
-║         libasound2                                                                                   ║
-║                                                                                                      ║
-║ <3 Playwright Team                                                                                   ║
-╚══════════════════════════════════════════════════════════════════════════════════════════════════════╝
-  name='Error
-  stack='Error: 
-╔══════════════════════════════════════════════════════════════════════════════════════════════════════╗
-║ Host system is missing dependencies to run browsers.                                                 ║
-║ Please install them with the following command:                                                      ║
-║                                                                                                      ║
-║     sudo mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="install-deps" ║
-║                                                                                                      ║
-║ Alternatively, use apt:                                                                              ║
-║     sudo apt-get install libatk1.0-0\                                                                ║
-║         libatk-bridge2.0-0\                                                                          ║
-║         libcups2\                                                                                    ║
-║         libdrm2\                                                                                     ║
-║         libatspi2.0-0\                                                                               ║
-║         libxcomposite1\                                                                              ║
-║         libxdamage1\                                                                                 ║
-║         libxfixes3\                                                                                  ║
-║         libxrandr2\                                                                                  ║
-║         libgbm1\                                                                                     ║
-║         libxkbcommon0\                                                                               ║
-║         libasound2                                                                                   ║
-║                                                                                                      ║
-║ <3 Playwright Team                                                                                   ║
-╚══════════════════════════════════════════════════════════════════════════════════════════════════════╝
-    at validateDependenciesLinux (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/dependencies.js:216:9)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async Registry._validateHostRequirements (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/index.js:603:43)
-    at async Registry._validateHostRequirementsForExecutableIfNeeded (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/index.js:701:7)
-    at async Registry.validateHostRequirementsForExecutablesIfNeeded (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/index.js:690:43)
-    at async Chromium._launchProcess (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:167:7)
-    at async Chromium._innerLaunch (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:103:9)
-    at async Chromium._innerLaunchWithRetries (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:84:14)
-    at async ProgressController.run (/tmp/playwright-java-15635618044500116852/package/lib/server/progress.js:82:22)
-    at async Chromium.launch (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:61:21)
-}
-	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:56)
-	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:120)
-	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
-	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:106)
-	at com.microsoft.playwright.impl.BrowserTypeImpl.launchImpl(BrowserTypeImpl.java:50)
-	at com.microsoft.playwright.impl.BrowserTypeImpl.lambda$launch$0(BrowserTypeImpl.java:42)
-	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
-	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:89)
-	at com.microsoft.playwright.impl.BrowserTypeImpl.launch(BrowserTypeImpl.java:42)
-	at com.microsoft.playwright.impl.BrowserTypeImpl.launch(BrowserTypeImpl.java:35)
-	at com.novabank.base.BaseTest.launchBrowser(BaseTest.java:24)
+  <testcase name="createContextAndPage" classname="com.novabank.tests.LoginTest" time="1.753">
+    <failure message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead." type="java.lang.IllegalStateException"><![CDATA[java.lang.IllegalStateException: UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead.
+	at com.novabank.base.BaseTest.handleUnavailableApp(BaseTest.java:99)
+	at com.novabank.base.BaseTest.ensureApplicationIsReachable(BaseTest.java:89)
+	at com.novabank.base.BaseTest.createContextAndPage(BaseTest.java:57)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
 	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
 	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:358)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
 	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
 	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
@@ -148,116 +99,14 @@ Error {
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-Caused by: com.microsoft.playwright.impl.DriverException: Error {
-  message='
-╔══════════════════════════════════════════════════════════════════════════════════════════════════════╗
-║ Host system is missing dependencies to run browsers.                                                 ║
-║ Please install them with the following command:                                                      ║
-║                                                                                                      ║
-║     sudo mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="install-deps" ║
-║                                                                                                      ║
-║ Alternatively, use apt:                                                                              ║
-║     sudo apt-get install libatk1.0-0\                                                                ║
-║         libatk-bridge2.0-0\                                                                          ║
-║         libcups2\                                                                                    ║
-║         libdrm2\                                                                                     ║
-║         libatspi2.0-0\                                                                               ║
-║         libxcomposite1\                                                                              ║
-║         libxdamage1\                                                                                 ║
-║         libxfixes3\                                                                                  ║
-║         libxrandr2\                                                                                  ║
-║         libgbm1\                                                                                     ║
-║         libxkbcommon0\                                                                               ║
-║         libasound2                                                                                   ║
-║                                                                                                      ║
-║ <3 Playwright Team                                                                                   ║
-╚══════════════════════════════════════════════════════════════════════════════════════════════════════╝
-  name='Error
-  stack='Error: 
-╔══════════════════════════════════════════════════════════════════════════════════════════════════════╗
-║ Host system is missing dependencies to run browsers.                                                 ║
-║ Please install them with the following command:                                                      ║
-║                                                                                                      ║
-║     sudo mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="install-deps" ║
-║                                                                                                      ║
-║ Alternatively, use apt:                                                                              ║
-║     sudo apt-get install libatk1.0-0\                                                                ║
-║         libatk-bridge2.0-0\                                                                          ║
-║         libcups2\                                                                                    ║
-║         libdrm2\                                                                                     ║
-║         libatspi2.0-0\                                                                               ║
-║         libxcomposite1\                                                                              ║
-║         libxdamage1\                                                                                 ║
-║         libxfixes3\                                                                                  ║
-║         libxrandr2\                                                                                  ║
-║         libgbm1\                                                                                     ║
-║         libxkbcommon0\                                                                               ║
-║         libasound2                                                                                   ║
-║                                                                                                      ║
-║ <3 Playwright Team                                                                                   ║
-╚══════════════════════════════════════════════════════════════════════════════════════════════════════╝
-    at validateDependenciesLinux (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/dependencies.js:216:9)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async Registry._validateHostRequirements (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/index.js:603:43)
-    at async Registry._validateHostRequirementsForExecutableIfNeeded (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/index.js:701:7)
-    at async Registry.validateHostRequirementsForExecutablesIfNeeded (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/index.js:690:43)
-    at async Chromium._launchProcess (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:167:7)
-    at async Chromium._innerLaunch (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:103:9)
-    at async Chromium._innerLaunchWithRetries (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:84:14)
-    at async ProgressController.run (/tmp/playwright-java-15635618044500116852/package/lib/server/progress.js:82:22)
-    at async Chromium.launch (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:61:21)
-}
-	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:259)
-	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
-	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:118)
-	... 30 more
 ]]></failure>
+    <system-out><![CDATA[UI health-check failed: frontend is not reachable at http://localhost:5173
+UI health-check failed: frontend is not reachable at http://localhost:5173
+]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ]]></system-err>
-  </testcase>
-  <testcase name="createContextAndPage" classname="com.novabank.tests.TransfersTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="createContextAndPage" classname="com.novabank.tests.TransfersTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="createContextAndPage" classname="com.novabank.tests.TransfersTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="createContextAndPage" classname="com.novabank.tests.TransfersTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="testTransfersFormElementsPresent" classname="com.novabank.tests.TransfersTest" time="0.0">
-    <skipped message="Error {&#10;  message=&apos;&#10;╔══════════════════════════════════════════════════════════════════════════════════════════════════════╗&#10;║ Host system is missing dependencies to run browsers.                                                 ║&#10;║ Please install them with the following command:                                                      ║&#10;║                                                                                                      ║&#10;║     sudo mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args=&quot;install-deps&quot; ║&#10;║                                                                                                      ║&#10;║ Alternatively, use apt:                                                                              ║&#10;║     sudo apt-get install libatk1.0-0\                                                                ║&#10;║         libatk-bridge2.0-0\                                                                          ║&#10;║         libcups2\                                                                                    ║&#10;║         libdrm2\                                                                                     ║&#10;║         libatspi2.0-0\                                                                               ║&#10;║         libxcomposite1\                                                                              ║&#10;║         libxdamage1\                                                                                 ║&#10;║         libxfixes3\                                                                                  ║&#10;║         libxrandr2\                                                                                  ║&#10;║         libgbm1\                                                                                     ║&#10;║         libxkbcommon0\                                                                               ║&#10;║         libasound2                                                                                   ║&#10;║                                                                                                      ║&#10;║ &lt;3 Playwright Team                                                                                   ║&#10;╚══════════════════════════════════════════════════════════════════════════════════════════════════════╝&#10;  name=&apos;Error&#10;  stack=&apos;Error: &#10;╔══════════════════════════════════════════════════════════════════════════════════════════════════════╗&#10;║ Host system is missing dependencies to run browsers.                                                 ║&#10;║ Please install them with the following command:                                                      ║&#10;║                                                                                                      ║&#10;║     sudo mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args=&quot;install-deps&quot; ║&#10;║                                                                                                      ║&#10;║ Alternatively, use apt:                                                                              ║&#10;║     sudo apt-get install libatk1.0-0\                                                                ║&#10;║         libatk-bridge2.0-0\                                                                          ║&#10;║         libcups2\                                                                                    ║&#10;║         libdrm2\                                                                                     ║&#10;║         libatspi2.0-0\                                                                               ║&#10;║         libxcomposite1\                                                                              ║&#10;║         libxdamage1\                                                                                 ║&#10;║         libxfixes3\                                                                                  ║&#10;║         libxrandr2\                                                                                  ║&#10;║         libgbm1\                                                                                     ║&#10;║         libxkbcommon0\                                                                               ║&#10;║         libasound2                                                                                   ║&#10;║                                                                                                      ║&#10;║ &lt;3 Playwright Team                                                                                   ║&#10;╚══════════════════════════════════════════════════════════════════════════════════════════════════════╝&#10;    at validateDependenciesLinux (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/dependencies.js:216:9)&#10;    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)&#10;    at async Registry._validateHostRequirements (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/index.js:603:43)&#10;    at async Registry._validateHostRequirementsForExecutableIfNeeded (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/index.js:701:7)&#10;    at async Registry.validateHostRequirementsForExecutablesIfNeeded (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/index.js:690:43)&#10;    at async Chromium._launchProcess (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:167:7)&#10;    at async Chromium._innerLaunch (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:103:9)&#10;    at async Chromium._innerLaunchWithRetries (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:84:14)&#10;    at async ProgressController.run (/tmp/playwright-java-15635618044500116852/package/lib/server/progress.js:82:22)&#10;    at async Chromium.launch (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:61:21)&#10;}"/>
-  </testcase>
-  <testcase name="closeContextAndPage" classname="com.novabank.tests.TransfersTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="closeContextAndPage" classname="com.novabank.tests.TransfersTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="closeContextAndPage" classname="com.novabank.tests.TransfersTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="closeContextAndPage" classname="com.novabank.tests.TransfersTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="testTransfersPageHeading" classname="com.novabank.tests.TransfersTest" time="0.0">
-    <skipped message="Error {&#10;  message=&apos;&#10;╔══════════════════════════════════════════════════════════════════════════════════════════════════════╗&#10;║ Host system is missing dependencies to run browsers.                                                 ║&#10;║ Please install them with the following command:                                                      ║&#10;║                                                                                                      ║&#10;║     sudo mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args=&quot;install-deps&quot; ║&#10;║                                                                                                      ║&#10;║ Alternatively, use apt:                                                                              ║&#10;║     sudo apt-get install libatk1.0-0\                                                                ║&#10;║         libatk-bridge2.0-0\                                                                          ║&#10;║         libcups2\                                                                                    ║&#10;║         libdrm2\                                                                                     ║&#10;║         libatspi2.0-0\                                                                               ║&#10;║         libxcomposite1\                                                                              ║&#10;║         libxdamage1\                                                                                 ║&#10;║         libxfixes3\                                                                                  ║&#10;║         libxrandr2\                                                                                  ║&#10;║         libgbm1\                                                                                     ║&#10;║         libxkbcommon0\                                                                               ║&#10;║         libasound2                                                                                   ║&#10;║                                                                                                      ║&#10;║ &lt;3 Playwright Team                                                                                   ║&#10;╚══════════════════════════════════════════════════════════════════════════════════════════════════════╝&#10;  name=&apos;Error&#10;  stack=&apos;Error: &#10;╔══════════════════════════════════════════════════════════════════════════════════════════════════════╗&#10;║ Host system is missing dependencies to run browsers.                                                 ║&#10;║ Please install them with the following command:                                                      ║&#10;║                                                                                                      ║&#10;║     sudo mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args=&quot;install-deps&quot; ║&#10;║                                                                                                      ║&#10;║ Alternatively, use apt:                                                                              ║&#10;║     sudo apt-get install libatk1.0-0\                                                                ║&#10;║         libatk-bridge2.0-0\                                                                          ║&#10;║         libcups2\                                                                                    ║&#10;║         libdrm2\                                                                                     ║&#10;║         libatspi2.0-0\                                                                               ║&#10;║         libxcomposite1\                                                                              ║&#10;║         libxdamage1\                                                                                 ║&#10;║         libxfixes3\                                                                                  ║&#10;║         libxrandr2\                                                                                  ║&#10;║         libgbm1\                                                                                     ║&#10;║         libxkbcommon0\                                                                               ║&#10;║         libasound2                                                                                   ║&#10;║                                                                                                      ║&#10;║ &lt;3 Playwright Team                                                                                   ║&#10;╚══════════════════════════════════════════════════════════════════════════════════════════════════════╝&#10;    at validateDependenciesLinux (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/dependencies.js:216:9)&#10;    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)&#10;    at async Registry._validateHostRequirements (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/index.js:603:43)&#10;    at async Registry._validateHostRequirementsForExecutableIfNeeded (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/index.js:701:7)&#10;    at async Registry.validateHostRequirementsForExecutablesIfNeeded (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/index.js:690:43)&#10;    at async Chromium._launchProcess (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:167:7)&#10;    at async Chromium._innerLaunch (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:103:9)&#10;    at async Chromium._innerLaunchWithRetries (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:84:14)&#10;    at async ProgressController.run (/tmp/playwright-java-15635618044500116852/package/lib/server/progress.js:82:22)&#10;    at async Chromium.launch (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:61:21)&#10;}"/>
-  </testcase>
-  <testcase name="testTransfersPageIsAccessible" classname="com.novabank.tests.TransfersTest" time="0.0">
-    <skipped message="Error {&#10;  message=&apos;&#10;╔══════════════════════════════════════════════════════════════════════════════════════════════════════╗&#10;║ Host system is missing dependencies to run browsers.                                                 ║&#10;║ Please install them with the following command:                                                      ║&#10;║                                                                                                      ║&#10;║     sudo mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args=&quot;install-deps&quot; ║&#10;║                                                                                                      ║&#10;║ Alternatively, use apt:                                                                              ║&#10;║     sudo apt-get install libatk1.0-0\                                                                ║&#10;║         libatk-bridge2.0-0\                                                                          ║&#10;║         libcups2\                                                                                    ║&#10;║         libdrm2\                                                                                     ║&#10;║         libatspi2.0-0\                                                                               ║&#10;║         libxcomposite1\                                                                              ║&#10;║         libxdamage1\                                                                                 ║&#10;║         libxfixes3\                                                                                  ║&#10;║         libxrandr2\                                                                                  ║&#10;║         libgbm1\                                                                                     ║&#10;║         libxkbcommon0\                                                                               ║&#10;║         libasound2                                                                                   ║&#10;║                                                                                                      ║&#10;║ &lt;3 Playwright Team                                                                                   ║&#10;╚══════════════════════════════════════════════════════════════════════════════════════════════════════╝&#10;  name=&apos;Error&#10;  stack=&apos;Error: &#10;╔══════════════════════════════════════════════════════════════════════════════════════════════════════╗&#10;║ Host system is missing dependencies to run browsers.                                                 ║&#10;║ Please install them with the following command:                                                      ║&#10;║                                                                                                      ║&#10;║     sudo mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args=&quot;install-deps&quot; ║&#10;║                                                                                                      ║&#10;║ Alternatively, use apt:                                                                              ║&#10;║     sudo apt-get install libatk1.0-0\                                                                ║&#10;║         libatk-bridge2.0-0\                                                                          ║&#10;║         libcups2\                                                                                    ║&#10;║         libdrm2\                                                                                     ║&#10;║         libatspi2.0-0\                                                                               ║&#10;║         libxcomposite1\                                                                              ║&#10;║         libxdamage1\                                                                                 ║&#10;║         libxfixes3\                                                                                  ║&#10;║         libxrandr2\                                                                                  ║&#10;║         libgbm1\                                                                                     ║&#10;║         libxkbcommon0\                                                                               ║&#10;║         libasound2                                                                                   ║&#10;║                                                                                                      ║&#10;║ &lt;3 Playwright Team                                                                                   ║&#10;╚══════════════════════════════════════════════════════════════════════════════════════════════════════╝&#10;    at validateDependenciesLinux (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/dependencies.js:216:9)&#10;    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)&#10;    at async Registry._validateHostRequirements (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/index.js:603:43)&#10;    at async Registry._validateHostRequirementsForExecutableIfNeeded (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/index.js:701:7)&#10;    at async Registry.validateHostRequirementsForExecutablesIfNeeded (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/index.js:690:43)&#10;    at async Chromium._launchProcess (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:167:7)&#10;    at async Chromium._innerLaunch (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:103:9)&#10;    at async Chromium._innerLaunchWithRetries (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:84:14)&#10;    at async ProgressController.run (/tmp/playwright-java-15635618044500116852/package/lib/server/progress.js:82:22)&#10;    at async Chromium.launch (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:61:21)&#10;}"/>
-  </testcase>
-  <testcase name="testUnauthenticatedTransfersAccessRedirects" classname="com.novabank.tests.TransfersTest" time="0.0">
-    <skipped message="Error {&#10;  message=&apos;&#10;╔══════════════════════════════════════════════════════════════════════════════════════════════════════╗&#10;║ Host system is missing dependencies to run browsers.                                                 ║&#10;║ Please install them with the following command:                                                      ║&#10;║                                                                                                      ║&#10;║     sudo mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args=&quot;install-deps&quot; ║&#10;║                                                                                                      ║&#10;║ Alternatively, use apt:                                                                              ║&#10;║     sudo apt-get install libatk1.0-0\                                                                ║&#10;║         libatk-bridge2.0-0\                                                                          ║&#10;║         libcups2\                                                                                    ║&#10;║         libdrm2\                                                                                     ║&#10;║         libatspi2.0-0\                                                                               ║&#10;║         libxcomposite1\                                                                              ║&#10;║         libxdamage1\                                                                                 ║&#10;║         libxfixes3\                                                                                  ║&#10;║         libxrandr2\                                                                                  ║&#10;║         libgbm1\                                                                                     ║&#10;║         libxkbcommon0\                                                                               ║&#10;║         libasound2                                                                                   ║&#10;║                                                                                                      ║&#10;║ &lt;3 Playwright Team                                                                                   ║&#10;╚══════════════════════════════════════════════════════════════════════════════════════════════════════╝&#10;  name=&apos;Error&#10;  stack=&apos;Error: &#10;╔══════════════════════════════════════════════════════════════════════════════════════════════════════╗&#10;║ Host system is missing dependencies to run browsers.                                                 ║&#10;║ Please install them with the following command:                                                      ║&#10;║                                                                                                      ║&#10;║     sudo mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args=&quot;install-deps&quot; ║&#10;║                                                                                                      ║&#10;║ Alternatively, use apt:                                                                              ║&#10;║     sudo apt-get install libatk1.0-0\                                                                ║&#10;║         libatk-bridge2.0-0\                                                                          ║&#10;║         libcups2\                                                                                    ║&#10;║         libdrm2\                                                                                     ║&#10;║         libatspi2.0-0\                                                                               ║&#10;║         libxcomposite1\                                                                              ║&#10;║         libxdamage1\                                                                                 ║&#10;║         libxfixes3\                                                                                  ║&#10;║         libxrandr2\                                                                                  ║&#10;║         libgbm1\                                                                                     ║&#10;║         libxkbcommon0\                                                                               ║&#10;║         libasound2                                                                                   ║&#10;║                                                                                                      ║&#10;║ &lt;3 Playwright Team                                                                                   ║&#10;╚══════════════════════════════════════════════════════════════════════════════════════════════════════╝&#10;    at validateDependenciesLinux (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/dependencies.js:216:9)&#10;    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)&#10;    at async Registry._validateHostRequirements (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/index.js:603:43)&#10;    at async Registry._validateHostRequirementsForExecutableIfNeeded (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/index.js:701:7)&#10;    at async Registry.validateHostRequirementsForExecutablesIfNeeded (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/index.js:690:43)&#10;    at async Chromium._launchProcess (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:167:7)&#10;    at async Chromium._innerLaunch (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:103:9)&#10;    at async Chromium._innerLaunchWithRetries (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:84:14)&#10;    at async ProgressController.run (/tmp/playwright-java-15635618044500116852/package/lib/server/progress.js:82:22)&#10;    at async Chromium.launch (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:61:21)&#10;}"/>
-  </testcase>
-  <testcase name="closeBrowser" classname="com.novabank.tests.TransfersTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="createContextAndPage" classname="com.novabank.tests.LoginTest" time="0.0">
-    <skipped/>
   </testcase>
   <testcase name="createContextAndPage" classname="com.novabank.tests.LoginTest" time="0.0">
     <skipped/>
@@ -278,7 +127,7 @@ SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further detail
     <skipped/>
   </testcase>
   <testcase name="testCustomer1LoginSuccess" classname="com.novabank.tests.LoginTest" time="0.0">
-    <skipped/>
+    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
   </testcase>
   <testcase name="closeContextAndPage" classname="com.novabank.tests.LoginTest" time="0.0">
     <skipped/>
@@ -302,25 +151,63 @@ SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further detail
     <skipped/>
   </testcase>
   <testcase name="testCustomer2LoginSuccess" classname="com.novabank.tests.LoginTest" time="0.0">
-    <skipped/>
+    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
   </testcase>
   <testcase name="testLoginPageLinks" classname="com.novabank.tests.LoginTest" time="0.0">
-    <skipped/>
+    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
   </testcase>
   <testcase name="testLoginWithInvalidEmail" classname="com.novabank.tests.LoginTest" time="0.0">
-    <skipped/>
+    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
   </testcase>
   <testcase name="testLoginWithInvalidPassword" classname="com.novabank.tests.LoginTest" time="0.0">
-    <skipped/>
+    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
   </testcase>
   <testcase name="testManagerLoginSuccess" classname="com.novabank.tests.LoginTest" time="0.0">
-    <skipped/>
+    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
   </testcase>
   <testcase name="testUnauthenticatedUserRedirectedToLogin" classname="com.novabank.tests.LoginTest" time="0.0">
-    <skipped/>
+    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
   </testcase>
-  <testcase name="createContextAndPage" classname="com.novabank.tests.RegisterTest" time="0.0">
-    <skipped/>
+  <testcase name="createContextAndPage" classname="com.novabank.tests.RegisterTest" time="0.017">
+    <failure message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead." type="java.lang.IllegalStateException"><![CDATA[java.lang.IllegalStateException: UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead.
+	at com.novabank.base.BaseTest.handleUnavailableApp(BaseTest.java:99)
+	at com.novabank.base.BaseTest.ensureApplicationIsReachable(BaseTest.java:69)
+	at com.novabank.base.BaseTest.createContextAndPage(BaseTest.java:57)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
   </testcase>
   <testcase name="createContextAndPage" classname="com.novabank.tests.RegisterTest" time="0.0">
     <skipped/>
@@ -332,7 +219,7 @@ SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further detail
     <skipped/>
   </testcase>
   <testcase name="testNewUserRegistrationSuccess" classname="com.novabank.tests.RegisterTest" time="0.0">
-    <skipped/>
+    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
   </testcase>
   <testcase name="closeContextAndPage" classname="com.novabank.tests.RegisterTest" time="0.0">
     <skipped/>
@@ -347,16 +234,54 @@ SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further detail
     <skipped/>
   </testcase>
   <testcase name="testRegisterPageHasLoginLink" classname="com.novabank.tests.RegisterTest" time="0.0">
-    <skipped/>
+    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
   </testcase>
   <testcase name="testRegisterPageIsAccessible" classname="com.novabank.tests.RegisterTest" time="0.0">
-    <skipped/>
+    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
   </testcase>
   <testcase name="testRegistrationFailsWithDuplicateEmail" classname="com.novabank.tests.RegisterTest" time="0.0">
-    <skipped/>
+    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
   </testcase>
-  <testcase name="createContextAndPage" classname="com.novabank.tests.ForgotPasswordTest" time="0.0">
-    <skipped/>
+  <testcase name="createContextAndPage" classname="com.novabank.tests.ForgotPasswordTest" time="0.003">
+    <failure message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead." type="java.lang.IllegalStateException"><![CDATA[java.lang.IllegalStateException: UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead.
+	at com.novabank.base.BaseTest.handleUnavailableApp(BaseTest.java:99)
+	at com.novabank.base.BaseTest.ensureApplicationIsReachable(BaseTest.java:69)
+	at com.novabank.base.BaseTest.createContextAndPage(BaseTest.java:57)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
   </testcase>
   <testcase name="createContextAndPage" classname="com.novabank.tests.ForgotPasswordTest" time="0.0">
     <skipped/>
@@ -371,7 +296,7 @@ SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further detail
     <skipped/>
   </testcase>
   <testcase name="testForgotPasswordPageHasLoginLink" classname="com.novabank.tests.ForgotPasswordTest" time="0.0">
-    <skipped/>
+    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
   </testcase>
   <testcase name="closeContextAndPage" classname="com.novabank.tests.ForgotPasswordTest" time="0.0">
     <skipped/>
@@ -389,19 +314,57 @@ SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further detail
     <skipped/>
   </testcase>
   <testcase name="testForgotPasswordPageIsAccessible" classname="com.novabank.tests.ForgotPasswordTest" time="0.0">
-    <skipped/>
+    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
   </testcase>
   <testcase name="testPasswordResetFailsForUnknownEmail" classname="com.novabank.tests.ForgotPasswordTest" time="0.0">
-    <skipped/>
+    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
   </testcase>
   <testcase name="testPasswordResetSuccessForExistingUser" classname="com.novabank.tests.ForgotPasswordTest" time="0.0">
-    <skipped/>
+    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
   </testcase>
   <testcase name="testUserCanLoginAfterPasswordReset" classname="com.novabank.tests.ForgotPasswordTest" time="0.0">
-    <skipped/>
+    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
   </testcase>
-  <testcase name="createContextAndPage" classname="com.novabank.tests.DashboardTest" time="0.0">
-    <skipped/>
+  <testcase name="createContextAndPage" classname="com.novabank.tests.DashboardTest" time="0.003">
+    <failure message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead." type="java.lang.IllegalStateException"><![CDATA[java.lang.IllegalStateException: UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead.
+	at com.novabank.base.BaseTest.handleUnavailableApp(BaseTest.java:99)
+	at com.novabank.base.BaseTest.ensureApplicationIsReachable(BaseTest.java:69)
+	at com.novabank.base.BaseTest.createContextAndPage(BaseTest.java:57)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
   </testcase>
   <testcase name="createContextAndPage" classname="com.novabank.tests.DashboardTest" time="0.0">
     <skipped/>
@@ -422,7 +385,7 @@ SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further detail
     <skipped/>
   </testcase>
   <testcase name="testCustomerDoesNotSeeUsersNavLink" classname="com.novabank.tests.DashboardTest" time="0.0">
-    <skipped/>
+    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
   </testcase>
   <testcase name="closeContextAndPage" classname="com.novabank.tests.DashboardTest" time="0.0">
     <skipped/>
@@ -446,25 +409,63 @@ SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further detail
     <skipped/>
   </testcase>
   <testcase name="testDashboardHeading" classname="com.novabank.tests.DashboardTest" time="0.0">
-    <skipped/>
+    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
   </testcase>
   <testcase name="testDashboardShowsCustomerName" classname="com.novabank.tests.DashboardTest" time="0.0">
-    <skipped/>
+    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
   </testcase>
   <testcase name="testDashboardShowsManagerName" classname="com.novabank.tests.DashboardTest" time="0.0">
-    <skipped/>
+    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
   </testcase>
   <testcase name="testDashboardShowsStatCards" classname="com.novabank.tests.DashboardTest" time="0.0">
-    <skipped/>
+    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
   </testcase>
   <testcase name="testLogoutRedirectsToLogin" classname="com.novabank.tests.DashboardTest" time="0.0">
-    <skipped/>
+    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
   </testcase>
   <testcase name="testManagerSeesUsersNavLink" classname="com.novabank.tests.DashboardTest" time="0.0">
-    <skipped/>
+    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
   </testcase>
-  <testcase name="createContextAndPage" classname="com.novabank.tests.UsersTest" time="0.0">
-    <skipped/>
+  <testcase name="createContextAndPage" classname="com.novabank.tests.UsersTest" time="0.003">
+    <failure message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead." type="java.lang.IllegalStateException"><![CDATA[java.lang.IllegalStateException: UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead.
+	at com.novabank.base.BaseTest.handleUnavailableApp(BaseTest.java:99)
+	at com.novabank.base.BaseTest.ensureApplicationIsReachable(BaseTest.java:69)
+	at com.novabank.base.BaseTest.createContextAndPage(BaseTest.java:57)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
   </testcase>
   <testcase name="createContextAndPage" classname="com.novabank.tests.UsersTest" time="0.0">
     <skipped/>
@@ -482,7 +483,7 @@ SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further detail
     <skipped/>
   </testcase>
   <testcase name="testCustomerIsRedirectedFromUsersPage" classname="com.novabank.tests.UsersTest" time="0.0">
-    <skipped/>
+    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
   </testcase>
   <testcase name="closeContextAndPage" classname="com.novabank.tests.UsersTest" time="0.0">
     <skipped/>
@@ -503,22 +504,60 @@ SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further detail
     <skipped/>
   </testcase>
   <testcase name="testManagerCanAccessUsersPage" classname="com.novabank.tests.UsersTest" time="0.0">
-    <skipped/>
+    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
   </testcase>
   <testcase name="testUnauthorizedPageContent" classname="com.novabank.tests.UsersTest" time="0.0">
-    <skipped/>
+    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
   </testcase>
   <testcase name="testUsersPageDisplaysSeededUserNames" classname="com.novabank.tests.UsersTest" time="0.0">
-    <skipped/>
+    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
   </testcase>
   <testcase name="testUsersPageShowsSeededUsers" classname="com.novabank.tests.UsersTest" time="0.0">
-    <skipped/>
+    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
   </testcase>
   <testcase name="testUsersPageSubtitle" classname="com.novabank.tests.UsersTest" time="0.0">
-    <skipped/>
+    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
   </testcase>
-  <testcase name="createContextAndPage" classname="com.novabank.tests.AccountsTest" time="0.0">
-    <skipped/>
+  <testcase name="createContextAndPage" classname="com.novabank.tests.AccountsTest" time="0.002">
+    <failure message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead." type="java.lang.IllegalStateException"><![CDATA[java.lang.IllegalStateException: UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead.
+	at com.novabank.base.BaseTest.handleUnavailableApp(BaseTest.java:99)
+	at com.novabank.base.BaseTest.ensureApplicationIsReachable(BaseTest.java:69)
+	at com.novabank.base.BaseTest.createContextAndPage(BaseTest.java:57)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
   </testcase>
   <testcase name="createContextAndPage" classname="com.novabank.tests.AccountsTest" time="0.0">
     <skipped/>
@@ -530,7 +569,7 @@ SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further detail
     <skipped/>
   </testcase>
   <testcase name="testAccountsPageHeading" classname="com.novabank.tests.AccountsTest" time="0.0">
-    <skipped/>
+    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
   </testcase>
   <testcase name="closeContextAndPage" classname="com.novabank.tests.AccountsTest" time="0.0">
     <skipped/>
@@ -545,16 +584,54 @@ SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further detail
     <skipped/>
   </testcase>
   <testcase name="testAccountsPageIsAccessible" classname="com.novabank.tests.AccountsTest" time="0.0">
-    <skipped/>
+    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
   </testcase>
   <testcase name="testAccountsPageShowsSeededAccounts" classname="com.novabank.tests.AccountsTest" time="0.0">
-    <skipped/>
+    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
   </testcase>
   <testcase name="testUnauthenticatedAccountsAccessRedirects" classname="com.novabank.tests.AccountsTest" time="0.0">
-    <skipped/>
+    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
   </testcase>
-  <testcase name="createContextAndPage" classname="com.novabank.tests.TransactionsTest" time="0.0">
-    <skipped/>
+  <testcase name="createContextAndPage" classname="com.novabank.tests.TransactionsTest" time="0.002">
+    <failure message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead." type="java.lang.IllegalStateException"><![CDATA[java.lang.IllegalStateException: UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead.
+	at com.novabank.base.BaseTest.handleUnavailableApp(BaseTest.java:99)
+	at com.novabank.base.BaseTest.ensureApplicationIsReachable(BaseTest.java:69)
+	at com.novabank.base.BaseTest.createContextAndPage(BaseTest.java:57)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
   </testcase>
   <testcase name="createContextAndPage" classname="com.novabank.tests.TransactionsTest" time="0.0">
     <skipped/>
@@ -569,7 +646,7 @@ SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further detail
     <skipped/>
   </testcase>
   <testcase name="testManagerCanAccessTransactions" classname="com.novabank.tests.TransactionsTest" time="0.0">
-    <skipped/>
+    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
   </testcase>
   <testcase name="closeContextAndPage" classname="com.novabank.tests.TransactionsTest" time="0.0">
     <skipped/>
@@ -587,15 +664,89 @@ SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further detail
     <skipped/>
   </testcase>
   <testcase name="testTransactionsFormElementsPresent" classname="com.novabank.tests.TransactionsTest" time="0.0">
-    <skipped/>
+    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
   </testcase>
   <testcase name="testTransactionsPageHeading" classname="com.novabank.tests.TransactionsTest" time="0.0">
-    <skipped/>
+    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
   </testcase>
   <testcase name="testTransactionsPageIsAccessible" classname="com.novabank.tests.TransactionsTest" time="0.0">
-    <skipped/>
+    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
   </testcase>
   <testcase name="testUnauthenticatedTransactionsAccessRedirects" classname="com.novabank.tests.TransactionsTest" time="0.0">
+    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
+  </testcase>
+  <testcase name="createContextAndPage" classname="com.novabank.tests.TransfersTest" time="0.003">
+    <failure message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead." type="java.lang.IllegalStateException"><![CDATA[java.lang.IllegalStateException: UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead.
+	at com.novabank.base.BaseTest.handleUnavailableApp(BaseTest.java:99)
+	at com.novabank.base.BaseTest.ensureApplicationIsReachable(BaseTest.java:69)
+	at com.novabank.base.BaseTest.createContextAndPage(BaseTest.java:57)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+  </testcase>
+  <testcase name="createContextAndPage" classname="com.novabank.tests.TransfersTest" time="0.0">
     <skipped/>
+  </testcase>
+  <testcase name="createContextAndPage" classname="com.novabank.tests.TransfersTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="createContextAndPage" classname="com.novabank.tests.TransfersTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testTransfersFormElementsPresent" classname="com.novabank.tests.TransfersTest" time="0.0">
+    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
+  </testcase>
+  <testcase name="closeContextAndPage" classname="com.novabank.tests.TransfersTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="closeContextAndPage" classname="com.novabank.tests.TransfersTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="closeContextAndPage" classname="com.novabank.tests.TransfersTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="closeContextAndPage" classname="com.novabank.tests.TransfersTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testTransfersPageHeading" classname="com.novabank.tests.TransfersTest" time="0.0">
+    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
+  </testcase>
+  <testcase name="testTransfersPageIsAccessible" classname="com.novabank.tests.TransfersTest" time="0.0">
+    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
+  </testcase>
+  <testcase name="testUnauthenticatedTransfersAccessRedirects" classname="com.novabank.tests.TransfersTest" time="0.0">
+    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
   </testcase>
 </testsuite>

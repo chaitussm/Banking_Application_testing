@@ -15,11 +15,8 @@ public class TransactionsPage {
     private static final String HEADING = "h2";
     private static final String ACCOUNT_SELECT = "select:first-of-type";
     private static final String KIND_SELECT = "select:last-of-type";
-    private static final String AMOUNT_INPUT = "input[type='number'], input:not([type='email']):not([type='password'])";
-    private static final String NOTE_INPUT = "input[placeholder*='note'], input:last-of-type";
     private static final String SUBMIT_BUTTON = "button[type='submit']";
     private static final String ERROR_MESSAGE = "p.error";
-    private static final String TRANSACTION_LIST = "table, .list-grid";
 
     public TransactionsPage(Page page) {
         this.page = page;
