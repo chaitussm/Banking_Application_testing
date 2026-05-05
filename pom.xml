@@ -61,6 +61,11 @@
         <artifactId>maven-surefire-report-plugin</artifactId>
         <version>3.2.5</version>
       </plugin>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>exec-maven-plugin</artifactId>
+        <version>3.3.0</version>
+      </plugin>
     </plugins>
   </build>
 </project>

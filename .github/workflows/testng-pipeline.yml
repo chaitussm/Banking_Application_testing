@@ -25,14 +25,9 @@ jobs:
           cache: maven
 
       - name: Install Playwright browsers and OS dependencies
-        run: |
-          mvn -B compile
-          mvn -B exec:java -e \
-            -D exec.mainClass=com.microsoft.playwright.CLI \
-            -D exec.args="install chromium"
-          sudo mvn -B exec:java -e \
-            -D exec.mainClass=com.microsoft.playwright.CLI \
-            -D exec.args="install-deps chromium"
+        run: mvn -B exec:java -e \
+          -D exec.mainClass=com.microsoft.playwright.CLI \
+          -D exec.args="install --with-deps chromium"
 
       - name: Run TestNG suite
         run: mvn -B clean test
