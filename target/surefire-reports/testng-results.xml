@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+<testng-results ignored="0" total="42" passed="42" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[UI health-check passed: reachable at http://localhost:5173]]>
     </line>
   </reporter-output>
-  <suite started-at="2026-05-05T18:48:06 CEST" name="Surefire suite" finished-at="2026-05-05T18:48:13 CEST" duration-ms="6647">
+  <suite started-at="2026-05-05T18:59:50 CEST" name="NovaBank Banking Application Test Suite" finished-at="2026-05-05T19:00:21 CEST" duration-ms="30864">
     <groups>
     </groups>
-    <test started-at="2026-05-05T18:48:06 CEST" name="Surefire test" finished-at="2026-05-05T18:48:13 CEST" duration-ms="6647">
+    <test started-at="2026-05-05T18:59:50 CEST" name="Login Tests" finished-at="2026-05-05T18:59:56 CEST" duration-ms="5808">
       <class name="com.novabank.tests.LoginTest">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.novabank.tests.LoginTest@709ba3fb]" started-at="2026-05-05T18:48:05 CEST" name="launchBrowser" finished-at="2026-05-05T18:48:06 CEST" duration-ms="1475" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="createContextAndPage(java.lang.reflect.Method)[pri:0, instance:com.novabank.tests.LoginTest@709ba3fb]" started-at="2026-05-05T18:48:06 CEST" name="createContextAndPage" finished-at="2026-05-05T18:48:07 CEST" duration-ms="508" status="PASS">
+        <test-method is-config="true" signature="createContextAndPage(java.lang.reflect.Method)[pri:0, instance:com.novabank.tests.LoginTest@4387b79e]" started-at="2026-05-05T18:59:50 CEST" name="createContextAndPage" finished-at="2026-05-05T18:59:50 CEST" duration-ms="642" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -28,22 +24,22 @@
             </line>
           </reporter-output>
         </test-method> <!-- createContextAndPage -->
-        <test-method signature="testCustomer1LoginSuccess()[pri:0, instance:com.novabank.tests.LoginTest@709ba3fb]" started-at="2026-05-05T18:48:07 CEST" name="testCustomer1LoginSuccess" description="Customer Ava Smith can log in successfully" finished-at="2026-05-05T18:48:07 CEST" duration-ms="362" status="PASS">
+        <test-method signature="testCustomer1LoginSuccess()[pri:0, instance:com.novabank.tests.LoginTest@4387b79e]" started-at="2026-05-05T18:59:50 CEST" name="testCustomer1LoginSuccess" description="Customer Ava Smith can log in successfully" finished-at="2026-05-05T18:59:51 CEST" duration-ms="342" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCustomer1LoginSuccess -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.novabank.tests.LoginTest@709ba3fb]" started-at="2026-05-05T18:48:07 CEST" name="afterMethod" finished-at="2026-05-05T18:48:07 CEST" duration-ms="323" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.novabank.tests.LoginTest@4387b79e]" started-at="2026-05-05T18:59:51 CEST" name="afterMethod" finished-at="2026-05-05T18:59:51 CEST" duration-ms="262" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testCustomer1LoginSuccess status=SUCCESS method=LoginTest.testCustomer1LoginSuccess()[pri:0, instance:com.novabank.tests.LoginTest@709ba3fb] output={null}]]]>
+                <![CDATA[[TestResult name=testCustomer1LoginSuccess status=SUCCESS method=LoginTest.testCustomer1LoginSuccess()[pri:0, instance:com.novabank.tests.LoginTest@4387b79e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="createContextAndPage(java.lang.reflect.Method)[pri:0, instance:com.novabank.tests.LoginTest@709ba3fb]" started-at="2026-05-05T18:48:07 CEST" name="createContextAndPage" finished-at="2026-05-05T18:48:07 CEST" duration-ms="33" status="PASS">
+        <test-method is-config="true" signature="createContextAndPage(java.lang.reflect.Method)[pri:0, instance:com.novabank.tests.LoginTest@4387b79e]" started-at="2026-05-05T18:59:51 CEST" name="createContextAndPage" finished-at="2026-05-05T18:59:51 CEST" duration-ms="124" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -54,22 +50,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createContextAndPage -->
-        <test-method signature="testCustomer2LoginSuccess()[pri:0, instance:com.novabank.tests.LoginTest@709ba3fb]" started-at="2026-05-05T18:48:07 CEST" name="testCustomer2LoginSuccess" description="Customer Noah Patel can log in successfully" finished-at="2026-05-05T18:48:08 CEST" duration-ms="378" status="PASS">
+        <test-method signature="testCustomer2LoginSuccess()[pri:0, instance:com.novabank.tests.LoginTest@4387b79e]" started-at="2026-05-05T18:59:51 CEST" name="testCustomer2LoginSuccess" description="Customer Noah Patel can log in successfully" finished-at="2026-05-05T18:59:52 CEST" duration-ms="427" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCustomer2LoginSuccess -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.novabank.tests.LoginTest@709ba3fb]" started-at="2026-05-05T18:48:08 CEST" name="afterMethod" finished-at="2026-05-05T18:48:08 CEST" duration-ms="288" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.novabank.tests.LoginTest@4387b79e]" started-at="2026-05-05T18:59:52 CEST" name="afterMethod" finished-at="2026-05-05T18:59:52 CEST" duration-ms="167" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testCustomer2LoginSuccess status=SUCCESS method=LoginTest.testCustomer2LoginSuccess()[pri:0, instance:com.novabank.tests.LoginTest@709ba3fb] output={null}]]]>
+                <![CDATA[[TestResult name=testCustomer2LoginSuccess status=SUCCESS method=LoginTest.testCustomer2LoginSuccess()[pri:0, instance:com.novabank.tests.LoginTest@4387b79e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="createContextAndPage(java.lang.reflect.Method)[pri:0, instance:com.novabank.tests.LoginTest@709ba3fb]" started-at="2026-05-05T18:48:08 CEST" name="createContextAndPage" finished-at="2026-05-05T18:48:08 CEST" duration-ms="34" status="PASS">
+        <test-method is-config="true" signature="createContextAndPage(java.lang.reflect.Method)[pri:0, instance:com.novabank.tests.LoginTest@4387b79e]" started-at="2026-05-05T18:59:52 CEST" name="createContextAndPage" finished-at="2026-05-05T18:59:52 CEST" duration-ms="137" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -80,22 +76,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createContextAndPage -->
-        <test-method signature="testLoginPageLinks()[pri:0, instance:com.novabank.tests.LoginTest@709ba3fb]" started-at="2026-05-05T18:48:08 CEST" name="testLoginPageLinks" description="Login page shows Register and Forgot Password links" finished-at="2026-05-05T18:48:08 CEST" duration-ms="438" status="PASS">
+        <test-method signature="testLoginPageLinks()[pri:0, instance:com.novabank.tests.LoginTest@4387b79e]" started-at="2026-05-05T18:59:52 CEST" name="testLoginPageLinks" description="Login page shows Register and Forgot Password links" finished-at="2026-05-05T18:59:52 CEST" duration-ms="223" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginPageLinks -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.novabank.tests.LoginTest@709ba3fb]" started-at="2026-05-05T18:48:08 CEST" name="afterMethod" finished-at="2026-05-05T18:48:09 CEST" duration-ms="480" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.novabank.tests.LoginTest@4387b79e]" started-at="2026-05-05T18:59:52 CEST" name="afterMethod" finished-at="2026-05-05T18:59:53 CEST" duration-ms="502" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testLoginPageLinks status=SUCCESS method=LoginTest.testLoginPageLinks()[pri:0, instance:com.novabank.tests.LoginTest@709ba3fb] output={null}]]]>
+                <![CDATA[[TestResult name=testLoginPageLinks status=SUCCESS method=LoginTest.testLoginPageLinks()[pri:0, instance:com.novabank.tests.LoginTest@4387b79e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="createContextAndPage(java.lang.reflect.Method)[pri:0, instance:com.novabank.tests.LoginTest@709ba3fb]" started-at="2026-05-05T18:48:09 CEST" name="createContextAndPage" finished-at="2026-05-05T18:48:09 CEST" duration-ms="33" status="PASS">
+        <test-method is-config="true" signature="createContextAndPage(java.lang.reflect.Method)[pri:0, instance:com.novabank.tests.LoginTest@4387b79e]" started-at="2026-05-05T18:59:53 CEST" name="createContextAndPage" finished-at="2026-05-05T18:59:53 CEST" duration-ms="115" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -106,22 +102,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createContextAndPage -->
-        <test-method signature="testLoginWithInvalidEmail()[pri:0, instance:com.novabank.tests.LoginTest@709ba3fb]" started-at="2026-05-05T18:48:09 CEST" name="testLoginWithInvalidEmail" description="Login fails with invalid email" finished-at="2026-05-05T18:48:09 CEST" duration-ms="356" status="PASS">
+        <test-method signature="testLoginWithInvalidEmail()[pri:0, instance:com.novabank.tests.LoginTest@4387b79e]" started-at="2026-05-05T18:59:53 CEST" name="testLoginWithInvalidEmail" description="Login fails with invalid email" finished-at="2026-05-05T18:59:53 CEST" duration-ms="384" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginWithInvalidEmail -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.novabank.tests.LoginTest@709ba3fb]" started-at="2026-05-05T18:48:09 CEST" name="afterMethod" finished-at="2026-05-05T18:48:10 CEST" duration-ms="399" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.novabank.tests.LoginTest@4387b79e]" started-at="2026-05-05T18:59:53 CEST" name="afterMethod" finished-at="2026-05-05T18:59:53 CEST" duration-ms="227" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testLoginWithInvalidEmail status=SUCCESS method=LoginTest.testLoginWithInvalidEmail()[pri:0, instance:com.novabank.tests.LoginTest@709ba3fb] output={null}]]]>
+                <![CDATA[[TestResult name=testLoginWithInvalidEmail status=SUCCESS method=LoginTest.testLoginWithInvalidEmail()[pri:0, instance:com.novabank.tests.LoginTest@4387b79e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="createContextAndPage(java.lang.reflect.Method)[pri:0, instance:com.novabank.tests.LoginTest@709ba3fb]" started-at="2026-05-05T18:48:10 CEST" name="createContextAndPage" finished-at="2026-05-05T18:48:10 CEST" duration-ms="32" status="PASS">
+        <test-method is-config="true" signature="createContextAndPage(java.lang.reflect.Method)[pri:0, instance:com.novabank.tests.LoginTest@4387b79e]" started-at="2026-05-05T18:59:53 CEST" name="createContextAndPage" finished-at="2026-05-05T18:59:53 CEST" duration-ms="138" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -132,22 +128,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createContextAndPage -->
-        <test-method signature="testLoginWithInvalidPassword()[pri:0, instance:com.novabank.tests.LoginTest@709ba3fb]" started-at="2026-05-05T18:48:10 CEST" name="testLoginWithInvalidPassword" description="Login fails with invalid password" finished-at="2026-05-05T18:48:10 CEST" duration-ms="558" status="PASS">
+        <test-method signature="testLoginWithInvalidPassword()[pri:0, instance:com.novabank.tests.LoginTest@4387b79e]" started-at="2026-05-05T18:59:53 CEST" name="testLoginWithInvalidPassword" description="Login fails with invalid password" finished-at="2026-05-05T18:59:54 CEST" duration-ms="301" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginWithInvalidPassword -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.novabank.tests.LoginTest@709ba3fb]" started-at="2026-05-05T18:48:10 CEST" name="afterMethod" finished-at="2026-05-05T18:48:11 CEST" duration-ms="652" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.novabank.tests.LoginTest@4387b79e]" started-at="2026-05-05T18:59:54 CEST" name="afterMethod" finished-at="2026-05-05T18:59:54 CEST" duration-ms="345" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testLoginWithInvalidPassword status=SUCCESS method=LoginTest.testLoginWithInvalidPassword()[pri:0, instance:com.novabank.tests.LoginTest@709ba3fb] output={null}]]]>
+                <![CDATA[[TestResult name=testLoginWithInvalidPassword status=SUCCESS method=LoginTest.testLoginWithInvalidPassword()[pri:0, instance:com.novabank.tests.LoginTest@4387b79e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="createContextAndPage(java.lang.reflect.Method)[pri:0, instance:com.novabank.tests.LoginTest@709ba3fb]" started-at="2026-05-05T18:48:11 CEST" name="createContextAndPage" finished-at="2026-05-05T18:48:11 CEST" duration-ms="33" status="PASS">
+        <test-method is-config="true" signature="createContextAndPage(java.lang.reflect.Method)[pri:0, instance:com.novabank.tests.LoginTest@4387b79e]" started-at="2026-05-05T18:59:54 CEST" name="createContextAndPage" finished-at="2026-05-05T18:59:54 CEST" duration-ms="135" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -158,22 +154,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createContextAndPage -->
-        <test-method signature="testManagerLoginSuccess()[pri:0, instance:com.novabank.tests.LoginTest@709ba3fb]" started-at="2026-05-05T18:48:11 CEST" name="testManagerLoginSuccess" description="Manager Mia Johnson can log in successfully" finished-at="2026-05-05T18:48:11 CEST" duration-ms="499" status="PASS">
+        <test-method signature="testManagerLoginSuccess()[pri:0, instance:com.novabank.tests.LoginTest@4387b79e]" started-at="2026-05-05T18:59:54 CEST" name="testManagerLoginSuccess" description="Manager Mia Johnson can log in successfully" finished-at="2026-05-05T18:59:55 CEST" duration-ms="316" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testManagerLoginSuccess -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.novabank.tests.LoginTest@709ba3fb]" started-at="2026-05-05T18:48:11 CEST" name="afterMethod" finished-at="2026-05-05T18:48:12 CEST" duration-ms="384" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.novabank.tests.LoginTest@4387b79e]" started-at="2026-05-05T18:59:55 CEST" name="afterMethod" finished-at="2026-05-05T18:59:55 CEST" duration-ms="227" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testManagerLoginSuccess status=SUCCESS method=LoginTest.testManagerLoginSuccess()[pri:0, instance:com.novabank.tests.LoginTest@709ba3fb] output={null}]]]>
+                <![CDATA[[TestResult name=testManagerLoginSuccess status=SUCCESS method=LoginTest.testManagerLoginSuccess()[pri:0, instance:com.novabank.tests.LoginTest@4387b79e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="createContextAndPage(java.lang.reflect.Method)[pri:0, instance:com.novabank.tests.LoginTest@709ba3fb]" started-at="2026-05-05T18:48:12 CEST" name="createContextAndPage" finished-at="2026-05-05T18:48:12 CEST" duration-ms="35" status="PASS">
+        <test-method is-config="true" signature="createContextAndPage(java.lang.reflect.Method)[pri:0, instance:com.novabank.tests.LoginTest@4387b79e]" started-at="2026-05-05T18:59:55 CEST" name="createContextAndPage" finished-at="2026-05-05T18:59:55 CEST" duration-ms="123" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -184,26 +180,968 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createContextAndPage -->
-        <test-method signature="testUnauthenticatedUserRedirectedToLogin()[pri:0, instance:com.novabank.tests.LoginTest@709ba3fb]" started-at="2026-05-05T18:48:12 CEST" name="testUnauthenticatedUserRedirectedToLogin" description="Unauthenticated user is redirected to login page" finished-at="2026-05-05T18:48:12 CEST" duration-ms="221" status="PASS">
+        <test-method signature="testUnauthenticatedUserRedirectedToLogin()[pri:0, instance:com.novabank.tests.LoginTest@4387b79e]" started-at="2026-05-05T18:59:55 CEST" name="testUnauthenticatedUserRedirectedToLogin" description="Unauthenticated user is redirected to login page" finished-at="2026-05-05T18:59:55 CEST" duration-ms="242" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUnauthenticatedUserRedirectedToLogin -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.novabank.tests.LoginTest@709ba3fb]" started-at="2026-05-05T18:48:12 CEST" name="afterMethod" finished-at="2026-05-05T18:48:13 CEST" duration-ms="584" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.novabank.tests.LoginTest@4387b79e]" started-at="2026-05-05T18:59:55 CEST" name="afterMethod" finished-at="2026-05-05T18:59:56 CEST" duration-ms="409" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testUnauthenticatedUserRedirectedToLogin status=SUCCESS method=LoginTest.testUnauthenticatedUserRedirectedToLogin()[pri:0, instance:com.novabank.tests.LoginTest@709ba3fb] output={null}]]]>
+                <![CDATA[[TestResult name=testUnauthenticatedUserRedirectedToLogin status=SUCCESS method=LoginTest.testUnauthenticatedUserRedirectedToLogin()[pri:0, instance:com.novabank.tests.LoginTest@4387b79e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.novabank.tests.LoginTest@709ba3fb]" started-at="2026-05-05T18:48:13 CEST" name="closeBrowser" finished-at="2026-05-05T18:48:13 CEST" duration-ms="122" status="PASS">
+      </class> <!-- com.novabank.tests.LoginTest -->
+    </test> <!-- Login Tests -->
+    <test started-at="2026-05-05T18:59:56 CEST" name="Register Tests" finished-at="2026-05-05T18:59:58 CEST" duration-ms="2783">
+      <class name="com.novabank.tests.RegisterTest">
+        <test-method is-config="true" signature="createContextAndPage(java.lang.reflect.Method)[pri:0, instance:com.novabank.tests.RegisterTest@2f177a4b]" started-at="2026-05-05T18:59:56 CEST" name="createContextAndPage" finished-at="2026-05-05T18:59:56 CEST" duration-ms="115" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.novabank.tests.RegisterTest.testNewUserRegistrationSuccess()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method signature="testNewUserRegistrationSuccess()[pri:0, instance:com.novabank.tests.RegisterTest@2f177a4b]" started-at="2026-05-05T18:59:56 CEST" name="testNewUserRegistrationSuccess" description="New user can register successfully and is redirected to dashboard" finished-at="2026-05-05T18:59:56 CEST" duration-ms="370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNewUserRegistrationSuccess -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.novabank.tests.RegisterTest@2f177a4b]" started-at="2026-05-05T18:59:56 CEST" name="afterMethod" finished-at="2026-05-05T18:59:56 CEST" duration-ms="190" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testNewUserRegistrationSuccess status=SUCCESS method=RegisterTest.testNewUserRegistrationSuccess()[pri:0, instance:com.novabank.tests.RegisterTest@2f177a4b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="createContextAndPage(java.lang.reflect.Method)[pri:0, instance:com.novabank.tests.RegisterTest@2f177a4b]" started-at="2026-05-05T18:59:56 CEST" name="createContextAndPage" finished-at="2026-05-05T18:59:56 CEST" duration-ms="131" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.novabank.tests.RegisterTest.testRegisterPageHasLoginLink()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method signature="testRegisterPageHasLoginLink()[pri:0, instance:com.novabank.tests.RegisterTest@2f177a4b]" started-at="2026-05-05T18:59:56 CEST" name="testRegisterPageHasLoginLink" description="Register page has a link back to login" finished-at="2026-05-05T18:59:57 CEST" duration-ms="267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisterPageHasLoginLink -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.novabank.tests.RegisterTest@2f177a4b]" started-at="2026-05-05T18:59:57 CEST" name="afterMethod" finished-at="2026-05-05T18:59:57 CEST" duration-ms="260" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRegisterPageHasLoginLink status=SUCCESS method=RegisterTest.testRegisterPageHasLoginLink()[pri:0, instance:com.novabank.tests.RegisterTest@2f177a4b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="createContextAndPage(java.lang.reflect.Method)[pri:0, instance:com.novabank.tests.RegisterTest@2f177a4b]" started-at="2026-05-05T18:59:57 CEST" name="createContextAndPage" finished-at="2026-05-05T18:59:57 CEST" duration-ms="131" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.novabank.tests.RegisterTest.testRegisterPageIsAccessible()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method signature="testRegisterPageIsAccessible()[pri:0, instance:com.novabank.tests.RegisterTest@2f177a4b]" started-at="2026-05-05T18:59:57 CEST" name="testRegisterPageIsAccessible" description="Register page is accessible from login page" finished-at="2026-05-05T18:59:57 CEST" duration-ms="372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisterPageIsAccessible -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.novabank.tests.RegisterTest@2f177a4b]" started-at="2026-05-05T18:59:57 CEST" name="afterMethod" finished-at="2026-05-05T18:59:58 CEST" duration-ms="307" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRegisterPageIsAccessible status=SUCCESS method=RegisterTest.testRegisterPageIsAccessible()[pri:0, instance:com.novabank.tests.RegisterTest@2f177a4b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="createContextAndPage(java.lang.reflect.Method)[pri:0, instance:com.novabank.tests.RegisterTest@2f177a4b]" started-at="2026-05-05T18:59:58 CEST" name="createContextAndPage" finished-at="2026-05-05T18:59:58 CEST" duration-ms="138" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.novabank.tests.RegisterTest.testRegistrationFailsWithDuplicateEmail()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method signature="testRegistrationFailsWithDuplicateEmail()[pri:0, instance:com.novabank.tests.RegisterTest@2f177a4b]" started-at="2026-05-05T18:59:58 CEST" name="testRegistrationFailsWithDuplicateEmail" description="Registration fails with already-registered email" finished-at="2026-05-05T18:59:58 CEST" duration-ms="285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationFailsWithDuplicateEmail -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.novabank.tests.RegisterTest@2f177a4b]" started-at="2026-05-05T18:59:58 CEST" name="afterMethod" finished-at="2026-05-05T18:59:58 CEST" duration-ms="216" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRegistrationFailsWithDuplicateEmail status=SUCCESS method=RegisterTest.testRegistrationFailsWithDuplicateEmail()[pri:0, instance:com.novabank.tests.RegisterTest@2f177a4b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.novabank.tests.RegisterTest -->
+    </test> <!-- Register Tests -->
+    <test started-at="2026-05-05T18:59:58 CEST" name="Forgot Password Tests" finished-at="2026-05-05T19:00:02 CEST" duration-ms="3743">
+      <class name="com.novabank.tests.ForgotPasswordTest">
+        <test-method is-config="true" signature="createContextAndPage(java.lang.reflect.Method)[pri:0, instance:com.novabank.tests.ForgotPasswordTest@6ce139a4]" started-at="2026-05-05T18:59:58 CEST" name="createContextAndPage" finished-at="2026-05-05T18:59:59 CEST" duration-ms="130" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.novabank.tests.ForgotPasswordTest.testForgotPasswordPageHasLoginLink()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method signature="testForgotPasswordPageHasLoginLink()[pri:0, instance:com.novabank.tests.ForgotPasswordTest@6ce139a4]" started-at="2026-05-05T18:59:59 CEST" name="testForgotPasswordPageHasLoginLink" description="Forgot Password page has a link back to login" finished-at="2026-05-05T18:59:59 CEST" duration-ms="280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForgotPasswordPageHasLoginLink -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.novabank.tests.ForgotPasswordTest@6ce139a4]" started-at="2026-05-05T18:59:59 CEST" name="afterMethod" finished-at="2026-05-05T18:59:59 CEST" duration-ms="412" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testForgotPasswordPageHasLoginLink status=SUCCESS method=ForgotPasswordTest.testForgotPasswordPageHasLoginLink()[pri:0, instance:com.novabank.tests.ForgotPasswordTest@6ce139a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="createContextAndPage(java.lang.reflect.Method)[pri:0, instance:com.novabank.tests.ForgotPasswordTest@6ce139a4]" started-at="2026-05-05T18:59:59 CEST" name="createContextAndPage" finished-at="2026-05-05T18:59:59 CEST" duration-ms="127" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.novabank.tests.ForgotPasswordTest.testForgotPasswordPageIsAccessible()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method signature="testForgotPasswordPageIsAccessible()[pri:0, instance:com.novabank.tests.ForgotPasswordTest@6ce139a4]" started-at="2026-05-05T18:59:59 CEST" name="testForgotPasswordPageIsAccessible" description="Forgot Password page is accessible" finished-at="2026-05-05T19:00:00 CEST" duration-ms="234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForgotPasswordPageIsAccessible -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.novabank.tests.ForgotPasswordTest@6ce139a4]" started-at="2026-05-05T19:00:00 CEST" name="afterMethod" finished-at="2026-05-05T19:00:00 CEST" duration-ms="265" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testForgotPasswordPageIsAccessible status=SUCCESS method=ForgotPasswordTest.testForgotPasswordPageIsAccessible()[pri:0, instance:com.novabank.tests.ForgotPasswordTest@6ce139a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="createContextAndPage(java.lang.reflect.Method)[pri:0, instance:com.novabank.tests.ForgotPasswordTest@6ce139a4]" started-at="2026-05-05T19:00:00 CEST" name="createContextAndPage" finished-at="2026-05-05T19:00:00 CEST" duration-ms="107" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.novabank.tests.ForgotPasswordTest.testPasswordResetFailsForUnknownEmail()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method signature="testPasswordResetFailsForUnknownEmail()[pri:0, instance:com.novabank.tests.ForgotPasswordTest@6ce139a4]" started-at="2026-05-05T19:00:00 CEST" name="testPasswordResetFailsForUnknownEmail" description="Password reset fails for non-existent email" finished-at="2026-05-05T19:00:00 CEST" duration-ms="342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPasswordResetFailsForUnknownEmail -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.novabank.tests.ForgotPasswordTest@6ce139a4]" started-at="2026-05-05T19:00:00 CEST" name="afterMethod" finished-at="2026-05-05T19:00:01 CEST" duration-ms="290" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testPasswordResetFailsForUnknownEmail status=SUCCESS method=ForgotPasswordTest.testPasswordResetFailsForUnknownEmail()[pri:0, instance:com.novabank.tests.ForgotPasswordTest@6ce139a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="createContextAndPage(java.lang.reflect.Method)[pri:0, instance:com.novabank.tests.ForgotPasswordTest@6ce139a4]" started-at="2026-05-05T19:00:01 CEST" name="createContextAndPage" finished-at="2026-05-05T19:00:01 CEST" duration-ms="125" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.novabank.tests.ForgotPasswordTest.testPasswordResetSuccessForExistingUser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method signature="testPasswordResetSuccessForExistingUser()[pri:0, instance:com.novabank.tests.ForgotPasswordTest@6ce139a4]" started-at="2026-05-05T19:00:01 CEST" name="testPasswordResetSuccessForExistingUser" description="Password reset succeeds for existing user and shows success message" finished-at="2026-05-05T19:00:01 CEST" duration-ms="538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPasswordResetSuccessForExistingUser -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.novabank.tests.ForgotPasswordTest@6ce139a4]" started-at="2026-05-05T19:00:01 CEST" name="afterMethod" finished-at="2026-05-05T19:00:01 CEST" duration-ms="82" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testPasswordResetSuccessForExistingUser status=SUCCESS method=ForgotPasswordTest.testPasswordResetSuccessForExistingUser()[pri:0, instance:com.novabank.tests.ForgotPasswordTest@6ce139a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="createContextAndPage(java.lang.reflect.Method)[pri:0, instance:com.novabank.tests.ForgotPasswordTest@6ce139a4]" started-at="2026-05-05T19:00:01 CEST" name="createContextAndPage" finished-at="2026-05-05T19:00:02 CEST" duration-ms="129" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.novabank.tests.ForgotPasswordTest.testUserCanLoginAfterPasswordReset()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method signature="testUserCanLoginAfterPasswordReset()[pri:0, instance:com.novabank.tests.ForgotPasswordTest@6ce139a4]" started-at="2026-05-05T19:00:02 CEST" name="testUserCanLoginAfterPasswordReset" description="User can login with new password after reset" finished-at="2026-05-05T19:00:02 CEST" duration-ms="593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserCanLoginAfterPasswordReset -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.novabank.tests.ForgotPasswordTest@6ce139a4]" started-at="2026-05-05T19:00:02 CEST" name="afterMethod" finished-at="2026-05-05T19:00:02 CEST" duration-ms="87" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testUserCanLoginAfterPasswordReset status=SUCCESS method=ForgotPasswordTest.testUserCanLoginAfterPasswordReset()[pri:0, instance:com.novabank.tests.ForgotPasswordTest@6ce139a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.novabank.tests.ForgotPasswordTest -->
+    </test> <!-- Forgot Password Tests -->
+    <test started-at="2026-05-05T19:00:02 CEST" name="Dashboard Tests" finished-at="2026-05-05T19:00:07 CEST" duration-ms="4653">
+      <class name="com.novabank.tests.DashboardTest">
+        <test-method is-config="true" signature="createContextAndPage(java.lang.reflect.Method)[pri:0, instance:com.novabank.tests.DashboardTest@45b9a632]" started-at="2026-05-05T19:00:02 CEST" name="createContextAndPage" finished-at="2026-05-05T19:00:02 CEST" duration-ms="117" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.novabank.tests.DashboardTest.testCustomerDoesNotSeeUsersNavLink()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method signature="testCustomerDoesNotSeeUsersNavLink()[pri:0, instance:com.novabank.tests.DashboardTest@45b9a632]" started-at="2026-05-05T19:00:02 CEST" name="testCustomerDoesNotSeeUsersNavLink" description="Customer does not see Users nav link" finished-at="2026-05-05T19:00:03 CEST" duration-ms="453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCustomerDoesNotSeeUsersNavLink -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.novabank.tests.DashboardTest@45b9a632]" started-at="2026-05-05T19:00:03 CEST" name="afterMethod" finished-at="2026-05-05T19:00:03 CEST" duration-ms="163" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCustomerDoesNotSeeUsersNavLink status=SUCCESS method=DashboardTest.testCustomerDoesNotSeeUsersNavLink()[pri:0, instance:com.novabank.tests.DashboardTest@45b9a632] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="createContextAndPage(java.lang.reflect.Method)[pri:0, instance:com.novabank.tests.DashboardTest@45b9a632]" started-at="2026-05-05T19:00:03 CEST" name="createContextAndPage" finished-at="2026-05-05T19:00:03 CEST" duration-ms="131" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.novabank.tests.DashboardTest.testDashboardHeading()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method signature="testDashboardHeading()[pri:0, instance:com.novabank.tests.DashboardTest@45b9a632]" started-at="2026-05-05T19:00:03 CEST" name="testDashboardHeading" description="Dashboard shows correct heading" finished-at="2026-05-05T19:00:03 CEST" duration-ms="298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDashboardHeading -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.novabank.tests.DashboardTest@45b9a632]" started-at="2026-05-05T19:00:03 CEST" name="afterMethod" finished-at="2026-05-05T19:00:04 CEST" duration-ms="262" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDashboardHeading status=SUCCESS method=DashboardTest.testDashboardHeading()[pri:0, instance:com.novabank.tests.DashboardTest@45b9a632] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="createContextAndPage(java.lang.reflect.Method)[pri:0, instance:com.novabank.tests.DashboardTest@45b9a632]" started-at="2026-05-05T19:00:04 CEST" name="createContextAndPage" finished-at="2026-05-05T19:00:04 CEST" duration-ms="116" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.novabank.tests.DashboardTest.testDashboardShowsCustomerName()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method signature="testDashboardShowsCustomerName()[pri:0, instance:com.novabank.tests.DashboardTest@45b9a632]" started-at="2026-05-05T19:00:04 CEST" name="testDashboardShowsCustomerName" description="Dashboard displays logged-in customer&#039;s name and role" finished-at="2026-05-05T19:00:04 CEST" duration-ms="371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDashboardShowsCustomerName -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.novabank.tests.DashboardTest@45b9a632]" started-at="2026-05-05T19:00:04 CEST" name="afterMethod" finished-at="2026-05-05T19:00:04 CEST" duration-ms="263" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDashboardShowsCustomerName status=SUCCESS method=DashboardTest.testDashboardShowsCustomerName()[pri:0, instance:com.novabank.tests.DashboardTest@45b9a632] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="createContextAndPage(java.lang.reflect.Method)[pri:0, instance:com.novabank.tests.DashboardTest@45b9a632]" started-at="2026-05-05T19:00:04 CEST" name="createContextAndPage" finished-at="2026-05-05T19:00:04 CEST" duration-ms="116" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.novabank.tests.DashboardTest.testDashboardShowsManagerName()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method signature="testDashboardShowsManagerName()[pri:0, instance:com.novabank.tests.DashboardTest@45b9a632]" started-at="2026-05-05T19:00:04 CEST" name="testDashboardShowsManagerName" description="Dashboard displays manager&#039;s name and role" finished-at="2026-05-05T19:00:05 CEST" duration-ms="278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDashboardShowsManagerName -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.novabank.tests.DashboardTest@45b9a632]" started-at="2026-05-05T19:00:05 CEST" name="afterMethod" finished-at="2026-05-05T19:00:05 CEST" duration-ms="171" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDashboardShowsManagerName status=SUCCESS method=DashboardTest.testDashboardShowsManagerName()[pri:0, instance:com.novabank.tests.DashboardTest@45b9a632] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="createContextAndPage(java.lang.reflect.Method)[pri:0, instance:com.novabank.tests.DashboardTest@45b9a632]" started-at="2026-05-05T19:00:05 CEST" name="createContextAndPage" finished-at="2026-05-05T19:00:05 CEST" duration-ms="123" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.novabank.tests.DashboardTest.testDashboardShowsStatCards()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method signature="testDashboardShowsStatCards()[pri:0, instance:com.novabank.tests.DashboardTest@45b9a632]" started-at="2026-05-05T19:00:05 CEST" name="testDashboardShowsStatCards" description="Dashboard displays 4 stat cards after login" finished-at="2026-05-05T19:00:05 CEST" duration-ms="418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDashboardShowsStatCards -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.novabank.tests.DashboardTest@45b9a632]" started-at="2026-05-05T19:00:05 CEST" name="afterMethod" finished-at="2026-05-05T19:00:06 CEST" duration-ms="227" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDashboardShowsStatCards status=SUCCESS method=DashboardTest.testDashboardShowsStatCards()[pri:0, instance:com.novabank.tests.DashboardTest@45b9a632] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="createContextAndPage(java.lang.reflect.Method)[pri:0, instance:com.novabank.tests.DashboardTest@45b9a632]" started-at="2026-05-05T19:00:06 CEST" name="createContextAndPage" finished-at="2026-05-05T19:00:06 CEST" duration-ms="116" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.novabank.tests.DashboardTest.testLogoutRedirectsToLogin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method signature="testLogoutRedirectsToLogin()[pri:0, instance:com.novabank.tests.DashboardTest@45b9a632]" started-at="2026-05-05T19:00:06 CEST" name="testLogoutRedirectsToLogin" description="Logout button logs user out and redirects to login" finished-at="2026-05-05T19:00:06 CEST" duration-ms="310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogoutRedirectsToLogin -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.novabank.tests.DashboardTest@45b9a632]" started-at="2026-05-05T19:00:06 CEST" name="afterMethod" finished-at="2026-05-05T19:00:06 CEST" duration-ms="148" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogoutRedirectsToLogin status=SUCCESS method=DashboardTest.testLogoutRedirectsToLogin()[pri:0, instance:com.novabank.tests.DashboardTest@45b9a632] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="createContextAndPage(java.lang.reflect.Method)[pri:0, instance:com.novabank.tests.DashboardTest@45b9a632]" started-at="2026-05-05T19:00:06 CEST" name="createContextAndPage" finished-at="2026-05-05T19:00:06 CEST" duration-ms="123" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.novabank.tests.DashboardTest.testManagerSeesUsersNavLink()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method signature="testManagerSeesUsersNavLink()[pri:0, instance:com.novabank.tests.DashboardTest@45b9a632]" started-at="2026-05-05T19:00:06 CEST" name="testManagerSeesUsersNavLink" description="Manager sees Users nav link; customer does not" finished-at="2026-05-05T19:00:07 CEST" duration-ms="264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testManagerSeesUsersNavLink -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.novabank.tests.DashboardTest@45b9a632]" started-at="2026-05-05T19:00:07 CEST" name="afterMethod" finished-at="2026-05-05T19:00:07 CEST" duration-ms="182" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testManagerSeesUsersNavLink status=SUCCESS method=DashboardTest.testManagerSeesUsersNavLink()[pri:0, instance:com.novabank.tests.DashboardTest@45b9a632] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.novabank.tests.DashboardTest -->
+    </test> <!-- Dashboard Tests -->
+    <test started-at="2026-05-05T19:00:07 CEST" name="Users Tests" finished-at="2026-05-05T19:00:11 CEST" duration-ms="4454">
+      <class name="com.novabank.tests.UsersTest">
+        <test-method is-config="true" signature="createContextAndPage(java.lang.reflect.Method)[pri:0, instance:com.novabank.tests.UsersTest@2f112965]" started-at="2026-05-05T19:00:07 CEST" name="createContextAndPage" finished-at="2026-05-05T19:00:07 CEST" duration-ms="126" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.novabank.tests.UsersTest.testCustomerIsRedirectedFromUsersPage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method signature="testCustomerIsRedirectedFromUsersPage()[pri:0, instance:com.novabank.tests.UsersTest@2f112965]" started-at="2026-05-05T19:00:07 CEST" name="testCustomerIsRedirectedFromUsersPage" description="Customer is redirected to /unauthorized when accessing Users page" finished-at="2026-05-05T19:00:07 CEST" duration-ms="324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCustomerIsRedirectedFromUsersPage -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.novabank.tests.UsersTest@2f112965]" started-at="2026-05-05T19:00:07 CEST" name="afterMethod" finished-at="2026-05-05T19:00:08 CEST" duration-ms="203" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCustomerIsRedirectedFromUsersPage status=SUCCESS method=UsersTest.testCustomerIsRedirectedFromUsersPage()[pri:0, instance:com.novabank.tests.UsersTest@2f112965] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="createContextAndPage(java.lang.reflect.Method)[pri:0, instance:com.novabank.tests.UsersTest@2f112965]" started-at="2026-05-05T19:00:08 CEST" name="createContextAndPage" finished-at="2026-05-05T19:00:08 CEST" duration-ms="124" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.novabank.tests.UsersTest.testManagerCanAccessUsersPage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method signature="testManagerCanAccessUsersPage()[pri:0, instance:com.novabank.tests.UsersTest@2f112965]" started-at="2026-05-05T19:00:08 CEST" name="testManagerCanAccessUsersPage" description="Manager can access the Users page" finished-at="2026-05-05T19:00:08 CEST" duration-ms="393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testManagerCanAccessUsersPage -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.novabank.tests.UsersTest@2f112965]" started-at="2026-05-05T19:00:08 CEST" name="afterMethod" finished-at="2026-05-05T19:00:08 CEST" duration-ms="205" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testManagerCanAccessUsersPage status=SUCCESS method=UsersTest.testManagerCanAccessUsersPage()[pri:0, instance:com.novabank.tests.UsersTest@2f112965] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="createContextAndPage(java.lang.reflect.Method)[pri:0, instance:com.novabank.tests.UsersTest@2f112965]" started-at="2026-05-05T19:00:08 CEST" name="createContextAndPage" finished-at="2026-05-05T19:00:08 CEST" duration-ms="135" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.novabank.tests.UsersTest.testUnauthorizedPageContent()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method signature="testUnauthorizedPageContent()[pri:0, instance:com.novabank.tests.UsersTest@2f112965]" started-at="2026-05-05T19:00:08 CEST" name="testUnauthorizedPageContent" description="Unauthorized page shows proper message for customer" finished-at="2026-05-05T19:00:09 CEST" duration-ms="307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUnauthorizedPageContent -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.novabank.tests.UsersTest@2f112965]" started-at="2026-05-05T19:00:09 CEST" name="afterMethod" finished-at="2026-05-05T19:00:09 CEST" duration-ms="161" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testUnauthorizedPageContent status=SUCCESS method=UsersTest.testUnauthorizedPageContent()[pri:0, instance:com.novabank.tests.UsersTest@2f112965] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="createContextAndPage(java.lang.reflect.Method)[pri:0, instance:com.novabank.tests.UsersTest@2f112965]" started-at="2026-05-05T19:00:09 CEST" name="createContextAndPage" finished-at="2026-05-05T19:00:09 CEST" duration-ms="131" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.novabank.tests.UsersTest.testUsersPageDisplaysSeededUserNames()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method signature="testUsersPageDisplaysSeededUserNames()[pri:0, instance:com.novabank.tests.UsersTest@2f112965]" started-at="2026-05-05T19:00:09 CEST" name="testUsersPageDisplaysSeededUserNames" description="Users page displays correct seeded user names" finished-at="2026-05-05T19:00:09 CEST" duration-ms="508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUsersPageDisplaysSeededUserNames -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.novabank.tests.UsersTest@2f112965]" started-at="2026-05-05T19:00:09 CEST" name="afterMethod" finished-at="2026-05-05T19:00:10 CEST" duration-ms="230" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testUsersPageDisplaysSeededUserNames status=SUCCESS method=UsersTest.testUsersPageDisplaysSeededUserNames()[pri:0, instance:com.novabank.tests.UsersTest@2f112965] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="createContextAndPage(java.lang.reflect.Method)[pri:0, instance:com.novabank.tests.UsersTest@2f112965]" started-at="2026-05-05T19:00:10 CEST" name="createContextAndPage" finished-at="2026-05-05T19:00:10 CEST" duration-ms="114" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.novabank.tests.UsersTest.testUsersPageShowsSeededUsers()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method signature="testUsersPageShowsSeededUsers()[pri:0, instance:com.novabank.tests.UsersTest@2f112965]" started-at="2026-05-05T19:00:10 CEST" name="testUsersPageShowsSeededUsers" description="Users page shows 3 seeded users for manager" finished-at="2026-05-05T19:00:10 CEST" duration-ms="320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUsersPageShowsSeededUsers -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.novabank.tests.UsersTest@2f112965]" started-at="2026-05-05T19:00:10 CEST" name="afterMethod" finished-at="2026-05-05T19:00:10 CEST" duration-ms="140" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testUsersPageShowsSeededUsers status=SUCCESS method=UsersTest.testUsersPageShowsSeededUsers()[pri:0, instance:com.novabank.tests.UsersTest@2f112965] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="createContextAndPage(java.lang.reflect.Method)[pri:0, instance:com.novabank.tests.UsersTest@2f112965]" started-at="2026-05-05T19:00:10 CEST" name="createContextAndPage" finished-at="2026-05-05T19:00:10 CEST" duration-ms="113" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.novabank.tests.UsersTest.testUsersPageSubtitle()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method signature="testUsersPageSubtitle()[pri:0, instance:com.novabank.tests.UsersTest@2f112965]" started-at="2026-05-05T19:00:10 CEST" name="testUsersPageSubtitle" description="Users page subtitle mentions seeded users" finished-at="2026-05-05T19:00:11 CEST" duration-ms="465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUsersPageSubtitle -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.novabank.tests.UsersTest@2f112965]" started-at="2026-05-05T19:00:11 CEST" name="afterMethod" finished-at="2026-05-05T19:00:11 CEST" duration-ms="453" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testUsersPageSubtitle status=SUCCESS method=UsersTest.testUsersPageSubtitle()[pri:0, instance:com.novabank.tests.UsersTest@2f112965] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.novabank.tests.UsersTest -->
+    </test> <!-- Users Tests -->
+    <test started-at="2026-05-05T19:00:11 CEST" name="Accounts Tests" finished-at="2026-05-05T19:00:14 CEST" duration-ms="2744">
+      <class name="com.novabank.tests.AccountsTest">
+        <test-method is-config="true" signature="createContextAndPage(java.lang.reflect.Method)[pri:0, instance:com.novabank.tests.AccountsTest@12b0404f]" started-at="2026-05-05T19:00:11 CEST" name="createContextAndPage" finished-at="2026-05-05T19:00:11 CEST" duration-ms="115" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.novabank.tests.AccountsTest.testAccountsPageHeading()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method signature="testAccountsPageHeading()[pri:0, instance:com.novabank.tests.AccountsTest@12b0404f]" started-at="2026-05-05T19:00:11 CEST" name="testAccountsPageHeading" description="Accounts page heading is correct" finished-at="2026-05-05T19:00:12 CEST" duration-ms="293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAccountsPageHeading -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.novabank.tests.AccountsTest@12b0404f]" started-at="2026-05-05T19:00:12 CEST" name="afterMethod" finished-at="2026-05-05T19:00:12 CEST" duration-ms="166" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAccountsPageHeading status=SUCCESS method=AccountsTest.testAccountsPageHeading()[pri:0, instance:com.novabank.tests.AccountsTest@12b0404f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="createContextAndPage(java.lang.reflect.Method)[pri:0, instance:com.novabank.tests.AccountsTest@12b0404f]" started-at="2026-05-05T19:00:12 CEST" name="createContextAndPage" finished-at="2026-05-05T19:00:12 CEST" duration-ms="123" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.novabank.tests.AccountsTest.testAccountsPageIsAccessible()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method signature="testAccountsPageIsAccessible()[pri:0, instance:com.novabank.tests.AccountsTest@12b0404f]" started-at="2026-05-05T19:00:12 CEST" name="testAccountsPageIsAccessible" description="Accounts page is accessible after login" finished-at="2026-05-05T19:00:12 CEST" duration-ms="296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAccountsPageIsAccessible -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.novabank.tests.AccountsTest@12b0404f]" started-at="2026-05-05T19:00:12 CEST" name="afterMethod" finished-at="2026-05-05T19:00:12 CEST" duration-ms="129" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAccountsPageIsAccessible status=SUCCESS method=AccountsTest.testAccountsPageIsAccessible()[pri:0, instance:com.novabank.tests.AccountsTest@12b0404f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="createContextAndPage(java.lang.reflect.Method)[pri:0, instance:com.novabank.tests.AccountsTest@12b0404f]" started-at="2026-05-05T19:00:12 CEST" name="createContextAndPage" finished-at="2026-05-05T19:00:13 CEST" duration-ms="117" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.novabank.tests.AccountsTest.testAccountsPageShowsSeededAccounts()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method signature="testAccountsPageShowsSeededAccounts()[pri:0, instance:com.novabank.tests.AccountsTest@12b0404f]" started-at="2026-05-05T19:00:13 CEST" name="testAccountsPageShowsSeededAccounts" description="Accounts page displays the seeded accounts" finished-at="2026-05-05T19:00:13 CEST" duration-ms="308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAccountsPageShowsSeededAccounts -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.novabank.tests.AccountsTest@12b0404f]" started-at="2026-05-05T19:00:13 CEST" name="afterMethod" finished-at="2026-05-05T19:00:13 CEST" duration-ms="255" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAccountsPageShowsSeededAccounts status=SUCCESS method=AccountsTest.testAccountsPageShowsSeededAccounts()[pri:0, instance:com.novabank.tests.AccountsTest@12b0404f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="createContextAndPage(java.lang.reflect.Method)[pri:0, instance:com.novabank.tests.AccountsTest@12b0404f]" started-at="2026-05-05T19:00:13 CEST" name="createContextAndPage" finished-at="2026-05-05T19:00:13 CEST" duration-ms="128" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.novabank.tests.AccountsTest.testUnauthenticatedAccountsAccessRedirects()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method signature="testUnauthenticatedAccountsAccessRedirects()[pri:0, instance:com.novabank.tests.AccountsTest@12b0404f]" started-at="2026-05-05T19:00:13 CEST" name="testUnauthenticatedAccountsAccessRedirects" description="Unauthenticated access to accounts page redirects to login" finished-at="2026-05-05T19:00:14 CEST" duration-ms="573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUnauthenticatedAccountsAccessRedirects -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.novabank.tests.AccountsTest@12b0404f]" started-at="2026-05-05T19:00:14 CEST" name="afterMethod" finished-at="2026-05-05T19:00:14 CEST" duration-ms="239" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testUnauthenticatedAccountsAccessRedirects status=SUCCESS method=AccountsTest.testUnauthenticatedAccountsAccessRedirects()[pri:0, instance:com.novabank.tests.AccountsTest@12b0404f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.novabank.tests.AccountsTest -->
+    </test> <!-- Accounts Tests -->
+    <test started-at="2026-05-05T19:00:14 CEST" name="Transactions Tests" finished-at="2026-05-05T19:00:18 CEST" duration-ms="3897">
+      <class name="com.novabank.tests.TransactionsTest">
+        <test-method is-config="true" signature="createContextAndPage(java.lang.reflect.Method)[pri:0, instance:com.novabank.tests.TransactionsTest@1ffe63b9]" started-at="2026-05-05T19:00:14 CEST" name="createContextAndPage" finished-at="2026-05-05T19:00:14 CEST" duration-ms="127" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.novabank.tests.TransactionsTest.testManagerCanAccessTransactions()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method signature="testManagerCanAccessTransactions()[pri:0, instance:com.novabank.tests.TransactionsTest@1ffe63b9]" started-at="2026-05-05T19:00:14 CEST" name="testManagerCanAccessTransactions" description="Manager can access transactions page" finished-at="2026-05-05T19:00:15 CEST" duration-ms="324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testManagerCanAccessTransactions -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.novabank.tests.TransactionsTest@1ffe63b9]" started-at="2026-05-05T19:00:15 CEST" name="afterMethod" finished-at="2026-05-05T19:00:15 CEST" duration-ms="176" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testManagerCanAccessTransactions status=SUCCESS method=TransactionsTest.testManagerCanAccessTransactions()[pri:0, instance:com.novabank.tests.TransactionsTest@1ffe63b9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="createContextAndPage(java.lang.reflect.Method)[pri:0, instance:com.novabank.tests.TransactionsTest@1ffe63b9]" started-at="2026-05-05T19:00:15 CEST" name="createContextAndPage" finished-at="2026-05-05T19:00:15 CEST" duration-ms="140" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.novabank.tests.TransactionsTest.testTransactionsFormElementsPresent()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method signature="testTransactionsFormElementsPresent()[pri:0, instance:com.novabank.tests.TransactionsTest@1ffe63b9]" started-at="2026-05-05T19:00:15 CEST" name="testTransactionsFormElementsPresent" description="Transactions page has account select, kind select, and submit button" finished-at="2026-05-05T19:00:16 CEST" duration-ms="785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTransactionsFormElementsPresent -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.novabank.tests.TransactionsTest@1ffe63b9]" started-at="2026-05-05T19:00:16 CEST" name="afterMethod" finished-at="2026-05-05T19:00:16 CEST" duration-ms="137" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testTransactionsFormElementsPresent status=SUCCESS method=TransactionsTest.testTransactionsFormElementsPresent()[pri:0, instance:com.novabank.tests.TransactionsTest@1ffe63b9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="createContextAndPage(java.lang.reflect.Method)[pri:0, instance:com.novabank.tests.TransactionsTest@1ffe63b9]" started-at="2026-05-05T19:00:16 CEST" name="createContextAndPage" finished-at="2026-05-05T19:00:16 CEST" duration-ms="120" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.novabank.tests.TransactionsTest.testTransactionsPageHeading()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method signature="testTransactionsPageHeading()[pri:0, instance:com.novabank.tests.TransactionsTest@1ffe63b9]" started-at="2026-05-05T19:00:16 CEST" name="testTransactionsPageHeading" description="Transactions page shows correct heading" finished-at="2026-05-05T19:00:16 CEST" duration-ms="306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTransactionsPageHeading -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.novabank.tests.TransactionsTest@1ffe63b9]" started-at="2026-05-05T19:00:16 CEST" name="afterMethod" finished-at="2026-05-05T19:00:16 CEST" duration-ms="178" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testTransactionsPageHeading status=SUCCESS method=TransactionsTest.testTransactionsPageHeading()[pri:0, instance:com.novabank.tests.TransactionsTest@1ffe63b9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="createContextAndPage(java.lang.reflect.Method)[pri:0, instance:com.novabank.tests.TransactionsTest@1ffe63b9]" started-at="2026-05-05T19:00:16 CEST" name="createContextAndPage" finished-at="2026-05-05T19:00:16 CEST" duration-ms="122" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.novabank.tests.TransactionsTest.testTransactionsPageIsAccessible()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method signature="testTransactionsPageIsAccessible()[pri:0, instance:com.novabank.tests.TransactionsTest@1ffe63b9]" started-at="2026-05-05T19:00:16 CEST" name="testTransactionsPageIsAccessible" description="Transactions page is accessible after login" finished-at="2026-05-05T19:00:17 CEST" duration-ms="328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTransactionsPageIsAccessible -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.novabank.tests.TransactionsTest@1ffe63b9]" started-at="2026-05-05T19:00:17 CEST" name="afterMethod" finished-at="2026-05-05T19:00:17 CEST" duration-ms="157" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testTransactionsPageIsAccessible status=SUCCESS method=TransactionsTest.testTransactionsPageIsAccessible()[pri:0, instance:com.novabank.tests.TransactionsTest@1ffe63b9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="createContextAndPage(java.lang.reflect.Method)[pri:0, instance:com.novabank.tests.TransactionsTest@1ffe63b9]" started-at="2026-05-05T19:00:17 CEST" name="createContextAndPage" finished-at="2026-05-05T19:00:17 CEST" duration-ms="131" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.novabank.tests.TransactionsTest.testUnauthenticatedTransactionsAccessRedirects()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method signature="testUnauthenticatedTransactionsAccessRedirects()[pri:0, instance:com.novabank.tests.TransactionsTest@1ffe63b9]" started-at="2026-05-05T19:00:17 CEST" name="testUnauthenticatedTransactionsAccessRedirects" description="Unauthenticated access to transactions redirects to login" finished-at="2026-05-05T19:00:18 CEST" duration-ms="577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUnauthenticatedTransactionsAccessRedirects -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.novabank.tests.TransactionsTest@1ffe63b9]" started-at="2026-05-05T19:00:18 CEST" name="afterMethod" finished-at="2026-05-05T19:00:18 CEST" duration-ms="285" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testUnauthenticatedTransactionsAccessRedirects status=SUCCESS method=TransactionsTest.testUnauthenticatedTransactionsAccessRedirects()[pri:0, instance:com.novabank.tests.TransactionsTest@1ffe63b9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.novabank.tests.TransactionsTest -->
+    </test> <!-- Transactions Tests -->
+    <test started-at="2026-05-05T19:00:18 CEST" name="Transfers Tests" finished-at="2026-05-05T19:00:21 CEST" duration-ms="2677">
+      <class name="com.novabank.tests.TransfersTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.novabank.tests.TransfersTest@5e316c74]" started-at="2026-05-05T18:59:48 CEST" name="launchBrowser" finished-at="2026-05-05T18:59:50 CEST" duration-ms="1415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="createContextAndPage(java.lang.reflect.Method)[pri:0, instance:com.novabank.tests.TransfersTest@5e316c74]" started-at="2026-05-05T19:00:18 CEST" name="createContextAndPage" finished-at="2026-05-05T19:00:18 CEST" duration-ms="110" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.novabank.tests.TransfersTest.testTransfersFormElementsPresent()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method signature="testTransfersFormElementsPresent()[pri:0, instance:com.novabank.tests.TransfersTest@5e316c74]" started-at="2026-05-05T19:00:18 CEST" name="testTransfersFormElementsPresent" description="Transfers form has from/to account selects and submit button" finished-at="2026-05-05T19:00:18 CEST" duration-ms="307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTransfersFormElementsPresent -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.novabank.tests.TransfersTest@5e316c74]" started-at="2026-05-05T19:00:18 CEST" name="afterMethod" finished-at="2026-05-05T19:00:19 CEST" duration-ms="152" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testTransfersFormElementsPresent status=SUCCESS method=TransfersTest.testTransfersFormElementsPresent()[pri:0, instance:com.novabank.tests.TransfersTest@5e316c74] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="createContextAndPage(java.lang.reflect.Method)[pri:0, instance:com.novabank.tests.TransfersTest@5e316c74]" started-at="2026-05-05T19:00:19 CEST" name="createContextAndPage" finished-at="2026-05-05T19:00:19 CEST" duration-ms="122" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.novabank.tests.TransfersTest.testTransfersPageHeading()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method signature="testTransfersPageHeading()[pri:0, instance:com.novabank.tests.TransfersTest@5e316c74]" started-at="2026-05-05T19:00:19 CEST" name="testTransfersPageHeading" description="Transfers page shows correct heading" finished-at="2026-05-05T19:00:19 CEST" duration-ms="624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTransfersPageHeading -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.novabank.tests.TransfersTest@5e316c74]" started-at="2026-05-05T19:00:19 CEST" name="afterMethod" finished-at="2026-05-05T19:00:19 CEST" duration-ms="188" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testTransfersPageHeading status=SUCCESS method=TransfersTest.testTransfersPageHeading()[pri:0, instance:com.novabank.tests.TransfersTest@5e316c74] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="createContextAndPage(java.lang.reflect.Method)[pri:0, instance:com.novabank.tests.TransfersTest@5e316c74]" started-at="2026-05-05T19:00:19 CEST" name="createContextAndPage" finished-at="2026-05-05T19:00:20 CEST" duration-ms="129" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.novabank.tests.TransfersTest.testTransfersPageIsAccessible()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method signature="testTransfersPageIsAccessible()[pri:0, instance:com.novabank.tests.TransfersTest@5e316c74]" started-at="2026-05-05T19:00:20 CEST" name="testTransfersPageIsAccessible" description="Transfers page is accessible after login" finished-at="2026-05-05T19:00:20 CEST" duration-ms="336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTransfersPageIsAccessible -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.novabank.tests.TransfersTest@5e316c74]" started-at="2026-05-05T19:00:20 CEST" name="afterMethod" finished-at="2026-05-05T19:00:20 CEST" duration-ms="122" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testTransfersPageIsAccessible status=SUCCESS method=TransfersTest.testTransfersPageIsAccessible()[pri:0, instance:com.novabank.tests.TransfersTest@5e316c74] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="createContextAndPage(java.lang.reflect.Method)[pri:0, instance:com.novabank.tests.TransfersTest@5e316c74]" started-at="2026-05-05T19:00:20 CEST" name="createContextAndPage" finished-at="2026-05-05T19:00:20 CEST" duration-ms="111" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.novabank.tests.TransfersTest.testUnauthenticatedTransfersAccessRedirects()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method signature="testUnauthenticatedTransfersAccessRedirects()[pri:0, instance:com.novabank.tests.TransfersTest@5e316c74]" started-at="2026-05-05T19:00:20 CEST" name="testUnauthenticatedTransfersAccessRedirects" description="Unauthenticated access to transfers redirects to login" finished-at="2026-05-05T19:00:20 CEST" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUnauthenticatedTransfersAccessRedirects -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.novabank.tests.TransfersTest@5e316c74]" started-at="2026-05-05T19:00:20 CEST" name="afterMethod" finished-at="2026-05-05T19:00:21 CEST" duration-ms="281" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testUnauthenticatedTransfersAccessRedirects status=SUCCESS method=TransfersTest.testUnauthenticatedTransfersAccessRedirects()[pri:0, instance:com.novabank.tests.TransfersTest@5e316c74] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.novabank.tests.TransfersTest@5e316c74]" started-at="2026-05-05T19:00:21 CEST" name="closeBrowser" finished-at="2026-05-05T19:00:21 CEST" duration-ms="200" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- com.novabank.tests.LoginTest -->
-    </test> <!-- Surefire test -->
-  </suite> <!-- Surefire suite -->
+      </class> <!-- com.novabank.tests.TransfersTest -->
+    </test> <!-- Transfers Tests -->
+  </suite> <!-- NovaBank Banking Application Test Suite -->
 </testng-results>

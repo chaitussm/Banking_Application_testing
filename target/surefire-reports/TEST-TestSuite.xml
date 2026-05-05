@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="1.864" tests="126" errors="0" skipped="118" failures="8">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="32.659" tests="42" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="25"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/Users/chanukyasds/Desktop/Study/Banking_Application_testing/target/test-classes:/Users/chanukyasds/Desktop/Study/Banking_Application_testing/target/classes:/Users/chanukyasds/.m2/repository/com/microsoft/playwright/playwright/1.44.0/playwright-1.44.0.jar:/Users/chanukyasds/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/chanukyasds/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/chanukyasds/.m2/repository/com/microsoft/playwright/driver/1.44.0/driver-1.44.0.jar:/Users/chanukyasds/.m2/repository/com/microsoft/playwright/driver-bundle/1.44.0/driver-bundle-1.44.0.jar:/Users/chanukyasds/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar:/Users/chanukyasds/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/chanukyasds/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/chanukyasds/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/chanukyasds/.m2/repository/org/slf4j/slf4j-simple/2.0.13/slf4j-simple-2.0.13.jar:"/>
+    <property name="java.class.path" value="/Users/chanukyasds/Desktop/Study/Banking_Application_testing/target/test-classes:/Users/chanukyasds/Desktop/Study/Banking_Application_testing/target/classes:/Users/chanukyasds/.m2/repository/com/microsoft/playwright/playwright/1.44.0/playwright-1.44.0.jar:/Users/chanukyasds/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/chanukyasds/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/chanukyasds/.m2/repository/com/microsoft/playwright/driver/1.44.0/driver-1.44.0.jar:/Users/chanukyasds/.m2/repository/com/microsoft/playwright/driver-bundle/1.44.0/driver-bundle-1.44.0.jar:/Users/chanukyasds/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar:/Users/chanukyasds/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/chanukyasds/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/chanukyasds/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/chanukyasds/.m2/repository/org/slf4j/slf4j-simple/2.0.13/slf4j-simple-2.0.13.jar:/Users/chanukyasds/.m2/repository/com/aventstack/extentreports/5.1.2/extentreports-5.1.2.jar:/Users/chanukyasds/.m2/repository/io/reactivex/rxjava3/rxjava/3.1.6/rxjava-3.1.6.jar:/Users/chanukyasds/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/chanukyasds/.m2/repository/org/freemarker/freemarker/2.3.32/freemarker-2.3.32.jar:/Users/chanukyasds/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar:"/>
     <property name="java.vm.vendor" value="Homebrew"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
@@ -13,10 +13,10 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/25.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/chanukyasds/Desktop/Study/Banking_Application_testing/target/surefire/surefirebooter-20260505175913278_3.jar /Users/chanukyasds/Desktop/Study/Banking_Application_testing/target/surefire 2026-05-05T17-59-13_250-jvmRun1 surefire-20260505175913278_1tmp surefire_0-20260505175913278_2tmp"/>
+    <property name="sun.java.command" value="/Users/chanukyasds/Desktop/Study/Banking_Application_testing/target/surefire/surefirebooter-20260505185948654_3.jar /Users/chanukyasds/Desktop/Study/Banking_Application_testing/target/surefire 2026-05-05T18-59-48_626-jvmRun1 surefire-20260505185948654_1tmp surefire_0-20260505185948654_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/Users/chanukyasds/Desktop/Study/Banking_Application_testing/target/test-classes:/Users/chanukyasds/Desktop/Study/Banking_Application_testing/target/classes:/Users/chanukyasds/.m2/repository/com/microsoft/playwright/playwright/1.44.0/playwright-1.44.0.jar:/Users/chanukyasds/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/chanukyasds/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/chanukyasds/.m2/repository/com/microsoft/playwright/driver/1.44.0/driver-1.44.0.jar:/Users/chanukyasds/.m2/repository/com/microsoft/playwright/driver-bundle/1.44.0/driver-bundle-1.44.0.jar:/Users/chanukyasds/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar:/Users/chanukyasds/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/chanukyasds/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/chanukyasds/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/chanukyasds/.m2/repository/org/slf4j/slf4j-simple/2.0.13/slf4j-simple-2.0.13.jar:"/>
+    <property name="surefire.test.class.path" value="/Users/chanukyasds/Desktop/Study/Banking_Application_testing/target/test-classes:/Users/chanukyasds/Desktop/Study/Banking_Application_testing/target/classes:/Users/chanukyasds/.m2/repository/com/microsoft/playwright/playwright/1.44.0/playwright-1.44.0.jar:/Users/chanukyasds/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/chanukyasds/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/chanukyasds/.m2/repository/com/microsoft/playwright/driver/1.44.0/driver-1.44.0.jar:/Users/chanukyasds/.m2/repository/com/microsoft/playwright/driver-bundle/1.44.0/driver-bundle-1.44.0.jar:/Users/chanukyasds/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar:/Users/chanukyasds/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/chanukyasds/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/chanukyasds/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/chanukyasds/.m2/repository/org/slf4j/slf4j-simple/2.0.13/slf4j-simple-2.0.13.jar:/Users/chanukyasds/.m2/repository/com/aventstack/extentreports/5.1.2/extentreports-5.1.2.jar:/Users/chanukyasds/.m2/repository/io/reactivex/rxjava3/rxjava/3.1.6/rxjava-3.1.6.jar:/Users/chanukyasds/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/chanukyasds/.m2/repository/org/freemarker/freemarker/2.3.32/freemarker-2.3.32.jar:/Users/chanukyasds/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/chanukyasds"/>
     <property name="user.language" value="en"/>
@@ -25,12 +25,12 @@
     <property name="java.home" value="/opt/homebrew/Cellar/openjdk/25.0.2/libexec/openjdk.jdk/Contents/Home"/>
     <property name="file.separator" value="/"/>
     <property name="basedir" value="/Users/chanukyasds/Desktop/Study/Banking_Application_testing"/>
-    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.vm.compressedOopsMode" value="Non-zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/chanukyasds/Desktop/Study/Banking_Application_testing/target/surefire/surefirebooter-20260505175913278_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/chanukyasds/Desktop/Study/Banking_Application_testing/target/surefire/surefirebooter-20260505185948654_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="25.0.2"/>
@@ -60,693 +60,54 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="69.0"/>
   </properties>
-  <testcase name="createContextAndPage" classname="com.novabank.tests.LoginTest" time="1.753">
-    <failure message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead." type="java.lang.IllegalStateException"><![CDATA[java.lang.IllegalStateException: UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead.
-	at com.novabank.base.BaseTest.handleUnavailableApp(BaseTest.java:99)
-	at com.novabank.base.BaseTest.ensureApplicationIsReachable(BaseTest.java:89)
-	at com.novabank.base.BaseTest.createContextAndPage(BaseTest.java:57)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></failure>
-    <system-out><![CDATA[UI health-check failed: frontend is not reachable at http://localhost:5173
-UI health-check failed: frontend is not reachable at http://localhost:5173
+  <testcase name="testCustomer1LoginSuccess" classname="com.novabank.tests.LoginTest" time="0.343">
+    <system-out><![CDATA[UI health-check passed: reachable at http://localhost:5173
+UI health-check passed: reachable at http://localhost:5173
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="createContextAndPage" classname="com.novabank.tests.LoginTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="createContextAndPage" classname="com.novabank.tests.LoginTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="createContextAndPage" classname="com.novabank.tests.LoginTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="createContextAndPage" classname="com.novabank.tests.LoginTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="createContextAndPage" classname="com.novabank.tests.LoginTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="createContextAndPage" classname="com.novabank.tests.LoginTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="testCustomer1LoginSuccess" classname="com.novabank.tests.LoginTest" time="0.0">
-    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
-  </testcase>
-  <testcase name="closeContextAndPage" classname="com.novabank.tests.LoginTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="closeContextAndPage" classname="com.novabank.tests.LoginTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="closeContextAndPage" classname="com.novabank.tests.LoginTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="closeContextAndPage" classname="com.novabank.tests.LoginTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="closeContextAndPage" classname="com.novabank.tests.LoginTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="closeContextAndPage" classname="com.novabank.tests.LoginTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="closeContextAndPage" classname="com.novabank.tests.LoginTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="testCustomer2LoginSuccess" classname="com.novabank.tests.LoginTest" time="0.0">
-    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
-  </testcase>
-  <testcase name="testLoginPageLinks" classname="com.novabank.tests.LoginTest" time="0.0">
-    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
-  </testcase>
-  <testcase name="testLoginWithInvalidEmail" classname="com.novabank.tests.LoginTest" time="0.0">
-    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
-  </testcase>
-  <testcase name="testLoginWithInvalidPassword" classname="com.novabank.tests.LoginTest" time="0.0">
-    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
-  </testcase>
-  <testcase name="testManagerLoginSuccess" classname="com.novabank.tests.LoginTest" time="0.0">
-    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
-  </testcase>
-  <testcase name="testUnauthenticatedUserRedirectedToLogin" classname="com.novabank.tests.LoginTest" time="0.0">
-    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
-  </testcase>
-  <testcase name="createContextAndPage" classname="com.novabank.tests.RegisterTest" time="0.017">
-    <failure message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead." type="java.lang.IllegalStateException"><![CDATA[java.lang.IllegalStateException: UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead.
-	at com.novabank.base.BaseTest.handleUnavailableApp(BaseTest.java:99)
-	at com.novabank.base.BaseTest.ensureApplicationIsReachable(BaseTest.java:69)
-	at com.novabank.base.BaseTest.createContextAndPage(BaseTest.java:57)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></failure>
-  </testcase>
-  <testcase name="createContextAndPage" classname="com.novabank.tests.RegisterTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="createContextAndPage" classname="com.novabank.tests.RegisterTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="createContextAndPage" classname="com.novabank.tests.RegisterTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="testNewUserRegistrationSuccess" classname="com.novabank.tests.RegisterTest" time="0.0">
-    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
-  </testcase>
-  <testcase name="closeContextAndPage" classname="com.novabank.tests.RegisterTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="closeContextAndPage" classname="com.novabank.tests.RegisterTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="closeContextAndPage" classname="com.novabank.tests.RegisterTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="closeContextAndPage" classname="com.novabank.tests.RegisterTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="testRegisterPageHasLoginLink" classname="com.novabank.tests.RegisterTest" time="0.0">
-    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
-  </testcase>
-  <testcase name="testRegisterPageIsAccessible" classname="com.novabank.tests.RegisterTest" time="0.0">
-    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
-  </testcase>
-  <testcase name="testRegistrationFailsWithDuplicateEmail" classname="com.novabank.tests.RegisterTest" time="0.0">
-    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
-  </testcase>
-  <testcase name="createContextAndPage" classname="com.novabank.tests.ForgotPasswordTest" time="0.003">
-    <failure message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead." type="java.lang.IllegalStateException"><![CDATA[java.lang.IllegalStateException: UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead.
-	at com.novabank.base.BaseTest.handleUnavailableApp(BaseTest.java:99)
-	at com.novabank.base.BaseTest.ensureApplicationIsReachable(BaseTest.java:69)
-	at com.novabank.base.BaseTest.createContextAndPage(BaseTest.java:57)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></failure>
-  </testcase>
-  <testcase name="createContextAndPage" classname="com.novabank.tests.ForgotPasswordTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="createContextAndPage" classname="com.novabank.tests.ForgotPasswordTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="createContextAndPage" classname="com.novabank.tests.ForgotPasswordTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="createContextAndPage" classname="com.novabank.tests.ForgotPasswordTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="testForgotPasswordPageHasLoginLink" classname="com.novabank.tests.ForgotPasswordTest" time="0.0">
-    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
-  </testcase>
-  <testcase name="closeContextAndPage" classname="com.novabank.tests.ForgotPasswordTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="closeContextAndPage" classname="com.novabank.tests.ForgotPasswordTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="closeContextAndPage" classname="com.novabank.tests.ForgotPasswordTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="closeContextAndPage" classname="com.novabank.tests.ForgotPasswordTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="closeContextAndPage" classname="com.novabank.tests.ForgotPasswordTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="testForgotPasswordPageIsAccessible" classname="com.novabank.tests.ForgotPasswordTest" time="0.0">
-    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
-  </testcase>
-  <testcase name="testPasswordResetFailsForUnknownEmail" classname="com.novabank.tests.ForgotPasswordTest" time="0.0">
-    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
-  </testcase>
-  <testcase name="testPasswordResetSuccessForExistingUser" classname="com.novabank.tests.ForgotPasswordTest" time="0.0">
-    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
-  </testcase>
-  <testcase name="testUserCanLoginAfterPasswordReset" classname="com.novabank.tests.ForgotPasswordTest" time="0.0">
-    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
-  </testcase>
-  <testcase name="createContextAndPage" classname="com.novabank.tests.DashboardTest" time="0.003">
-    <failure message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead." type="java.lang.IllegalStateException"><![CDATA[java.lang.IllegalStateException: UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead.
-	at com.novabank.base.BaseTest.handleUnavailableApp(BaseTest.java:99)
-	at com.novabank.base.BaseTest.ensureApplicationIsReachable(BaseTest.java:69)
-	at com.novabank.base.BaseTest.createContextAndPage(BaseTest.java:57)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></failure>
-  </testcase>
-  <testcase name="createContextAndPage" classname="com.novabank.tests.DashboardTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="createContextAndPage" classname="com.novabank.tests.DashboardTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="createContextAndPage" classname="com.novabank.tests.DashboardTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="createContextAndPage" classname="com.novabank.tests.DashboardTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="createContextAndPage" classname="com.novabank.tests.DashboardTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="createContextAndPage" classname="com.novabank.tests.DashboardTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="testCustomerDoesNotSeeUsersNavLink" classname="com.novabank.tests.DashboardTest" time="0.0">
-    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
-  </testcase>
-  <testcase name="closeContextAndPage" classname="com.novabank.tests.DashboardTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="closeContextAndPage" classname="com.novabank.tests.DashboardTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="closeContextAndPage" classname="com.novabank.tests.DashboardTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="closeContextAndPage" classname="com.novabank.tests.DashboardTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="closeContextAndPage" classname="com.novabank.tests.DashboardTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="closeContextAndPage" classname="com.novabank.tests.DashboardTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="closeContextAndPage" classname="com.novabank.tests.DashboardTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="testDashboardHeading" classname="com.novabank.tests.DashboardTest" time="0.0">
-    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
-  </testcase>
-  <testcase name="testDashboardShowsCustomerName" classname="com.novabank.tests.DashboardTest" time="0.0">
-    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
-  </testcase>
-  <testcase name="testDashboardShowsManagerName" classname="com.novabank.tests.DashboardTest" time="0.0">
-    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
-  </testcase>
-  <testcase name="testDashboardShowsStatCards" classname="com.novabank.tests.DashboardTest" time="0.0">
-    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
-  </testcase>
-  <testcase name="testLogoutRedirectsToLogin" classname="com.novabank.tests.DashboardTest" time="0.0">
-    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
-  </testcase>
-  <testcase name="testManagerSeesUsersNavLink" classname="com.novabank.tests.DashboardTest" time="0.0">
-    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
-  </testcase>
-  <testcase name="createContextAndPage" classname="com.novabank.tests.UsersTest" time="0.003">
-    <failure message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead." type="java.lang.IllegalStateException"><![CDATA[java.lang.IllegalStateException: UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead.
-	at com.novabank.base.BaseTest.handleUnavailableApp(BaseTest.java:99)
-	at com.novabank.base.BaseTest.ensureApplicationIsReachable(BaseTest.java:69)
-	at com.novabank.base.BaseTest.createContextAndPage(BaseTest.java:57)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></failure>
-  </testcase>
-  <testcase name="createContextAndPage" classname="com.novabank.tests.UsersTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="createContextAndPage" classname="com.novabank.tests.UsersTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="createContextAndPage" classname="com.novabank.tests.UsersTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="createContextAndPage" classname="com.novabank.tests.UsersTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="createContextAndPage" classname="com.novabank.tests.UsersTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="testCustomerIsRedirectedFromUsersPage" classname="com.novabank.tests.UsersTest" time="0.0">
-    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
-  </testcase>
-  <testcase name="closeContextAndPage" classname="com.novabank.tests.UsersTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="closeContextAndPage" classname="com.novabank.tests.UsersTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="closeContextAndPage" classname="com.novabank.tests.UsersTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="closeContextAndPage" classname="com.novabank.tests.UsersTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="closeContextAndPage" classname="com.novabank.tests.UsersTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="closeContextAndPage" classname="com.novabank.tests.UsersTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="testManagerCanAccessUsersPage" classname="com.novabank.tests.UsersTest" time="0.0">
-    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
-  </testcase>
-  <testcase name="testUnauthorizedPageContent" classname="com.novabank.tests.UsersTest" time="0.0">
-    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
-  </testcase>
-  <testcase name="testUsersPageDisplaysSeededUserNames" classname="com.novabank.tests.UsersTest" time="0.0">
-    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
-  </testcase>
-  <testcase name="testUsersPageShowsSeededUsers" classname="com.novabank.tests.UsersTest" time="0.0">
-    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
-  </testcase>
-  <testcase name="testUsersPageSubtitle" classname="com.novabank.tests.UsersTest" time="0.0">
-    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
-  </testcase>
-  <testcase name="createContextAndPage" classname="com.novabank.tests.AccountsTest" time="0.002">
-    <failure message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead." type="java.lang.IllegalStateException"><![CDATA[java.lang.IllegalStateException: UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead.
-	at com.novabank.base.BaseTest.handleUnavailableApp(BaseTest.java:99)
-	at com.novabank.base.BaseTest.ensureApplicationIsReachable(BaseTest.java:69)
-	at com.novabank.base.BaseTest.createContextAndPage(BaseTest.java:57)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></failure>
-  </testcase>
-  <testcase name="createContextAndPage" classname="com.novabank.tests.AccountsTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="createContextAndPage" classname="com.novabank.tests.AccountsTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="createContextAndPage" classname="com.novabank.tests.AccountsTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="testAccountsPageHeading" classname="com.novabank.tests.AccountsTest" time="0.0">
-    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
-  </testcase>
-  <testcase name="closeContextAndPage" classname="com.novabank.tests.AccountsTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="closeContextAndPage" classname="com.novabank.tests.AccountsTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="closeContextAndPage" classname="com.novabank.tests.AccountsTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="closeContextAndPage" classname="com.novabank.tests.AccountsTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="testAccountsPageIsAccessible" classname="com.novabank.tests.AccountsTest" time="0.0">
-    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
-  </testcase>
-  <testcase name="testAccountsPageShowsSeededAccounts" classname="com.novabank.tests.AccountsTest" time="0.0">
-    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
-  </testcase>
-  <testcase name="testUnauthenticatedAccountsAccessRedirects" classname="com.novabank.tests.AccountsTest" time="0.0">
-    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
-  </testcase>
-  <testcase name="createContextAndPage" classname="com.novabank.tests.TransactionsTest" time="0.002">
-    <failure message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead." type="java.lang.IllegalStateException"><![CDATA[java.lang.IllegalStateException: UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead.
-	at com.novabank.base.BaseTest.handleUnavailableApp(BaseTest.java:99)
-	at com.novabank.base.BaseTest.ensureApplicationIsReachable(BaseTest.java:69)
-	at com.novabank.base.BaseTest.createContextAndPage(BaseTest.java:57)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></failure>
-  </testcase>
-  <testcase name="createContextAndPage" classname="com.novabank.tests.TransactionsTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="createContextAndPage" classname="com.novabank.tests.TransactionsTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="createContextAndPage" classname="com.novabank.tests.TransactionsTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="createContextAndPage" classname="com.novabank.tests.TransactionsTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="testManagerCanAccessTransactions" classname="com.novabank.tests.TransactionsTest" time="0.0">
-    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
-  </testcase>
-  <testcase name="closeContextAndPage" classname="com.novabank.tests.TransactionsTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="closeContextAndPage" classname="com.novabank.tests.TransactionsTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="closeContextAndPage" classname="com.novabank.tests.TransactionsTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="closeContextAndPage" classname="com.novabank.tests.TransactionsTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="closeContextAndPage" classname="com.novabank.tests.TransactionsTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="testTransactionsFormElementsPresent" classname="com.novabank.tests.TransactionsTest" time="0.0">
-    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
-  </testcase>
-  <testcase name="testTransactionsPageHeading" classname="com.novabank.tests.TransactionsTest" time="0.0">
-    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
-  </testcase>
-  <testcase name="testTransactionsPageIsAccessible" classname="com.novabank.tests.TransactionsTest" time="0.0">
-    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
-  </testcase>
-  <testcase name="testUnauthenticatedTransactionsAccessRedirects" classname="com.novabank.tests.TransactionsTest" time="0.0">
-    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
-  </testcase>
-  <testcase name="createContextAndPage" classname="com.novabank.tests.TransfersTest" time="0.003">
-    <failure message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead." type="java.lang.IllegalStateException"><![CDATA[java.lang.IllegalStateException: UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead.
-	at com.novabank.base.BaseTest.handleUnavailableApp(BaseTest.java:99)
-	at com.novabank.base.BaseTest.ensureApplicationIsReachable(BaseTest.java:69)
-	at com.novabank.base.BaseTest.createContextAndPage(BaseTest.java:57)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></failure>
-  </testcase>
-  <testcase name="createContextAndPage" classname="com.novabank.tests.TransfersTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="createContextAndPage" classname="com.novabank.tests.TransfersTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="createContextAndPage" classname="com.novabank.tests.TransfersTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="testTransfersFormElementsPresent" classname="com.novabank.tests.TransfersTest" time="0.0">
-    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
-  </testcase>
-  <testcase name="closeContextAndPage" classname="com.novabank.tests.TransfersTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="closeContextAndPage" classname="com.novabank.tests.TransfersTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="closeContextAndPage" classname="com.novabank.tests.TransfersTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="closeContextAndPage" classname="com.novabank.tests.TransfersTest" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="testTransfersPageHeading" classname="com.novabank.tests.TransfersTest" time="0.0">
-    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
-  </testcase>
-  <testcase name="testTransfersPageIsAccessible" classname="com.novabank.tests.TransfersTest" time="0.0">
-    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
-  </testcase>
-  <testcase name="testUnauthenticatedTransfersAccessRedirects" classname="com.novabank.tests.TransfersTest" time="0.0">
-    <skipped message="UI health-check failed: frontend is not reachable at http://localhost:5173 Set UI_TESTS_REQUIRE_APP=false to skip instead."/>
-  </testcase>
+  <testcase name="testCustomer2LoginSuccess" classname="com.novabank.tests.LoginTest" time="0.428"/>
+  <testcase name="testLoginPageLinks" classname="com.novabank.tests.LoginTest" time="0.223"/>
+  <testcase name="testLoginWithInvalidEmail" classname="com.novabank.tests.LoginTest" time="0.384"/>
+  <testcase name="testLoginWithInvalidPassword" classname="com.novabank.tests.LoginTest" time="0.301"/>
+  <testcase name="testManagerLoginSuccess" classname="com.novabank.tests.LoginTest" time="0.316"/>
+  <testcase name="testUnauthenticatedUserRedirectedToLogin" classname="com.novabank.tests.LoginTest" time="0.242"/>
+  <testcase name="testNewUserRegistrationSuccess" classname="com.novabank.tests.RegisterTest" time="0.369"/>
+  <testcase name="testRegisterPageHasLoginLink" classname="com.novabank.tests.RegisterTest" time="0.267"/>
+  <testcase name="testRegisterPageIsAccessible" classname="com.novabank.tests.RegisterTest" time="0.372"/>
+  <testcase name="testRegistrationFailsWithDuplicateEmail" classname="com.novabank.tests.RegisterTest" time="0.285"/>
+  <testcase name="testForgotPasswordPageHasLoginLink" classname="com.novabank.tests.ForgotPasswordTest" time="0.281"/>
+  <testcase name="testForgotPasswordPageIsAccessible" classname="com.novabank.tests.ForgotPasswordTest" time="0.234"/>
+  <testcase name="testPasswordResetFailsForUnknownEmail" classname="com.novabank.tests.ForgotPasswordTest" time="0.342"/>
+  <testcase name="testPasswordResetSuccessForExistingUser" classname="com.novabank.tests.ForgotPasswordTest" time="0.539"/>
+  <testcase name="testUserCanLoginAfterPasswordReset" classname="com.novabank.tests.ForgotPasswordTest" time="0.593"/>
+  <testcase name="testCustomerDoesNotSeeUsersNavLink" classname="com.novabank.tests.DashboardTest" time="0.452"/>
+  <testcase name="testDashboardHeading" classname="com.novabank.tests.DashboardTest" time="0.298"/>
+  <testcase name="testDashboardShowsCustomerName" classname="com.novabank.tests.DashboardTest" time="0.371"/>
+  <testcase name="testDashboardShowsManagerName" classname="com.novabank.tests.DashboardTest" time="0.278"/>
+  <testcase name="testDashboardShowsStatCards" classname="com.novabank.tests.DashboardTest" time="0.417"/>
+  <testcase name="testLogoutRedirectsToLogin" classname="com.novabank.tests.DashboardTest" time="0.309"/>
+  <testcase name="testManagerSeesUsersNavLink" classname="com.novabank.tests.DashboardTest" time="0.264"/>
+  <testcase name="testCustomerIsRedirectedFromUsersPage" classname="com.novabank.tests.UsersTest" time="0.324"/>
+  <testcase name="testManagerCanAccessUsersPage" classname="com.novabank.tests.UsersTest" time="0.393"/>
+  <testcase name="testUnauthorizedPageContent" classname="com.novabank.tests.UsersTest" time="0.306"/>
+  <testcase name="testUsersPageDisplaysSeededUserNames" classname="com.novabank.tests.UsersTest" time="0.509"/>
+  <testcase name="testUsersPageShowsSeededUsers" classname="com.novabank.tests.UsersTest" time="0.32"/>
+  <testcase name="testUsersPageSubtitle" classname="com.novabank.tests.UsersTest" time="0.466"/>
+  <testcase name="testAccountsPageHeading" classname="com.novabank.tests.AccountsTest" time="0.293"/>
+  <testcase name="testAccountsPageIsAccessible" classname="com.novabank.tests.AccountsTest" time="0.296"/>
+  <testcase name="testAccountsPageShowsSeededAccounts" classname="com.novabank.tests.AccountsTest" time="0.308"/>
+  <testcase name="testUnauthenticatedAccountsAccessRedirects" classname="com.novabank.tests.AccountsTest" time="0.573"/>
+  <testcase name="testManagerCanAccessTransactions" classname="com.novabank.tests.TransactionsTest" time="0.324"/>
+  <testcase name="testTransactionsFormElementsPresent" classname="com.novabank.tests.TransactionsTest" time="0.785"/>
+  <testcase name="testTransactionsPageHeading" classname="com.novabank.tests.TransactionsTest" time="0.307"/>
+  <testcase name="testTransactionsPageIsAccessible" classname="com.novabank.tests.TransactionsTest" time="0.327"/>
+  <testcase name="testUnauthenticatedTransactionsAccessRedirects" classname="com.novabank.tests.TransactionsTest" time="0.576"/>
+  <testcase name="testTransfersFormElementsPresent" classname="com.novabank.tests.TransfersTest" time="0.308"/>
+  <testcase name="testTransfersPageHeading" classname="com.novabank.tests.TransfersTest" time="0.625"/>
+  <testcase name="testTransfersPageIsAccessible" classname="com.novabank.tests.TransfersTest" time="0.336"/>
+  <testcase name="testUnauthenticatedTransfersAccessRedirects" classname="com.novabank.tests.TransfersTest" time="0.19"/>
 </testsuite>
