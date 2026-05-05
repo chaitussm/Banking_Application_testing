@@ -30,11 +30,14 @@ jobs:
           node-version: '20'
 
       - name: Install Playwright browsers and OS dependencies
-        run: mvn -B -e exec:java \
-          -Dexec.mainClass=com.microsoft.playwright.CLI \
-          -Dexec.args="install --with-deps chromium"
+        run: |
+          mvn -B -e exec:java \
+            -Dexec.mainClass=com.microsoft.playwright.CLI \
+            -Dexec.args="install --with-deps chromium"
 
       - name: Run TestNG suite
+        env:
+          HEADLESS: true
         run: mvn -B clean test
 
       - name: Generate Surefire HTML report
