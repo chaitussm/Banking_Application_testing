@@ -70,3 +70,37 @@ jobs:
             target/site/**
             target/surefire-reports/**
           if-no-files-found: warn
+
+      - name: Package reports into zip archive
+        if: always()
+        run: |
+          zip -r test-reports.zip \
+            test-output/ \
+            target/site/ \
+            target/surefire-reports/ \
+            2>/dev/null || true
+
+      - name: Send email with test report
+        if: always()
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: ${{ secrets.SMTP_HOST }}
+          server_port: ${{ secrets.SMTP_PORT }}
+          username: ${{ secrets.SMTP_USERNAME }}
+          password: ${{ secrets.SMTP_PASSWORD }}
+          subject: "TestNG Pipeline Report – ${{ github.repository }} @ ${{ github.run_number }}"
+          to: chaitanyassm@outlook.com
+          from: ${{ secrets.MAIL_FROM }}
+          body: |
+            Hello,
+
+            Please find the attached test report for run #${{ github.run_number }} on branch ${{ github.ref_name }}.
+
+            Workflow: ${{ github.workflow }}
+            Triggered by: ${{ github.actor }}
+            Commit: ${{ github.sha }}
+            Run URL: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
+
+            Regards,
+            GitHub Actions
+          attachments: test-reports.zip
