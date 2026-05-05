@@ -95,6 +95,7 @@ jobs:
           python3 << 'PYEOF'
           import os
           import glob
+          import html
           import xml.etree.ElementTree as ET
 
           xml_files = sorted(glob.glob('target/surefire-reports/junitreports/TEST-*.xml'))
@@ -130,8 +131,8 @@ jobs:
                           fg = '#155724'
                       rows.append(
                           f'<tr>'
-                          f'<td style="padding:6px 10px;border:1px solid #dee2e6;">{classname}</td>'
-                          f'<td style="padding:6px 10px;border:1px solid #dee2e6;">{name}</td>'
+                          f'<td style="padding:6px 10px;border:1px solid #dee2e6;">{html.escape(classname)}</td>'
+                          f'<td style="padding:6px 10px;border:1px solid #dee2e6;">{html.escape(name)}</td>'
                           f'<td style="padding:6px 10px;border:1px solid #dee2e6;background:{bg};color:{fg};font-weight:bold;">{status}</td>'
                           f'</tr>'
                       )
@@ -143,8 +144,10 @@ jobs:
           sha = os.environ.get('SHA', '')
           run_url = os.environ.get('RUN_URL', '')
 
-          status_color = '#155724' if job_status.lower() == 'success' else '#721c24'
-          status_bg = '#d4edda' if job_status.lower() == 'success' else '#f8d7da'
+          status_color = '#155724' if job_status.lower() == 'success' else ('#856404' if job_status.lower() in ('cancelled', 'skipped') else '#721c24')
+          status_bg = '#d4edda' if job_status.lower() == 'success' else ('#fff3cd' if job_status.lower() in ('cancelled', 'skipped') else '#f8d7da')
+
+          safe_run_url = html.escape(run_url)
 
           rows_html = '\n'.join(rows) if rows else (
               '<tr><td colspan="3" style="padding:10px;text-align:center;color:#666;">'
@@ -178,7 +181,7 @@ jobs:
               <tr>
                 <td style="padding:5px 14px 5px 0;font-weight:bold;">Workflow&nbsp;Run</td>
                 <td style="padding:5px 0;">
-                  <a href="{run_url}" style="color:#0366d6;">{run_url}</a>
+                  <a href="{safe_run_url}" style="color:#0366d6;">{safe_run_url}</a>
                 </td>
               </tr>
             </table>
@@ -217,7 +220,7 @@ jobs:
 
             <p style="margin-top:20px;font-size:12px;color:#666;border-top:1px solid #dee2e6;padding-top:12px;">
               The full zipped report is attached to this email and is also available as an artifact
-              in the <a href="{run_url}" style="color:#0366d6;">workflow run</a>.
+              in the <a href="{safe_run_url}" style="color:#0366d6;">workflow run</a>.
             </p>
           </div>
           </body>
