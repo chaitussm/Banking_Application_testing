@@ -1,0 +1,1653 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="42" passed="0" failed="0" skipped="42">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-05T05:15:32 UTC" name="NovaBank Banking Application Test Suite" finished-at="2026-05-05T05:15:33 UTC" duration-ms="804">
+    <groups>
+    </groups>
+    <test started-at="2026-05-05T05:15:32 UTC" name="Login Tests" finished-at="2026-05-05T05:15:32 UTC" duration-ms="217">
+      <class name="com.novabank.tests.LoginTest">
+        <test-method is-config="true" signature="createContextAndPage()[pri:0, instance:com.novabank.tests.LoginTest@3745e5c6]" started-at="2026-05-05T05:15:32 UTC" name="createContextAndPage" finished-at="2026-05-05T05:15:32 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method signature="testCustomer1LoginSuccess()[pri:0, instance:com.novabank.tests.LoginTest@3745e5c6]" started-at="2026-05-05T05:15:32 UTC" name="testCustomer1LoginSuccess" description="Customer Ava Smith can log in successfully" finished-at="2026-05-05T05:15:32 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCustomer1LoginSuccess -->
+        <test-method is-config="true" signature="closeContextAndPage()[pri:0, instance:com.novabank.tests.LoginTest@3745e5c6]" started-at="2026-05-05T05:15:32 UTC" name="closeContextAndPage" finished-at="2026-05-05T05:15:32 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeContextAndPage -->
+        <test-method is-config="true" signature="createContextAndPage()[pri:0, instance:com.novabank.tests.LoginTest@3745e5c6]" started-at="2026-05-05T05:15:32 UTC" name="createContextAndPage" finished-at="2026-05-05T05:15:32 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method signature="testCustomer2LoginSuccess()[pri:0, instance:com.novabank.tests.LoginTest@3745e5c6]" started-at="2026-05-05T05:15:32 UTC" name="testCustomer2LoginSuccess" description="Customer Noah Patel can log in successfully" finished-at="2026-05-05T05:15:32 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCustomer2LoginSuccess -->
+        <test-method is-config="true" signature="closeContextAndPage()[pri:0, instance:com.novabank.tests.LoginTest@3745e5c6]" started-at="2026-05-05T05:15:32 UTC" name="closeContextAndPage" finished-at="2026-05-05T05:15:32 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeContextAndPage -->
+        <test-method signature="testLoginPageLinks()[pri:0, instance:com.novabank.tests.LoginTest@3745e5c6]" started-at="2026-05-05T05:15:32 UTC" name="testLoginPageLinks" description="Login page shows Register and Forgot Password links" finished-at="2026-05-05T05:15:32 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPageLinks -->
+        <test-method is-config="true" signature="createContextAndPage()[pri:0, instance:com.novabank.tests.LoginTest@3745e5c6]" started-at="2026-05-05T05:15:32 UTC" name="createContextAndPage" finished-at="2026-05-05T05:15:32 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method is-config="true" signature="closeContextAndPage()[pri:0, instance:com.novabank.tests.LoginTest@3745e5c6]" started-at="2026-05-05T05:15:32 UTC" name="closeContextAndPage" finished-at="2026-05-05T05:15:32 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeContextAndPage -->
+        <test-method is-config="true" signature="createContextAndPage()[pri:0, instance:com.novabank.tests.LoginTest@3745e5c6]" started-at="2026-05-05T05:15:32 UTC" name="createContextAndPage" finished-at="2026-05-05T05:15:32 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method signature="testLoginWithInvalidEmail()[pri:0, instance:com.novabank.tests.LoginTest@3745e5c6]" started-at="2026-05-05T05:15:32 UTC" name="testLoginWithInvalidEmail" description="Login fails with invalid email" finished-at="2026-05-05T05:15:32 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithInvalidEmail -->
+        <test-method is-config="true" signature="closeContextAndPage()[pri:0, instance:com.novabank.tests.LoginTest@3745e5c6]" started-at="2026-05-05T05:15:32 UTC" name="closeContextAndPage" finished-at="2026-05-05T05:15:32 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeContextAndPage -->
+        <test-method is-config="true" signature="createContextAndPage()[pri:0, instance:com.novabank.tests.LoginTest@3745e5c6]" started-at="2026-05-05T05:15:32 UTC" name="createContextAndPage" finished-at="2026-05-05T05:15:32 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method signature="testLoginWithInvalidPassword()[pri:0, instance:com.novabank.tests.LoginTest@3745e5c6]" started-at="2026-05-05T05:15:32 UTC" name="testLoginWithInvalidPassword" description="Login fails with invalid password" finished-at="2026-05-05T05:15:32 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithInvalidPassword -->
+        <test-method is-config="true" signature="closeContextAndPage()[pri:0, instance:com.novabank.tests.LoginTest@3745e5c6]" started-at="2026-05-05T05:15:32 UTC" name="closeContextAndPage" finished-at="2026-05-05T05:15:32 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeContextAndPage -->
+        <test-method is-config="true" signature="createContextAndPage()[pri:0, instance:com.novabank.tests.LoginTest@3745e5c6]" started-at="2026-05-05T05:15:32 UTC" name="createContextAndPage" finished-at="2026-05-05T05:15:32 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method signature="testManagerLoginSuccess()[pri:0, instance:com.novabank.tests.LoginTest@3745e5c6]" started-at="2026-05-05T05:15:32 UTC" name="testManagerLoginSuccess" description="Manager Mia Johnson can log in successfully" finished-at="2026-05-05T05:15:32 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testManagerLoginSuccess -->
+        <test-method is-config="true" signature="closeContextAndPage()[pri:0, instance:com.novabank.tests.LoginTest@3745e5c6]" started-at="2026-05-05T05:15:32 UTC" name="closeContextAndPage" finished-at="2026-05-05T05:15:32 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeContextAndPage -->
+        <test-method signature="testUnauthenticatedUserRedirectedToLogin()[pri:0, instance:com.novabank.tests.LoginTest@3745e5c6]" started-at="2026-05-05T05:15:32 UTC" name="testUnauthenticatedUserRedirectedToLogin" description="Unauthenticated user is redirected to login page" finished-at="2026-05-05T05:15:32 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUnauthenticatedUserRedirectedToLogin -->
+        <test-method is-config="true" signature="createContextAndPage()[pri:0, instance:com.novabank.tests.LoginTest@3745e5c6]" started-at="2026-05-05T05:15:32 UTC" name="createContextAndPage" finished-at="2026-05-05T05:15:32 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method is-config="true" signature="closeContextAndPage()[pri:0, instance:com.novabank.tests.LoginTest@3745e5c6]" started-at="2026-05-05T05:15:32 UTC" name="closeContextAndPage" finished-at="2026-05-05T05:15:32 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeContextAndPage -->
+      </class> <!-- com.novabank.tests.LoginTest -->
+    </test> <!-- Login Tests -->
+    <test started-at="2026-05-05T05:15:33 UTC" name="Register Tests" finished-at="2026-05-05T05:15:33 UTC" duration-ms="35">
+      <class name="com.novabank.tests.RegisterTest">
+        <test-method is-config="true" signature="createContextAndPage()[pri:0, instance:com.novabank.tests.RegisterTest@3d121db3]" started-at="2026-05-05T05:15:33 UTC" name="createContextAndPage" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method signature="testNewUserRegistrationSuccess()[pri:0, instance:com.novabank.tests.RegisterTest@3d121db3]" started-at="2026-05-05T05:15:33 UTC" name="testNewUserRegistrationSuccess" description="New user can register successfully and is redirected to dashboard" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNewUserRegistrationSuccess -->
+        <test-method is-config="true" signature="closeContextAndPage()[pri:0, instance:com.novabank.tests.RegisterTest@3d121db3]" started-at="2026-05-05T05:15:33 UTC" name="closeContextAndPage" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeContextAndPage -->
+        <test-method is-config="true" signature="createContextAndPage()[pri:0, instance:com.novabank.tests.RegisterTest@3d121db3]" started-at="2026-05-05T05:15:33 UTC" name="createContextAndPage" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method signature="testRegisterPageHasLoginLink()[pri:0, instance:com.novabank.tests.RegisterTest@3d121db3]" started-at="2026-05-05T05:15:33 UTC" name="testRegisterPageHasLoginLink" description="Register page has a link back to login" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisterPageHasLoginLink -->
+        <test-method is-config="true" signature="closeContextAndPage()[pri:0, instance:com.novabank.tests.RegisterTest@3d121db3]" started-at="2026-05-05T05:15:33 UTC" name="closeContextAndPage" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeContextAndPage -->
+        <test-method is-config="true" signature="createContextAndPage()[pri:0, instance:com.novabank.tests.RegisterTest@3d121db3]" started-at="2026-05-05T05:15:33 UTC" name="createContextAndPage" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method signature="testRegisterPageIsAccessible()[pri:0, instance:com.novabank.tests.RegisterTest@3d121db3]" started-at="2026-05-05T05:15:33 UTC" name="testRegisterPageIsAccessible" description="Register page is accessible from login page" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisterPageIsAccessible -->
+        <test-method is-config="true" signature="closeContextAndPage()[pri:0, instance:com.novabank.tests.RegisterTest@3d121db3]" started-at="2026-05-05T05:15:33 UTC" name="closeContextAndPage" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeContextAndPage -->
+        <test-method is-config="true" signature="createContextAndPage()[pri:0, instance:com.novabank.tests.RegisterTest@3d121db3]" started-at="2026-05-05T05:15:33 UTC" name="createContextAndPage" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method signature="testRegistrationFailsWithDuplicateEmail()[pri:0, instance:com.novabank.tests.RegisterTest@3d121db3]" started-at="2026-05-05T05:15:33 UTC" name="testRegistrationFailsWithDuplicateEmail" description="Registration fails with already-registered email" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationFailsWithDuplicateEmail -->
+        <test-method is-config="true" signature="closeContextAndPage()[pri:0, instance:com.novabank.tests.RegisterTest@3d121db3]" started-at="2026-05-05T05:15:33 UTC" name="closeContextAndPage" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeContextAndPage -->
+      </class> <!-- com.novabank.tests.RegisterTest -->
+    </test> <!-- Register Tests -->
+    <test started-at="2026-05-05T05:15:33 UTC" name="Forgot Password Tests" finished-at="2026-05-05T05:15:33 UTC" duration-ms="31">
+      <class name="com.novabank.tests.ForgotPasswordTest">
+        <test-method is-config="true" signature="createContextAndPage()[pri:0, instance:com.novabank.tests.ForgotPasswordTest@7219ec67]" started-at="2026-05-05T05:15:33 UTC" name="createContextAndPage" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method signature="testForgotPasswordPageHasLoginLink()[pri:0, instance:com.novabank.tests.ForgotPasswordTest@7219ec67]" started-at="2026-05-05T05:15:33 UTC" name="testForgotPasswordPageHasLoginLink" description="Forgot Password page has a link back to login" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForgotPasswordPageHasLoginLink -->
+        <test-method is-config="true" signature="closeContextAndPage()[pri:0, instance:com.novabank.tests.ForgotPasswordTest@7219ec67]" started-at="2026-05-05T05:15:33 UTC" name="closeContextAndPage" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeContextAndPage -->
+        <test-method is-config="true" signature="createContextAndPage()[pri:0, instance:com.novabank.tests.ForgotPasswordTest@7219ec67]" started-at="2026-05-05T05:15:33 UTC" name="createContextAndPage" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method signature="testForgotPasswordPageIsAccessible()[pri:0, instance:com.novabank.tests.ForgotPasswordTest@7219ec67]" started-at="2026-05-05T05:15:33 UTC" name="testForgotPasswordPageIsAccessible" description="Forgot Password page is accessible" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForgotPasswordPageIsAccessible -->
+        <test-method is-config="true" signature="closeContextAndPage()[pri:0, instance:com.novabank.tests.ForgotPasswordTest@7219ec67]" started-at="2026-05-05T05:15:33 UTC" name="closeContextAndPage" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeContextAndPage -->
+        <test-method signature="testPasswordResetFailsForUnknownEmail()[pri:0, instance:com.novabank.tests.ForgotPasswordTest@7219ec67]" started-at="2026-05-05T05:15:33 UTC" name="testPasswordResetFailsForUnknownEmail" description="Password reset fails for non-existent email" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPasswordResetFailsForUnknownEmail -->
+        <test-method is-config="true" signature="createContextAndPage()[pri:0, instance:com.novabank.tests.ForgotPasswordTest@7219ec67]" started-at="2026-05-05T05:15:33 UTC" name="createContextAndPage" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method is-config="true" signature="closeContextAndPage()[pri:0, instance:com.novabank.tests.ForgotPasswordTest@7219ec67]" started-at="2026-05-05T05:15:33 UTC" name="closeContextAndPage" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeContextAndPage -->
+        <test-method signature="testPasswordResetSuccessForExistingUser()[pri:0, instance:com.novabank.tests.ForgotPasswordTest@7219ec67]" started-at="2026-05-05T05:15:33 UTC" name="testPasswordResetSuccessForExistingUser" description="Password reset succeeds for existing user and shows success message" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPasswordResetSuccessForExistingUser -->
+        <test-method is-config="true" signature="createContextAndPage()[pri:0, instance:com.novabank.tests.ForgotPasswordTest@7219ec67]" started-at="2026-05-05T05:15:33 UTC" name="createContextAndPage" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method is-config="true" signature="closeContextAndPage()[pri:0, instance:com.novabank.tests.ForgotPasswordTest@7219ec67]" started-at="2026-05-05T05:15:33 UTC" name="closeContextAndPage" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeContextAndPage -->
+        <test-method signature="testUserCanLoginAfterPasswordReset()[pri:0, instance:com.novabank.tests.ForgotPasswordTest@7219ec67]" started-at="2026-05-05T05:15:33 UTC" name="testUserCanLoginAfterPasswordReset" description="User can login with new password after reset" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserCanLoginAfterPasswordReset -->
+        <test-method is-config="true" signature="closeContextAndPage()[pri:0, instance:com.novabank.tests.ForgotPasswordTest@7219ec67]" started-at="2026-05-05T05:15:33 UTC" name="closeContextAndPage" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeContextAndPage -->
+        <test-method is-config="true" signature="createContextAndPage()[pri:0, instance:com.novabank.tests.ForgotPasswordTest@7219ec67]" started-at="2026-05-05T05:15:33 UTC" name="createContextAndPage" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+      </class> <!-- com.novabank.tests.ForgotPasswordTest -->
+    </test> <!-- Forgot Password Tests -->
+    <test started-at="2026-05-05T05:15:33 UTC" name="Dashboard Tests" finished-at="2026-05-05T05:15:33 UTC" duration-ms="50">
+      <class name="com.novabank.tests.DashboardTest">
+        <test-method is-config="true" signature="createContextAndPage()[pri:0, instance:com.novabank.tests.DashboardTest@147ed70f]" started-at="2026-05-05T05:15:33 UTC" name="createContextAndPage" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method signature="testCustomerDoesNotSeeUsersNavLink()[pri:0, instance:com.novabank.tests.DashboardTest@147ed70f]" started-at="2026-05-05T05:15:33 UTC" name="testCustomerDoesNotSeeUsersNavLink" description="Customer does not see Users nav link" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCustomerDoesNotSeeUsersNavLink -->
+        <test-method is-config="true" signature="closeContextAndPage()[pri:0, instance:com.novabank.tests.DashboardTest@147ed70f]" started-at="2026-05-05T05:15:33 UTC" name="closeContextAndPage" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeContextAndPage -->
+        <test-method is-config="true" signature="createContextAndPage()[pri:0, instance:com.novabank.tests.DashboardTest@147ed70f]" started-at="2026-05-05T05:15:33 UTC" name="createContextAndPage" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method signature="testDashboardHeading()[pri:0, instance:com.novabank.tests.DashboardTest@147ed70f]" started-at="2026-05-05T05:15:33 UTC" name="testDashboardHeading" description="Dashboard shows correct heading" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDashboardHeading -->
+        <test-method is-config="true" signature="closeContextAndPage()[pri:0, instance:com.novabank.tests.DashboardTest@147ed70f]" started-at="2026-05-05T05:15:33 UTC" name="closeContextAndPage" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeContextAndPage -->
+        <test-method is-config="true" signature="createContextAndPage()[pri:0, instance:com.novabank.tests.DashboardTest@147ed70f]" started-at="2026-05-05T05:15:33 UTC" name="createContextAndPage" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method signature="testDashboardShowsCustomerName()[pri:0, instance:com.novabank.tests.DashboardTest@147ed70f]" started-at="2026-05-05T05:15:33 UTC" name="testDashboardShowsCustomerName" description="Dashboard displays logged-in customer&#039;s name and role" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDashboardShowsCustomerName -->
+        <test-method is-config="true" signature="closeContextAndPage()[pri:0, instance:com.novabank.tests.DashboardTest@147ed70f]" started-at="2026-05-05T05:15:33 UTC" name="closeContextAndPage" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeContextAndPage -->
+        <test-method signature="testDashboardShowsManagerName()[pri:0, instance:com.novabank.tests.DashboardTest@147ed70f]" started-at="2026-05-05T05:15:33 UTC" name="testDashboardShowsManagerName" description="Dashboard displays manager&#039;s name and role" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDashboardShowsManagerName -->
+        <test-method is-config="true" signature="closeContextAndPage()[pri:0, instance:com.novabank.tests.DashboardTest@147ed70f]" started-at="2026-05-05T05:15:33 UTC" name="closeContextAndPage" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeContextAndPage -->
+        <test-method is-config="true" signature="createContextAndPage()[pri:0, instance:com.novabank.tests.DashboardTest@147ed70f]" started-at="2026-05-05T05:15:33 UTC" name="createContextAndPage" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method is-config="true" signature="createContextAndPage()[pri:0, instance:com.novabank.tests.DashboardTest@147ed70f]" started-at="2026-05-05T05:15:33 UTC" name="createContextAndPage" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method signature="testDashboardShowsStatCards()[pri:0, instance:com.novabank.tests.DashboardTest@147ed70f]" started-at="2026-05-05T05:15:33 UTC" name="testDashboardShowsStatCards" description="Dashboard displays 4 stat cards after login" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDashboardShowsStatCards -->
+        <test-method is-config="true" signature="closeContextAndPage()[pri:0, instance:com.novabank.tests.DashboardTest@147ed70f]" started-at="2026-05-05T05:15:33 UTC" name="closeContextAndPage" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeContextAndPage -->
+        <test-method signature="testLogoutRedirectsToLogin()[pri:0, instance:com.novabank.tests.DashboardTest@147ed70f]" started-at="2026-05-05T05:15:33 UTC" name="testLogoutRedirectsToLogin" description="Logout button logs user out and redirects to login" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogoutRedirectsToLogin -->
+        <test-method is-config="true" signature="createContextAndPage()[pri:0, instance:com.novabank.tests.DashboardTest@147ed70f]" started-at="2026-05-05T05:15:33 UTC" name="createContextAndPage" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method is-config="true" signature="closeContextAndPage()[pri:0, instance:com.novabank.tests.DashboardTest@147ed70f]" started-at="2026-05-05T05:15:33 UTC" name="closeContextAndPage" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeContextAndPage -->
+        <test-method is-config="true" signature="createContextAndPage()[pri:0, instance:com.novabank.tests.DashboardTest@147ed70f]" started-at="2026-05-05T05:15:33 UTC" name="createContextAndPage" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method signature="testManagerSeesUsersNavLink()[pri:0, instance:com.novabank.tests.DashboardTest@147ed70f]" started-at="2026-05-05T05:15:33 UTC" name="testManagerSeesUsersNavLink" description="Manager sees Users nav link; customer does not" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testManagerSeesUsersNavLink -->
+        <test-method is-config="true" signature="closeContextAndPage()[pri:0, instance:com.novabank.tests.DashboardTest@147ed70f]" started-at="2026-05-05T05:15:33 UTC" name="closeContextAndPage" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeContextAndPage -->
+      </class> <!-- com.novabank.tests.DashboardTest -->
+    </test> <!-- Dashboard Tests -->
+    <test started-at="2026-05-05T05:15:33 UTC" name="Users Tests" finished-at="2026-05-05T05:15:33 UTC" duration-ms="14">
+      <class name="com.novabank.tests.UsersTest">
+        <test-method is-config="true" signature="createContextAndPage()[pri:0, instance:com.novabank.tests.UsersTest@47542153]" started-at="2026-05-05T05:15:33 UTC" name="createContextAndPage" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method signature="testCustomerIsRedirectedFromUsersPage()[pri:0, instance:com.novabank.tests.UsersTest@47542153]" started-at="2026-05-05T05:15:33 UTC" name="testCustomerIsRedirectedFromUsersPage" description="Customer is redirected to /unauthorized when accessing Users page" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCustomerIsRedirectedFromUsersPage -->
+        <test-method is-config="true" signature="closeContextAndPage()[pri:0, instance:com.novabank.tests.UsersTest@47542153]" started-at="2026-05-05T05:15:33 UTC" name="closeContextAndPage" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeContextAndPage -->
+        <test-method signature="testManagerCanAccessUsersPage()[pri:0, instance:com.novabank.tests.UsersTest@47542153]" started-at="2026-05-05T05:15:33 UTC" name="testManagerCanAccessUsersPage" description="Manager can access the Users page" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testManagerCanAccessUsersPage -->
+        <test-method is-config="true" signature="createContextAndPage()[pri:0, instance:com.novabank.tests.UsersTest@47542153]" started-at="2026-05-05T05:15:33 UTC" name="createContextAndPage" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method is-config="true" signature="closeContextAndPage()[pri:0, instance:com.novabank.tests.UsersTest@47542153]" started-at="2026-05-05T05:15:33 UTC" name="closeContextAndPage" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeContextAndPage -->
+        <test-method signature="testUnauthorizedPageContent()[pri:0, instance:com.novabank.tests.UsersTest@47542153]" started-at="2026-05-05T05:15:33 UTC" name="testUnauthorizedPageContent" description="Unauthorized page shows proper message for customer" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUnauthorizedPageContent -->
+        <test-method is-config="true" signature="createContextAndPage()[pri:0, instance:com.novabank.tests.UsersTest@47542153]" started-at="2026-05-05T05:15:33 UTC" name="createContextAndPage" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method is-config="true" signature="createContextAndPage()[pri:0, instance:com.novabank.tests.UsersTest@47542153]" started-at="2026-05-05T05:15:33 UTC" name="createContextAndPage" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method is-config="true" signature="closeContextAndPage()[pri:0, instance:com.novabank.tests.UsersTest@47542153]" started-at="2026-05-05T05:15:33 UTC" name="closeContextAndPage" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeContextAndPage -->
+        <test-method signature="testUsersPageDisplaysSeededUserNames()[pri:0, instance:com.novabank.tests.UsersTest@47542153]" started-at="2026-05-05T05:15:33 UTC" name="testUsersPageDisplaysSeededUserNames" description="Users page displays correct seeded user names" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUsersPageDisplaysSeededUserNames -->
+        <test-method is-config="true" signature="closeContextAndPage()[pri:0, instance:com.novabank.tests.UsersTest@47542153]" started-at="2026-05-05T05:15:33 UTC" name="closeContextAndPage" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeContextAndPage -->
+        <test-method signature="testUsersPageShowsSeededUsers()[pri:0, instance:com.novabank.tests.UsersTest@47542153]" started-at="2026-05-05T05:15:33 UTC" name="testUsersPageShowsSeededUsers" description="Users page shows 3 seeded users for manager" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUsersPageShowsSeededUsers -->
+        <test-method is-config="true" signature="createContextAndPage()[pri:0, instance:com.novabank.tests.UsersTest@47542153]" started-at="2026-05-05T05:15:33 UTC" name="createContextAndPage" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method is-config="true" signature="closeContextAndPage()[pri:0, instance:com.novabank.tests.UsersTest@47542153]" started-at="2026-05-05T05:15:33 UTC" name="closeContextAndPage" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeContextAndPage -->
+        <test-method signature="testUsersPageSubtitle()[pri:0, instance:com.novabank.tests.UsersTest@47542153]" started-at="2026-05-05T05:15:33 UTC" name="testUsersPageSubtitle" description="Users page subtitle mentions seeded users" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUsersPageSubtitle -->
+        <test-method is-config="true" signature="createContextAndPage()[pri:0, instance:com.novabank.tests.UsersTest@47542153]" started-at="2026-05-05T05:15:33 UTC" name="createContextAndPage" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method is-config="true" signature="closeContextAndPage()[pri:0, instance:com.novabank.tests.UsersTest@47542153]" started-at="2026-05-05T05:15:33 UTC" name="closeContextAndPage" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeContextAndPage -->
+      </class> <!-- com.novabank.tests.UsersTest -->
+    </test> <!-- Users Tests -->
+    <test started-at="2026-05-05T05:15:33 UTC" name="Accounts Tests" finished-at="2026-05-05T05:15:33 UTC" duration-ms="19">
+      <class name="com.novabank.tests.AccountsTest">
+        <test-method is-config="true" signature="createContextAndPage()[pri:0, instance:com.novabank.tests.AccountsTest@25d250c6]" started-at="2026-05-05T05:15:33 UTC" name="createContextAndPage" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method signature="testAccountsPageHeading()[pri:0, instance:com.novabank.tests.AccountsTest@25d250c6]" started-at="2026-05-05T05:15:33 UTC" name="testAccountsPageHeading" description="Accounts page heading is correct" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAccountsPageHeading -->
+        <test-method is-config="true" signature="closeContextAndPage()[pri:0, instance:com.novabank.tests.AccountsTest@25d250c6]" started-at="2026-05-05T05:15:33 UTC" name="closeContextAndPage" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeContextAndPage -->
+        <test-method is-config="true" signature="createContextAndPage()[pri:0, instance:com.novabank.tests.AccountsTest@25d250c6]" started-at="2026-05-05T05:15:33 UTC" name="createContextAndPage" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method signature="testAccountsPageIsAccessible()[pri:0, instance:com.novabank.tests.AccountsTest@25d250c6]" started-at="2026-05-05T05:15:33 UTC" name="testAccountsPageIsAccessible" description="Accounts page is accessible after login" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAccountsPageIsAccessible -->
+        <test-method is-config="true" signature="closeContextAndPage()[pri:0, instance:com.novabank.tests.AccountsTest@25d250c6]" started-at="2026-05-05T05:15:33 UTC" name="closeContextAndPage" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeContextAndPage -->
+        <test-method is-config="true" signature="createContextAndPage()[pri:0, instance:com.novabank.tests.AccountsTest@25d250c6]" started-at="2026-05-05T05:15:33 UTC" name="createContextAndPage" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method signature="testAccountsPageShowsSeededAccounts()[pri:0, instance:com.novabank.tests.AccountsTest@25d250c6]" started-at="2026-05-05T05:15:33 UTC" name="testAccountsPageShowsSeededAccounts" description="Accounts page displays the seeded accounts" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAccountsPageShowsSeededAccounts -->
+        <test-method is-config="true" signature="closeContextAndPage()[pri:0, instance:com.novabank.tests.AccountsTest@25d250c6]" started-at="2026-05-05T05:15:33 UTC" name="closeContextAndPage" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeContextAndPage -->
+        <test-method is-config="true" signature="createContextAndPage()[pri:0, instance:com.novabank.tests.AccountsTest@25d250c6]" started-at="2026-05-05T05:15:33 UTC" name="createContextAndPage" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method signature="testUnauthenticatedAccountsAccessRedirects()[pri:0, instance:com.novabank.tests.AccountsTest@25d250c6]" started-at="2026-05-05T05:15:33 UTC" name="testUnauthenticatedAccountsAccessRedirects" description="Unauthenticated access to accounts page redirects to login" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUnauthenticatedAccountsAccessRedirects -->
+        <test-method is-config="true" signature="closeContextAndPage()[pri:0, instance:com.novabank.tests.AccountsTest@25d250c6]" started-at="2026-05-05T05:15:33 UTC" name="closeContextAndPage" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeContextAndPage -->
+      </class> <!-- com.novabank.tests.AccountsTest -->
+    </test> <!-- Accounts Tests -->
+    <test started-at="2026-05-05T05:15:33 UTC" name="Transactions Tests" finished-at="2026-05-05T05:15:33 UTC" duration-ms="18">
+      <class name="com.novabank.tests.TransactionsTest">
+        <test-method is-config="true" signature="createContextAndPage()[pri:0, instance:com.novabank.tests.TransactionsTest@2f112965]" started-at="2026-05-05T05:15:33 UTC" name="createContextAndPage" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method signature="testManagerCanAccessTransactions()[pri:0, instance:com.novabank.tests.TransactionsTest@2f112965]" started-at="2026-05-05T05:15:33 UTC" name="testManagerCanAccessTransactions" description="Manager can access transactions page" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testManagerCanAccessTransactions -->
+        <test-method is-config="true" signature="createContextAndPage()[pri:0, instance:com.novabank.tests.TransactionsTest@2f112965]" started-at="2026-05-05T05:15:33 UTC" name="createContextAndPage" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method is-config="true" signature="closeContextAndPage()[pri:0, instance:com.novabank.tests.TransactionsTest@2f112965]" started-at="2026-05-05T05:15:33 UTC" name="closeContextAndPage" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeContextAndPage -->
+        <test-method signature="testTransactionsFormElementsPresent()[pri:0, instance:com.novabank.tests.TransactionsTest@2f112965]" started-at="2026-05-05T05:15:33 UTC" name="testTransactionsFormElementsPresent" description="Transactions page has account select, kind select, and submit button" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTransactionsFormElementsPresent -->
+        <test-method is-config="true" signature="closeContextAndPage()[pri:0, instance:com.novabank.tests.TransactionsTest@2f112965]" started-at="2026-05-05T05:15:33 UTC" name="closeContextAndPage" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeContextAndPage -->
+        <test-method signature="testTransactionsPageHeading()[pri:0, instance:com.novabank.tests.TransactionsTest@2f112965]" started-at="2026-05-05T05:15:33 UTC" name="testTransactionsPageHeading" description="Transactions page shows correct heading" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTransactionsPageHeading -->
+        <test-method is-config="true" signature="createContextAndPage()[pri:0, instance:com.novabank.tests.TransactionsTest@2f112965]" started-at="2026-05-05T05:15:33 UTC" name="createContextAndPage" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method is-config="true" signature="closeContextAndPage()[pri:0, instance:com.novabank.tests.TransactionsTest@2f112965]" started-at="2026-05-05T05:15:33 UTC" name="closeContextAndPage" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeContextAndPage -->
+        <test-method is-config="true" signature="createContextAndPage()[pri:0, instance:com.novabank.tests.TransactionsTest@2f112965]" started-at="2026-05-05T05:15:33 UTC" name="createContextAndPage" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method signature="testTransactionsPageIsAccessible()[pri:0, instance:com.novabank.tests.TransactionsTest@2f112965]" started-at="2026-05-05T05:15:33 UTC" name="testTransactionsPageIsAccessible" description="Transactions page is accessible after login" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTransactionsPageIsAccessible -->
+        <test-method is-config="true" signature="closeContextAndPage()[pri:0, instance:com.novabank.tests.TransactionsTest@2f112965]" started-at="2026-05-05T05:15:33 UTC" name="closeContextAndPage" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeContextAndPage -->
+        <test-method signature="testUnauthenticatedTransactionsAccessRedirects()[pri:0, instance:com.novabank.tests.TransactionsTest@2f112965]" started-at="2026-05-05T05:15:33 UTC" name="testUnauthenticatedTransactionsAccessRedirects" description="Unauthenticated access to transactions redirects to login" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUnauthenticatedTransactionsAccessRedirects -->
+        <test-method is-config="true" signature="createContextAndPage()[pri:0, instance:com.novabank.tests.TransactionsTest@2f112965]" started-at="2026-05-05T05:15:33 UTC" name="createContextAndPage" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method is-config="true" signature="closeContextAndPage()[pri:0, instance:com.novabank.tests.TransactionsTest@2f112965]" started-at="2026-05-05T05:15:33 UTC" name="closeContextAndPage" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeContextAndPage -->
+      </class> <!-- com.novabank.tests.TransactionsTest -->
+    </test> <!-- Transactions Tests -->
+    <test started-at="2026-05-05T05:15:33 UTC" name="Transfers Tests" finished-at="2026-05-05T05:15:33 UTC" duration-ms="23">
+      <class name="com.novabank.tests.TransfersTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.novabank.tests.TransfersTest@12b0404f]" started-at="2026-05-05T05:15:06 UTC" name="launchBrowser" finished-at="2026-05-05T05:15:32 UTC" duration-ms="26070" status="FAIL">
+          <exception class="com.microsoft.playwright.PlaywrightException">
+            <message>
+              <![CDATA[Error {
+  message='
+╔══════════════════════════════════════════════════════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers.                                                 ║
+║ Please install them with the following command:                                                      ║
+║                                                                                                      ║
+║     sudo mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="install-deps" ║
+║                                                                                                      ║
+║ Alternatively, use apt:                                                                              ║
+║     sudo apt-get install libatk1.0-0\                                                                ║
+║         libatk-bridge2.0-0\                                                                          ║
+║         libcups2\                                                                                    ║
+║         libdrm2\                                                                                     ║
+║         libatspi2.0-0\                                                                               ║
+║         libxcomposite1\                                                                              ║
+║         libxdamage1\                                                                                 ║
+║         libxfixes3\                                                                                  ║
+║         libxrandr2\                                                                                  ║
+║         libgbm1\                                                                                     ║
+║         libxkbcommon0\                                                                               ║
+║         libasound2                                                                                   ║
+║                                                                                                      ║
+║ <3 Playwright Team                                                                                   ║
+╚══════════════════════════════════════════════════════════════════════════════════════════════════════╝
+  name='Error
+  stack='Error: 
+╔══════════════════════════════════════════════════════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers.                                                 ║
+║ Please install them with the following command:                                                      ║
+║                                                                                                      ║
+║     sudo mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="install-deps" ║
+║                                                                                                      ║
+║ Alternatively, use apt:                                                                              ║
+║     sudo apt-get install libatk1.0-0\                                                                ║
+║         libatk-bridge2.0-0\                                                                          ║
+║         libcups2\                                                                                    ║
+║         libdrm2\                                                                                     ║
+║         libatspi2.0-0\                                                                               ║
+║         libxcomposite1\                                                                              ║
+║         libxdamage1\                                                                                 ║
+║         libxfixes3\                                                                                  ║
+║         libxrandr2\                                                                                  ║
+║         libgbm1\                                                                                     ║
+║         libxkbcommon0\                                                                               ║
+║         libasound2                                                                                   ║
+║                                                                                                      ║
+║ <3 Playwright Team                                                                                   ║
+╚══════════════════════════════════════════════════════════════════════════════════════════════════════╝
+    at validateDependenciesLinux (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/dependencies.js:216:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Registry._validateHostRequirements (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/index.js:603:43)
+    at async Registry._validateHostRequirementsForExecutableIfNeeded (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/index.js:701:7)
+    at async Registry.validateHostRequirementsForExecutablesIfNeeded (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/index.js:690:43)
+    at async Chromium._launchProcess (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:167:7)
+    at async Chromium._innerLaunch (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:103:9)
+    at async Chromium._innerLaunchWithRetries (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:84:14)
+    at async ProgressController.run (/tmp/playwright-java-15635618044500116852/package/lib/server/progress.js:82:22)
+    at async Chromium.launch (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:61:21)
+}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.microsoft.playwright.PlaywrightException: Error {
+  message='
+╔══════════════════════════════════════════════════════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers.                                                 ║
+║ Please install them with the following command:                                                      ║
+║                                                                                                      ║
+║     sudo mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="install-deps" ║
+║                                                                                                      ║
+║ Alternatively, use apt:                                                                              ║
+║     sudo apt-get install libatk1.0-0\                                                                ║
+║         libatk-bridge2.0-0\                                                                          ║
+║         libcups2\                                                                                    ║
+║         libdrm2\                                                                                     ║
+║         libatspi2.0-0\                                                                               ║
+║         libxcomposite1\                                                                              ║
+║         libxdamage1\                                                                                 ║
+║         libxfixes3\                                                                                  ║
+║         libxrandr2\                                                                                  ║
+║         libgbm1\                                                                                     ║
+║         libxkbcommon0\                                                                               ║
+║         libasound2                                                                                   ║
+║                                                                                                      ║
+║ <3 Playwright Team                                                                                   ║
+╚══════════════════════════════════════════════════════════════════════════════════════════════════════╝
+  name='Error
+  stack='Error: 
+╔══════════════════════════════════════════════════════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers.                                                 ║
+║ Please install them with the following command:                                                      ║
+║                                                                                                      ║
+║     sudo mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="install-deps" ║
+║                                                                                                      ║
+║ Alternatively, use apt:                                                                              ║
+║     sudo apt-get install libatk1.0-0\                                                                ║
+║         libatk-bridge2.0-0\                                                                          ║
+║         libcups2\                                                                                    ║
+║         libdrm2\                                                                                     ║
+║         libatspi2.0-0\                                                                               ║
+║         libxcomposite1\                                                                              ║
+║         libxdamage1\                                                                                 ║
+║         libxfixes3\                                                                                  ║
+║         libxrandr2\                                                                                  ║
+║         libgbm1\                                                                                     ║
+║         libxkbcommon0\                                                                               ║
+║         libasound2                                                                                   ║
+║                                                                                                      ║
+║ <3 Playwright Team                                                                                   ║
+╚══════════════════════════════════════════════════════════════════════════════════════════════════════╝
+    at validateDependenciesLinux (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/dependencies.js:216:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Registry._validateHostRequirements (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/index.js:603:43)
+    at async Registry._validateHostRequirementsForExecutableIfNeeded (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/index.js:701:7)
+    at async Registry.validateHostRequirementsForExecutablesIfNeeded (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/index.js:690:43)
+    at async Chromium._launchProcess (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:167:7)
+    at async Chromium._innerLaunch (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:103:9)
+    at async Chromium._innerLaunchWithRetries (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:84:14)
+    at async ProgressController.run (/tmp/playwright-java-15635618044500116852/package/lib/server/progress.js:82:22)
+    at async Chromium.launch (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:61:21)
+}
+at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:56)
+at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:120)
+at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:106)
+at com.microsoft.playwright.impl.BrowserTypeImpl.launchImpl(BrowserTypeImpl.java:50)
+at com.microsoft.playwright.impl.BrowserTypeImpl.lambda$launch$0(BrowserTypeImpl.java:42)
+at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:89)
+at com.microsoft.playwright.impl.BrowserTypeImpl.launch(BrowserTypeImpl.java:42)
+at com.microsoft.playwright.impl.BrowserTypeImpl.launch(BrowserTypeImpl.java:35)
+at com.novabank.base.BaseTest.launchBrowser(BaseTest.java:24)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:358)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: com.microsoft.playwright.impl.DriverException: Error {
+  message='
+╔══════════════════════════════════════════════════════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers.                                                 ║
+║ Please install them with the following command:                                                      ║
+║                                                                                                      ║
+║     sudo mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="install-deps" ║
+║                                                                                                      ║
+║ Alternatively, use apt:                                                                              ║
+║     sudo apt-get install libatk1.0-0\                                                                ║
+║         libatk-bridge2.0-0\                                                                          ║
+║         libcups2\                                                                                    ║
+║         libdrm2\                                                                                     ║
+║         libatspi2.0-0\                                                                               ║
+║         libxcomposite1\                                                                              ║
+║         libxdamage1\                                                                                 ║
+║         libxfixes3\                                                                                  ║
+║         libxrandr2\                                                                                  ║
+║         libgbm1\                                                                                     ║
+║         libxkbcommon0\                                                                               ║
+║         libasound2                                                                                   ║
+║                                                                                                      ║
+║ <3 Playwright Team                                                                                   ║
+╚══════════════════════════════════════════════════════════════════════════════════════════════════════╝
+  name='Error
+  stack='Error: 
+╔══════════════════════════════════════════════════════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers.                                                 ║
+║ Please install them with the following command:                                                      ║
+║                                                                                                      ║
+║     sudo mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="install-deps" ║
+║                                                                                                      ║
+║ Alternatively, use apt:                                                                              ║
+║     sudo apt-get install libatk1.0-0\                                                                ║
+║         libatk-bridge2.0-0\                                                                          ║
+║         libcups2\                                                                                    ║
+║         libdrm2\                                                                                     ║
+║         libatspi2.0-0\                                                                               ║
+║         libxcomposite1\                                                                              ║
+║         libxdamage1\                                                                                 ║
+║         libxfixes3\                                                                                  ║
+║         libxrandr2\                                                                                  ║
+║         libgbm1\                                                                                     ║
+║         libxkbcommon0\                                                                               ║
+║         libasound2                                                                                   ║
+║                                                                                                      ║
+║ <3 Playwright Team                                                                                   ║
+╚══════════════════════════════════════════════════════════════════════════════════════════════════════╝
+    at validateDependenciesLinux (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/dependencies.js:216:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Registry._validateHostRequirements (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/index.js:603:43)
+    at async Registry._validateHostRequirementsForExecutableIfNeeded (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/index.js:701:7)
+    at async Registry.validateHostRequirementsForExecutablesIfNeeded (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/index.js:690:43)
+    at async Chromium._launchProcess (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:167:7)
+    at async Chromium._innerLaunch (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:103:9)
+    at async Chromium._innerLaunchWithRetries (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:84:14)
+    at async ProgressController.run (/tmp/playwright-java-15635618044500116852/package/lib/server/progress.js:82:22)
+    at async Chromium.launch (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:61:21)
+}
+at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:259)
+at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:118)
+... 30 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.microsoft.playwright.PlaywrightException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="createContextAndPage()[pri:0, instance:com.novabank.tests.TransfersTest@12b0404f]" started-at="2026-05-05T05:15:33 UTC" name="createContextAndPage" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method signature="testTransfersFormElementsPresent()[pri:0, instance:com.novabank.tests.TransfersTest@12b0404f]" started-at="2026-05-05T05:15:33 UTC" name="testTransfersFormElementsPresent" description="Transfers form has from/to account selects and submit button" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <exception class="com.microsoft.playwright.PlaywrightException">
+            <message>
+              <![CDATA[Error {
+  message='
+╔══════════════════════════════════════════════════════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers.                                                 ║
+║ Please install them with the following command:                                                      ║
+║                                                                                                      ║
+║     sudo mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="install-deps" ║
+║                                                                                                      ║
+║ Alternatively, use apt:                                                                              ║
+║     sudo apt-get install libatk1.0-0\                                                                ║
+║         libatk-bridge2.0-0\                                                                          ║
+║         libcups2\                                                                                    ║
+║         libdrm2\                                                                                     ║
+║         libatspi2.0-0\                                                                               ║
+║         libxcomposite1\                                                                              ║
+║         libxdamage1\                                                                                 ║
+║         libxfixes3\                                                                                  ║
+║         libxrandr2\                                                                                  ║
+║         libgbm1\                                                                                     ║
+║         libxkbcommon0\                                                                               ║
+║         libasound2                                                                                   ║
+║                                                                                                      ║
+║ <3 Playwright Team                                                                                   ║
+╚══════════════════════════════════════════════════════════════════════════════════════════════════════╝
+  name='Error
+  stack='Error: 
+╔══════════════════════════════════════════════════════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers.                                                 ║
+║ Please install them with the following command:                                                      ║
+║                                                                                                      ║
+║     sudo mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="install-deps" ║
+║                                                                                                      ║
+║ Alternatively, use apt:                                                                              ║
+║     sudo apt-get install libatk1.0-0\                                                                ║
+║         libatk-bridge2.0-0\                                                                          ║
+║         libcups2\                                                                                    ║
+║         libdrm2\                                                                                     ║
+║         libatspi2.0-0\                                                                               ║
+║         libxcomposite1\                                                                              ║
+║         libxdamage1\                                                                                 ║
+║         libxfixes3\                                                                                  ║
+║         libxrandr2\                                                                                  ║
+║         libgbm1\                                                                                     ║
+║         libxkbcommon0\                                                                               ║
+║         libasound2                                                                                   ║
+║                                                                                                      ║
+║ <3 Playwright Team                                                                                   ║
+╚══════════════════════════════════════════════════════════════════════════════════════════════════════╝
+    at validateDependenciesLinux (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/dependencies.js:216:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Registry._validateHostRequirements (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/index.js:603:43)
+    at async Registry._validateHostRequirementsForExecutableIfNeeded (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/index.js:701:7)
+    at async Registry.validateHostRequirementsForExecutablesIfNeeded (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/index.js:690:43)
+    at async Chromium._launchProcess (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:167:7)
+    at async Chromium._innerLaunch (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:103:9)
+    at async Chromium._innerLaunchWithRetries (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:84:14)
+    at async ProgressController.run (/tmp/playwright-java-15635618044500116852/package/lib/server/progress.js:82:22)
+    at async Chromium.launch (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:61:21)
+}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.microsoft.playwright.PlaywrightException: Error {
+  message='
+╔══════════════════════════════════════════════════════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers.                                                 ║
+║ Please install them with the following command:                                                      ║
+║                                                                                                      ║
+║     sudo mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="install-deps" ║
+║                                                                                                      ║
+║ Alternatively, use apt:                                                                              ║
+║     sudo apt-get install libatk1.0-0\                                                                ║
+║         libatk-bridge2.0-0\                                                                          ║
+║         libcups2\                                                                                    ║
+║         libdrm2\                                                                                     ║
+║         libatspi2.0-0\                                                                               ║
+║         libxcomposite1\                                                                              ║
+║         libxdamage1\                                                                                 ║
+║         libxfixes3\                                                                                  ║
+║         libxrandr2\                                                                                  ║
+║         libgbm1\                                                                                     ║
+║         libxkbcommon0\                                                                               ║
+║         libasound2                                                                                   ║
+║                                                                                                      ║
+║ <3 Playwright Team                                                                                   ║
+╚══════════════════════════════════════════════════════════════════════════════════════════════════════╝
+  name='Error
+  stack='Error: 
+╔══════════════════════════════════════════════════════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers.                                                 ║
+║ Please install them with the following command:                                                      ║
+║                                                                                                      ║
+║     sudo mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="install-deps" ║
+║                                                                                                      ║
+║ Alternatively, use apt:                                                                              ║
+║     sudo apt-get install libatk1.0-0\                                                                ║
+║         libatk-bridge2.0-0\                                                                          ║
+║         libcups2\                                                                                    ║
+║         libdrm2\                                                                                     ║
+║         libatspi2.0-0\                                                                               ║
+║         libxcomposite1\                                                                              ║
+║         libxdamage1\                                                                                 ║
+║         libxfixes3\                                                                                  ║
+║         libxrandr2\                                                                                  ║
+║         libgbm1\                                                                                     ║
+║         libxkbcommon0\                                                                               ║
+║         libasound2                                                                                   ║
+║                                                                                                      ║
+║ <3 Playwright Team                                                                                   ║
+╚══════════════════════════════════════════════════════════════════════════════════════════════════════╝
+    at validateDependenciesLinux (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/dependencies.js:216:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Registry._validateHostRequirements (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/index.js:603:43)
+    at async Registry._validateHostRequirementsForExecutableIfNeeded (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/index.js:701:7)
+    at async Registry.validateHostRequirementsForExecutablesIfNeeded (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/index.js:690:43)
+    at async Chromium._launchProcess (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:167:7)
+    at async Chromium._innerLaunch (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:103:9)
+    at async Chromium._innerLaunchWithRetries (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:84:14)
+    at async ProgressController.run (/tmp/playwright-java-15635618044500116852/package/lib/server/progress.js:82:22)
+    at async Chromium.launch (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:61:21)
+}
+at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:56)
+at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:120)
+at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:106)
+at com.microsoft.playwright.impl.BrowserTypeImpl.launchImpl(BrowserTypeImpl.java:50)
+at com.microsoft.playwright.impl.BrowserTypeImpl.lambda$launch$0(BrowserTypeImpl.java:42)
+at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:89)
+at com.microsoft.playwright.impl.BrowserTypeImpl.launch(BrowserTypeImpl.java:42)
+at com.microsoft.playwright.impl.BrowserTypeImpl.launch(BrowserTypeImpl.java:35)
+at com.novabank.base.BaseTest.launchBrowser(BaseTest.java:24)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:358)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: com.microsoft.playwright.impl.DriverException: Error {
+  message='
+╔══════════════════════════════════════════════════════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers.                                                 ║
+║ Please install them with the following command:                                                      ║
+║                                                                                                      ║
+║     sudo mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="install-deps" ║
+║                                                                                                      ║
+║ Alternatively, use apt:                                                                              ║
+║     sudo apt-get install libatk1.0-0\                                                                ║
+║         libatk-bridge2.0-0\                                                                          ║
+║         libcups2\                                                                                    ║
+║         libdrm2\                                                                                     ║
+║         libatspi2.0-0\                                                                               ║
+║         libxcomposite1\                                                                              ║
+║         libxdamage1\                                                                                 ║
+║         libxfixes3\                                                                                  ║
+║         libxrandr2\                                                                                  ║
+║         libgbm1\                                                                                     ║
+║         libxkbcommon0\                                                                               ║
+║         libasound2                                                                                   ║
+║                                                                                                      ║
+║ <3 Playwright Team                                                                                   ║
+╚══════════════════════════════════════════════════════════════════════════════════════════════════════╝
+  name='Error
+  stack='Error: 
+╔══════════════════════════════════════════════════════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers.                                                 ║
+║ Please install them with the following command:                                                      ║
+║                                                                                                      ║
+║     sudo mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="install-deps" ║
+║                                                                                                      ║
+║ Alternatively, use apt:                                                                              ║
+║     sudo apt-get install libatk1.0-0\                                                                ║
+║         libatk-bridge2.0-0\                                                                          ║
+║         libcups2\                                                                                    ║
+║         libdrm2\                                                                                     ║
+║         libatspi2.0-0\                                                                               ║
+║         libxcomposite1\                                                                              ║
+║         libxdamage1\                                                                                 ║
+║         libxfixes3\                                                                                  ║
+║         libxrandr2\                                                                                  ║
+║         libgbm1\                                                                                     ║
+║         libxkbcommon0\                                                                               ║
+║         libasound2                                                                                   ║
+║                                                                                                      ║
+║ <3 Playwright Team                                                                                   ║
+╚══════════════════════════════════════════════════════════════════════════════════════════════════════╝
+    at validateDependenciesLinux (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/dependencies.js:216:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Registry._validateHostRequirements (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/index.js:603:43)
+    at async Registry._validateHostRequirementsForExecutableIfNeeded (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/index.js:701:7)
+    at async Registry.validateHostRequirementsForExecutablesIfNeeded (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/index.js:690:43)
+    at async Chromium._launchProcess (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:167:7)
+    at async Chromium._innerLaunch (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:103:9)
+    at async Chromium._innerLaunchWithRetries (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:84:14)
+    at async ProgressController.run (/tmp/playwright-java-15635618044500116852/package/lib/server/progress.js:82:22)
+    at async Chromium.launch (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:61:21)
+}
+at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:259)
+at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:118)
+... 30 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.microsoft.playwright.PlaywrightException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTransfersFormElementsPresent -->
+        <test-method is-config="true" signature="closeContextAndPage()[pri:0, instance:com.novabank.tests.TransfersTest@12b0404f]" started-at="2026-05-05T05:15:33 UTC" name="closeContextAndPage" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeContextAndPage -->
+        <test-method signature="testTransfersPageHeading()[pri:0, instance:com.novabank.tests.TransfersTest@12b0404f]" started-at="2026-05-05T05:15:33 UTC" name="testTransfersPageHeading" description="Transfers page shows correct heading" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <exception class="com.microsoft.playwright.PlaywrightException">
+            <message>
+              <![CDATA[Error {
+  message='
+╔══════════════════════════════════════════════════════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers.                                                 ║
+║ Please install them with the following command:                                                      ║
+║                                                                                                      ║
+║     sudo mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="install-deps" ║
+║                                                                                                      ║
+║ Alternatively, use apt:                                                                              ║
+║     sudo apt-get install libatk1.0-0\                                                                ║
+║         libatk-bridge2.0-0\                                                                          ║
+║         libcups2\                                                                                    ║
+║         libdrm2\                                                                                     ║
+║         libatspi2.0-0\                                                                               ║
+║         libxcomposite1\                                                                              ║
+║         libxdamage1\                                                                                 ║
+║         libxfixes3\                                                                                  ║
+║         libxrandr2\                                                                                  ║
+║         libgbm1\                                                                                     ║
+║         libxkbcommon0\                                                                               ║
+║         libasound2                                                                                   ║
+║                                                                                                      ║
+║ <3 Playwright Team                                                                                   ║
+╚══════════════════════════════════════════════════════════════════════════════════════════════════════╝
+  name='Error
+  stack='Error: 
+╔══════════════════════════════════════════════════════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers.                                                 ║
+║ Please install them with the following command:                                                      ║
+║                                                                                                      ║
+║     sudo mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="install-deps" ║
+║                                                                                                      ║
+║ Alternatively, use apt:                                                                              ║
+║     sudo apt-get install libatk1.0-0\                                                                ║
+║         libatk-bridge2.0-0\                                                                          ║
+║         libcups2\                                                                                    ║
+║         libdrm2\                                                                                     ║
+║         libatspi2.0-0\                                                                               ║
+║         libxcomposite1\                                                                              ║
+║         libxdamage1\                                                                                 ║
+║         libxfixes3\                                                                                  ║
+║         libxrandr2\                                                                                  ║
+║         libgbm1\                                                                                     ║
+║         libxkbcommon0\                                                                               ║
+║         libasound2                                                                                   ║
+║                                                                                                      ║
+║ <3 Playwright Team                                                                                   ║
+╚══════════════════════════════════════════════════════════════════════════════════════════════════════╝
+    at validateDependenciesLinux (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/dependencies.js:216:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Registry._validateHostRequirements (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/index.js:603:43)
+    at async Registry._validateHostRequirementsForExecutableIfNeeded (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/index.js:701:7)
+    at async Registry.validateHostRequirementsForExecutablesIfNeeded (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/index.js:690:43)
+    at async Chromium._launchProcess (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:167:7)
+    at async Chromium._innerLaunch (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:103:9)
+    at async Chromium._innerLaunchWithRetries (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:84:14)
+    at async ProgressController.run (/tmp/playwright-java-15635618044500116852/package/lib/server/progress.js:82:22)
+    at async Chromium.launch (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:61:21)
+}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.microsoft.playwright.PlaywrightException: Error {
+  message='
+╔══════════════════════════════════════════════════════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers.                                                 ║
+║ Please install them with the following command:                                                      ║
+║                                                                                                      ║
+║     sudo mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="install-deps" ║
+║                                                                                                      ║
+║ Alternatively, use apt:                                                                              ║
+║     sudo apt-get install libatk1.0-0\                                                                ║
+║         libatk-bridge2.0-0\                                                                          ║
+║         libcups2\                                                                                    ║
+║         libdrm2\                                                                                     ║
+║         libatspi2.0-0\                                                                               ║
+║         libxcomposite1\                                                                              ║
+║         libxdamage1\                                                                                 ║
+║         libxfixes3\                                                                                  ║
+║         libxrandr2\                                                                                  ║
+║         libgbm1\                                                                                     ║
+║         libxkbcommon0\                                                                               ║
+║         libasound2                                                                                   ║
+║                                                                                                      ║
+║ <3 Playwright Team                                                                                   ║
+╚══════════════════════════════════════════════════════════════════════════════════════════════════════╝
+  name='Error
+  stack='Error: 
+╔══════════════════════════════════════════════════════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers.                                                 ║
+║ Please install them with the following command:                                                      ║
+║                                                                                                      ║
+║     sudo mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="install-deps" ║
+║                                                                                                      ║
+║ Alternatively, use apt:                                                                              ║
+║     sudo apt-get install libatk1.0-0\                                                                ║
+║         libatk-bridge2.0-0\                                                                          ║
+║         libcups2\                                                                                    ║
+║         libdrm2\                                                                                     ║
+║         libatspi2.0-0\                                                                               ║
+║         libxcomposite1\                                                                              ║
+║         libxdamage1\                                                                                 ║
+║         libxfixes3\                                                                                  ║
+║         libxrandr2\                                                                                  ║
+║         libgbm1\                                                                                     ║
+║         libxkbcommon0\                                                                               ║
+║         libasound2                                                                                   ║
+║                                                                                                      ║
+║ <3 Playwright Team                                                                                   ║
+╚══════════════════════════════════════════════════════════════════════════════════════════════════════╝
+    at validateDependenciesLinux (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/dependencies.js:216:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Registry._validateHostRequirements (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/index.js:603:43)
+    at async Registry._validateHostRequirementsForExecutableIfNeeded (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/index.js:701:7)
+    at async Registry.validateHostRequirementsForExecutablesIfNeeded (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/index.js:690:43)
+    at async Chromium._launchProcess (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:167:7)
+    at async Chromium._innerLaunch (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:103:9)
+    at async Chromium._innerLaunchWithRetries (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:84:14)
+    at async ProgressController.run (/tmp/playwright-java-15635618044500116852/package/lib/server/progress.js:82:22)
+    at async Chromium.launch (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:61:21)
+}
+at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:56)
+at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:120)
+at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:106)
+at com.microsoft.playwright.impl.BrowserTypeImpl.launchImpl(BrowserTypeImpl.java:50)
+at com.microsoft.playwright.impl.BrowserTypeImpl.lambda$launch$0(BrowserTypeImpl.java:42)
+at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:89)
+at com.microsoft.playwright.impl.BrowserTypeImpl.launch(BrowserTypeImpl.java:42)
+at com.microsoft.playwright.impl.BrowserTypeImpl.launch(BrowserTypeImpl.java:35)
+at com.novabank.base.BaseTest.launchBrowser(BaseTest.java:24)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:358)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: com.microsoft.playwright.impl.DriverException: Error {
+  message='
+╔══════════════════════════════════════════════════════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers.                                                 ║
+║ Please install them with the following command:                                                      ║
+║                                                                                                      ║
+║     sudo mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="install-deps" ║
+║                                                                                                      ║
+║ Alternatively, use apt:                                                                              ║
+║     sudo apt-get install libatk1.0-0\                                                                ║
+║         libatk-bridge2.0-0\                                                                          ║
+║         libcups2\                                                                                    ║
+║         libdrm2\                                                                                     ║
+║         libatspi2.0-0\                                                                               ║
+║         libxcomposite1\                                                                              ║
+║         libxdamage1\                                                                                 ║
+║         libxfixes3\                                                                                  ║
+║         libxrandr2\                                                                                  ║
+║         libgbm1\                                                                                     ║
+║         libxkbcommon0\                                                                               ║
+║         libasound2                                                                                   ║
+║                                                                                                      ║
+║ <3 Playwright Team                                                                                   ║
+╚══════════════════════════════════════════════════════════════════════════════════════════════════════╝
+  name='Error
+  stack='Error: 
+╔══════════════════════════════════════════════════════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers.                                                 ║
+║ Please install them with the following command:                                                      ║
+║                                                                                                      ║
+║     sudo mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="install-deps" ║
+║                                                                                                      ║
+║ Alternatively, use apt:                                                                              ║
+║     sudo apt-get install libatk1.0-0\                                                                ║
+║         libatk-bridge2.0-0\                                                                          ║
+║         libcups2\                                                                                    ║
+║         libdrm2\                                                                                     ║
+║         libatspi2.0-0\                                                                               ║
+║         libxcomposite1\                                                                              ║
+║         libxdamage1\                                                                                 ║
+║         libxfixes3\                                                                                  ║
+║         libxrandr2\                                                                                  ║
+║         libgbm1\                                                                                     ║
+║         libxkbcommon0\                                                                               ║
+║         libasound2                                                                                   ║
+║                                                                                                      ║
+║ <3 Playwright Team                                                                                   ║
+╚══════════════════════════════════════════════════════════════════════════════════════════════════════╝
+    at validateDependenciesLinux (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/dependencies.js:216:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Registry._validateHostRequirements (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/index.js:603:43)
+    at async Registry._validateHostRequirementsForExecutableIfNeeded (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/index.js:701:7)
+    at async Registry.validateHostRequirementsForExecutablesIfNeeded (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/index.js:690:43)
+    at async Chromium._launchProcess (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:167:7)
+    at async Chromium._innerLaunch (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:103:9)
+    at async Chromium._innerLaunchWithRetries (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:84:14)
+    at async ProgressController.run (/tmp/playwright-java-15635618044500116852/package/lib/server/progress.js:82:22)
+    at async Chromium.launch (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:61:21)
+}
+at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:259)
+at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:118)
+... 30 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.microsoft.playwright.PlaywrightException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTransfersPageHeading -->
+        <test-method is-config="true" signature="createContextAndPage()[pri:0, instance:com.novabank.tests.TransfersTest@12b0404f]" started-at="2026-05-05T05:15:33 UTC" name="createContextAndPage" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method is-config="true" signature="closeContextAndPage()[pri:0, instance:com.novabank.tests.TransfersTest@12b0404f]" started-at="2026-05-05T05:15:33 UTC" name="closeContextAndPage" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeContextAndPage -->
+        <test-method is-config="true" signature="createContextAndPage()[pri:0, instance:com.novabank.tests.TransfersTest@12b0404f]" started-at="2026-05-05T05:15:33 UTC" name="createContextAndPage" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method signature="testTransfersPageIsAccessible()[pri:0, instance:com.novabank.tests.TransfersTest@12b0404f]" started-at="2026-05-05T05:15:33 UTC" name="testTransfersPageIsAccessible" description="Transfers page is accessible after login" finished-at="2026-05-05T05:15:33 UTC" duration-ms="1" status="SKIP">
+          <exception class="com.microsoft.playwright.PlaywrightException">
+            <message>
+              <![CDATA[Error {
+  message='
+╔══════════════════════════════════════════════════════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers.                                                 ║
+║ Please install them with the following command:                                                      ║
+║                                                                                                      ║
+║     sudo mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="install-deps" ║
+║                                                                                                      ║
+║ Alternatively, use apt:                                                                              ║
+║     sudo apt-get install libatk1.0-0\                                                                ║
+║         libatk-bridge2.0-0\                                                                          ║
+║         libcups2\                                                                                    ║
+║         libdrm2\                                                                                     ║
+║         libatspi2.0-0\                                                                               ║
+║         libxcomposite1\                                                                              ║
+║         libxdamage1\                                                                                 ║
+║         libxfixes3\                                                                                  ║
+║         libxrandr2\                                                                                  ║
+║         libgbm1\                                                                                     ║
+║         libxkbcommon0\                                                                               ║
+║         libasound2                                                                                   ║
+║                                                                                                      ║
+║ <3 Playwright Team                                                                                   ║
+╚══════════════════════════════════════════════════════════════════════════════════════════════════════╝
+  name='Error
+  stack='Error: 
+╔══════════════════════════════════════════════════════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers.                                                 ║
+║ Please install them with the following command:                                                      ║
+║                                                                                                      ║
+║     sudo mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="install-deps" ║
+║                                                                                                      ║
+║ Alternatively, use apt:                                                                              ║
+║     sudo apt-get install libatk1.0-0\                                                                ║
+║         libatk-bridge2.0-0\                                                                          ║
+║         libcups2\                                                                                    ║
+║         libdrm2\                                                                                     ║
+║         libatspi2.0-0\                                                                               ║
+║         libxcomposite1\                                                                              ║
+║         libxdamage1\                                                                                 ║
+║         libxfixes3\                                                                                  ║
+║         libxrandr2\                                                                                  ║
+║         libgbm1\                                                                                     ║
+║         libxkbcommon0\                                                                               ║
+║         libasound2                                                                                   ║
+║                                                                                                      ║
+║ <3 Playwright Team                                                                                   ║
+╚══════════════════════════════════════════════════════════════════════════════════════════════════════╝
+    at validateDependenciesLinux (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/dependencies.js:216:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Registry._validateHostRequirements (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/index.js:603:43)
+    at async Registry._validateHostRequirementsForExecutableIfNeeded (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/index.js:701:7)
+    at async Registry.validateHostRequirementsForExecutablesIfNeeded (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/index.js:690:43)
+    at async Chromium._launchProcess (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:167:7)
+    at async Chromium._innerLaunch (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:103:9)
+    at async Chromium._innerLaunchWithRetries (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:84:14)
+    at async ProgressController.run (/tmp/playwright-java-15635618044500116852/package/lib/server/progress.js:82:22)
+    at async Chromium.launch (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:61:21)
+}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.microsoft.playwright.PlaywrightException: Error {
+  message='
+╔══════════════════════════════════════════════════════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers.                                                 ║
+║ Please install them with the following command:                                                      ║
+║                                                                                                      ║
+║     sudo mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="install-deps" ║
+║                                                                                                      ║
+║ Alternatively, use apt:                                                                              ║
+║     sudo apt-get install libatk1.0-0\                                                                ║
+║         libatk-bridge2.0-0\                                                                          ║
+║         libcups2\                                                                                    ║
+║         libdrm2\                                                                                     ║
+║         libatspi2.0-0\                                                                               ║
+║         libxcomposite1\                                                                              ║
+║         libxdamage1\                                                                                 ║
+║         libxfixes3\                                                                                  ║
+║         libxrandr2\                                                                                  ║
+║         libgbm1\                                                                                     ║
+║         libxkbcommon0\                                                                               ║
+║         libasound2                                                                                   ║
+║                                                                                                      ║
+║ <3 Playwright Team                                                                                   ║
+╚══════════════════════════════════════════════════════════════════════════════════════════════════════╝
+  name='Error
+  stack='Error: 
+╔══════════════════════════════════════════════════════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers.                                                 ║
+║ Please install them with the following command:                                                      ║
+║                                                                                                      ║
+║     sudo mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="install-deps" ║
+║                                                                                                      ║
+║ Alternatively, use apt:                                                                              ║
+║     sudo apt-get install libatk1.0-0\                                                                ║
+║         libatk-bridge2.0-0\                                                                          ║
+║         libcups2\                                                                                    ║
+║         libdrm2\                                                                                     ║
+║         libatspi2.0-0\                                                                               ║
+║         libxcomposite1\                                                                              ║
+║         libxdamage1\                                                                                 ║
+║         libxfixes3\                                                                                  ║
+║         libxrandr2\                                                                                  ║
+║         libgbm1\                                                                                     ║
+║         libxkbcommon0\                                                                               ║
+║         libasound2                                                                                   ║
+║                                                                                                      ║
+║ <3 Playwright Team                                                                                   ║
+╚══════════════════════════════════════════════════════════════════════════════════════════════════════╝
+    at validateDependenciesLinux (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/dependencies.js:216:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Registry._validateHostRequirements (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/index.js:603:43)
+    at async Registry._validateHostRequirementsForExecutableIfNeeded (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/index.js:701:7)
+    at async Registry.validateHostRequirementsForExecutablesIfNeeded (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/index.js:690:43)
+    at async Chromium._launchProcess (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:167:7)
+    at async Chromium._innerLaunch (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:103:9)
+    at async Chromium._innerLaunchWithRetries (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:84:14)
+    at async ProgressController.run (/tmp/playwright-java-15635618044500116852/package/lib/server/progress.js:82:22)
+    at async Chromium.launch (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:61:21)
+}
+at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:56)
+at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:120)
+at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:106)
+at com.microsoft.playwright.impl.BrowserTypeImpl.launchImpl(BrowserTypeImpl.java:50)
+at com.microsoft.playwright.impl.BrowserTypeImpl.lambda$launch$0(BrowserTypeImpl.java:42)
+at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:89)
+at com.microsoft.playwright.impl.BrowserTypeImpl.launch(BrowserTypeImpl.java:42)
+at com.microsoft.playwright.impl.BrowserTypeImpl.launch(BrowserTypeImpl.java:35)
+at com.novabank.base.BaseTest.launchBrowser(BaseTest.java:24)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:358)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: com.microsoft.playwright.impl.DriverException: Error {
+  message='
+╔══════════════════════════════════════════════════════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers.                                                 ║
+║ Please install them with the following command:                                                      ║
+║                                                                                                      ║
+║     sudo mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="install-deps" ║
+║                                                                                                      ║
+║ Alternatively, use apt:                                                                              ║
+║     sudo apt-get install libatk1.0-0\                                                                ║
+║         libatk-bridge2.0-0\                                                                          ║
+║         libcups2\                                                                                    ║
+║         libdrm2\                                                                                     ║
+║         libatspi2.0-0\                                                                               ║
+║         libxcomposite1\                                                                              ║
+║         libxdamage1\                                                                                 ║
+║         libxfixes3\                                                                                  ║
+║         libxrandr2\                                                                                  ║
+║         libgbm1\                                                                                     ║
+║         libxkbcommon0\                                                                               ║
+║         libasound2                                                                                   ║
+║                                                                                                      ║
+║ <3 Playwright Team                                                                                   ║
+╚══════════════════════════════════════════════════════════════════════════════════════════════════════╝
+  name='Error
+  stack='Error: 
+╔══════════════════════════════════════════════════════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers.                                                 ║
+║ Please install them with the following command:                                                      ║
+║                                                                                                      ║
+║     sudo mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="install-deps" ║
+║                                                                                                      ║
+║ Alternatively, use apt:                                                                              ║
+║     sudo apt-get install libatk1.0-0\                                                                ║
+║         libatk-bridge2.0-0\                                                                          ║
+║         libcups2\                                                                                    ║
+║         libdrm2\                                                                                     ║
+║         libatspi2.0-0\                                                                               ║
+║         libxcomposite1\                                                                              ║
+║         libxdamage1\                                                                                 ║
+║         libxfixes3\                                                                                  ║
+║         libxrandr2\                                                                                  ║
+║         libgbm1\                                                                                     ║
+║         libxkbcommon0\                                                                               ║
+║         libasound2                                                                                   ║
+║                                                                                                      ║
+║ <3 Playwright Team                                                                                   ║
+╚══════════════════════════════════════════════════════════════════════════════════════════════════════╝
+    at validateDependenciesLinux (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/dependencies.js:216:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Registry._validateHostRequirements (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/index.js:603:43)
+    at async Registry._validateHostRequirementsForExecutableIfNeeded (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/index.js:701:7)
+    at async Registry.validateHostRequirementsForExecutablesIfNeeded (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/index.js:690:43)
+    at async Chromium._launchProcess (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:167:7)
+    at async Chromium._innerLaunch (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:103:9)
+    at async Chromium._innerLaunchWithRetries (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:84:14)
+    at async ProgressController.run (/tmp/playwright-java-15635618044500116852/package/lib/server/progress.js:82:22)
+    at async Chromium.launch (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:61:21)
+}
+at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:259)
+at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:118)
+... 30 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.microsoft.playwright.PlaywrightException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTransfersPageIsAccessible -->
+        <test-method is-config="true" signature="closeContextAndPage()[pri:0, instance:com.novabank.tests.TransfersTest@12b0404f]" started-at="2026-05-05T05:15:33 UTC" name="closeContextAndPage" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeContextAndPage -->
+        <test-method is-config="true" signature="createContextAndPage()[pri:0, instance:com.novabank.tests.TransfersTest@12b0404f]" started-at="2026-05-05T05:15:33 UTC" name="createContextAndPage" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContextAndPage -->
+        <test-method signature="testUnauthenticatedTransfersAccessRedirects()[pri:0, instance:com.novabank.tests.TransfersTest@12b0404f]" started-at="2026-05-05T05:15:33 UTC" name="testUnauthenticatedTransfersAccessRedirects" description="Unauthenticated access to transfers redirects to login" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <exception class="com.microsoft.playwright.PlaywrightException">
+            <message>
+              <![CDATA[Error {
+  message='
+╔══════════════════════════════════════════════════════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers.                                                 ║
+║ Please install them with the following command:                                                      ║
+║                                                                                                      ║
+║     sudo mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="install-deps" ║
+║                                                                                                      ║
+║ Alternatively, use apt:                                                                              ║
+║     sudo apt-get install libatk1.0-0\                                                                ║
+║         libatk-bridge2.0-0\                                                                          ║
+║         libcups2\                                                                                    ║
+║         libdrm2\                                                                                     ║
+║         libatspi2.0-0\                                                                               ║
+║         libxcomposite1\                                                                              ║
+║         libxdamage1\                                                                                 ║
+║         libxfixes3\                                                                                  ║
+║         libxrandr2\                                                                                  ║
+║         libgbm1\                                                                                     ║
+║         libxkbcommon0\                                                                               ║
+║         libasound2                                                                                   ║
+║                                                                                                      ║
+║ <3 Playwright Team                                                                                   ║
+╚══════════════════════════════════════════════════════════════════════════════════════════════════════╝
+  name='Error
+  stack='Error: 
+╔══════════════════════════════════════════════════════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers.                                                 ║
+║ Please install them with the following command:                                                      ║
+║                                                                                                      ║
+║     sudo mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="install-deps" ║
+║                                                                                                      ║
+║ Alternatively, use apt:                                                                              ║
+║     sudo apt-get install libatk1.0-0\                                                                ║
+║         libatk-bridge2.0-0\                                                                          ║
+║         libcups2\                                                                                    ║
+║         libdrm2\                                                                                     ║
+║         libatspi2.0-0\                                                                               ║
+║         libxcomposite1\                                                                              ║
+║         libxdamage1\                                                                                 ║
+║         libxfixes3\                                                                                  ║
+║         libxrandr2\                                                                                  ║
+║         libgbm1\                                                                                     ║
+║         libxkbcommon0\                                                                               ║
+║         libasound2                                                                                   ║
+║                                                                                                      ║
+║ <3 Playwright Team                                                                                   ║
+╚══════════════════════════════════════════════════════════════════════════════════════════════════════╝
+    at validateDependenciesLinux (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/dependencies.js:216:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Registry._validateHostRequirements (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/index.js:603:43)
+    at async Registry._validateHostRequirementsForExecutableIfNeeded (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/index.js:701:7)
+    at async Registry.validateHostRequirementsForExecutablesIfNeeded (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/index.js:690:43)
+    at async Chromium._launchProcess (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:167:7)
+    at async Chromium._innerLaunch (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:103:9)
+    at async Chromium._innerLaunchWithRetries (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:84:14)
+    at async ProgressController.run (/tmp/playwright-java-15635618044500116852/package/lib/server/progress.js:82:22)
+    at async Chromium.launch (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:61:21)
+}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.microsoft.playwright.PlaywrightException: Error {
+  message='
+╔══════════════════════════════════════════════════════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers.                                                 ║
+║ Please install them with the following command:                                                      ║
+║                                                                                                      ║
+║     sudo mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="install-deps" ║
+║                                                                                                      ║
+║ Alternatively, use apt:                                                                              ║
+║     sudo apt-get install libatk1.0-0\                                                                ║
+║         libatk-bridge2.0-0\                                                                          ║
+║         libcups2\                                                                                    ║
+║         libdrm2\                                                                                     ║
+║         libatspi2.0-0\                                                                               ║
+║         libxcomposite1\                                                                              ║
+║         libxdamage1\                                                                                 ║
+║         libxfixes3\                                                                                  ║
+║         libxrandr2\                                                                                  ║
+║         libgbm1\                                                                                     ║
+║         libxkbcommon0\                                                                               ║
+║         libasound2                                                                                   ║
+║                                                                                                      ║
+║ <3 Playwright Team                                                                                   ║
+╚══════════════════════════════════════════════════════════════════════════════════════════════════════╝
+  name='Error
+  stack='Error: 
+╔══════════════════════════════════════════════════════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers.                                                 ║
+║ Please install them with the following command:                                                      ║
+║                                                                                                      ║
+║     sudo mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="install-deps" ║
+║                                                                                                      ║
+║ Alternatively, use apt:                                                                              ║
+║     sudo apt-get install libatk1.0-0\                                                                ║
+║         libatk-bridge2.0-0\                                                                          ║
+║         libcups2\                                                                                    ║
+║         libdrm2\                                                                                     ║
+║         libatspi2.0-0\                                                                               ║
+║         libxcomposite1\                                                                              ║
+║         libxdamage1\                                                                                 ║
+║         libxfixes3\                                                                                  ║
+║         libxrandr2\                                                                                  ║
+║         libgbm1\                                                                                     ║
+║         libxkbcommon0\                                                                               ║
+║         libasound2                                                                                   ║
+║                                                                                                      ║
+║ <3 Playwright Team                                                                                   ║
+╚══════════════════════════════════════════════════════════════════════════════════════════════════════╝
+    at validateDependenciesLinux (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/dependencies.js:216:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Registry._validateHostRequirements (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/index.js:603:43)
+    at async Registry._validateHostRequirementsForExecutableIfNeeded (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/index.js:701:7)
+    at async Registry.validateHostRequirementsForExecutablesIfNeeded (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/index.js:690:43)
+    at async Chromium._launchProcess (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:167:7)
+    at async Chromium._innerLaunch (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:103:9)
+    at async Chromium._innerLaunchWithRetries (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:84:14)
+    at async ProgressController.run (/tmp/playwright-java-15635618044500116852/package/lib/server/progress.js:82:22)
+    at async Chromium.launch (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:61:21)
+}
+at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:56)
+at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:120)
+at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:106)
+at com.microsoft.playwright.impl.BrowserTypeImpl.launchImpl(BrowserTypeImpl.java:50)
+at com.microsoft.playwright.impl.BrowserTypeImpl.lambda$launch$0(BrowserTypeImpl.java:42)
+at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:89)
+at com.microsoft.playwright.impl.BrowserTypeImpl.launch(BrowserTypeImpl.java:42)
+at com.microsoft.playwright.impl.BrowserTypeImpl.launch(BrowserTypeImpl.java:35)
+at com.novabank.base.BaseTest.launchBrowser(BaseTest.java:24)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:358)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: com.microsoft.playwright.impl.DriverException: Error {
+  message='
+╔══════════════════════════════════════════════════════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers.                                                 ║
+║ Please install them with the following command:                                                      ║
+║                                                                                                      ║
+║     sudo mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="install-deps" ║
+║                                                                                                      ║
+║ Alternatively, use apt:                                                                              ║
+║     sudo apt-get install libatk1.0-0\                                                                ║
+║         libatk-bridge2.0-0\                                                                          ║
+║         libcups2\                                                                                    ║
+║         libdrm2\                                                                                     ║
+║         libatspi2.0-0\                                                                               ║
+║         libxcomposite1\                                                                              ║
+║         libxdamage1\                                                                                 ║
+║         libxfixes3\                                                                                  ║
+║         libxrandr2\                                                                                  ║
+║         libgbm1\                                                                                     ║
+║         libxkbcommon0\                                                                               ║
+║         libasound2                                                                                   ║
+║                                                                                                      ║
+║ <3 Playwright Team                                                                                   ║
+╚══════════════════════════════════════════════════════════════════════════════════════════════════════╝
+  name='Error
+  stack='Error: 
+╔══════════════════════════════════════════════════════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers.                                                 ║
+║ Please install them with the following command:                                                      ║
+║                                                                                                      ║
+║     sudo mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="install-deps" ║
+║                                                                                                      ║
+║ Alternatively, use apt:                                                                              ║
+║     sudo apt-get install libatk1.0-0\                                                                ║
+║         libatk-bridge2.0-0\                                                                          ║
+║         libcups2\                                                                                    ║
+║         libdrm2\                                                                                     ║
+║         libatspi2.0-0\                                                                               ║
+║         libxcomposite1\                                                                              ║
+║         libxdamage1\                                                                                 ║
+║         libxfixes3\                                                                                  ║
+║         libxrandr2\                                                                                  ║
+║         libgbm1\                                                                                     ║
+║         libxkbcommon0\                                                                               ║
+║         libasound2                                                                                   ║
+║                                                                                                      ║
+║ <3 Playwright Team                                                                                   ║
+╚══════════════════════════════════════════════════════════════════════════════════════════════════════╝
+    at validateDependenciesLinux (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/dependencies.js:216:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Registry._validateHostRequirements (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/index.js:603:43)
+    at async Registry._validateHostRequirementsForExecutableIfNeeded (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/index.js:701:7)
+    at async Registry.validateHostRequirementsForExecutablesIfNeeded (/tmp/playwright-java-15635618044500116852/package/lib/server/registry/index.js:690:43)
+    at async Chromium._launchProcess (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:167:7)
+    at async Chromium._innerLaunch (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:103:9)
+    at async Chromium._innerLaunchWithRetries (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:84:14)
+    at async ProgressController.run (/tmp/playwright-java-15635618044500116852/package/lib/server/progress.js:82:22)
+    at async Chromium.launch (/tmp/playwright-java-15635618044500116852/package/lib/server/browserType.js:61:21)
+}
+at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:259)
+at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:118)
+... 30 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.microsoft.playwright.PlaywrightException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUnauthenticatedTransfersAccessRedirects -->
+        <test-method is-config="true" signature="closeContextAndPage()[pri:0, instance:com.novabank.tests.TransfersTest@12b0404f]" started-at="2026-05-05T05:15:33 UTC" name="closeContextAndPage" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeContextAndPage -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.novabank.tests.TransfersTest@12b0404f]" started-at="2026-05-05T05:15:33 UTC" name="closeBrowser" finished-at="2026-05-05T05:15:33 UTC" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.novabank.tests.TransfersTest -->
+    </test> <!-- Transfers Tests -->
+  </suite> <!-- NovaBank Banking Application Test Suite -->
+</testng-results>

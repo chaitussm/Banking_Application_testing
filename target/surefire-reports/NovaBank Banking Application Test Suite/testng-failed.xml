@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [NovaBank Banking Application Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Login Tests(failed)" verbose="0">
+    <classes>
+      <class name="com.novabank.tests.LoginTest">
+        <methods>
+          <include name="testCustomer2LoginSuccess"/>
+          <include name="testCustomer1LoginSuccess"/>
+          <include name="testLoginPageLinks"/>
+          <include name="testManagerLoginSuccess"/>
+          <include name="testLoginWithInvalidPassword"/>
+          <include name="testUnauthenticatedUserRedirectedToLogin"/>
+          <include name="launchBrowser"/>
+          <include name="closeContextAndPage"/>
+          <include name="createContextAndPage"/>
+          <include name="testLoginWithInvalidEmail"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.novabank.tests.LoginTest -->
+    </classes>
+  </test> <!-- Login Tests(failed) -->
+  <test thread-count="5" name="Register Tests(failed)" verbose="0">
+    <classes>
+      <class name="com.novabank.tests.RegisterTest">
+        <methods>
+          <include name="testRegisterPageHasLoginLink"/>
+          <include name="testNewUserRegistrationSuccess"/>
+          <include name="testRegistrationFailsWithDuplicateEmail"/>
+          <include name="launchBrowser"/>
+          <include name="testRegisterPageIsAccessible"/>
+          <include name="closeContextAndPage"/>
+          <include name="createContextAndPage"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.novabank.tests.RegisterTest -->
+    </classes>
+  </test> <!-- Register Tests(failed) -->
+  <test thread-count="5" name="Forgot Password Tests(failed)" verbose="0">
+    <classes>
+      <class name="com.novabank.tests.ForgotPasswordTest">
+        <methods>
+          <include name="testPasswordResetSuccessForExistingUser"/>
+          <include name="testForgotPasswordPageIsAccessible"/>
+          <include name="launchBrowser"/>
+          <include name="testUserCanLoginAfterPasswordReset"/>
+          <include name="closeContextAndPage"/>
+          <include name="createContextAndPage"/>
+          <include name="testPasswordResetFailsForUnknownEmail"/>
+          <include name="closeBrowser"/>
+          <include name="testForgotPasswordPageHasLoginLink"/>
+        </methods>
+      </class> <!-- com.novabank.tests.ForgotPasswordTest -->
+    </classes>
+  </test> <!-- Forgot Password Tests(failed) -->
+  <test thread-count="5" name="Dashboard Tests(failed)" verbose="0">
+    <classes>
+      <class name="com.novabank.tests.DashboardTest">
+        <methods>
+          <include name="testDashboardShowsManagerName"/>
+          <include name="testCustomerDoesNotSeeUsersNavLink"/>
+          <include name="testDashboardShowsCustomerName"/>
+          <include name="testLogoutRedirectsToLogin"/>
+          <include name="testDashboardHeading"/>
+          <include name="launchBrowser"/>
+          <include name="closeContextAndPage"/>
+          <include name="createContextAndPage"/>
+          <include name="testDashboardShowsStatCards"/>
+          <include name="testManagerSeesUsersNavLink"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.novabank.tests.DashboardTest -->
+    </classes>
+  </test> <!-- Dashboard Tests(failed) -->
+  <test thread-count="5" name="Users Tests(failed)" verbose="0">
+    <classes>
+      <class name="com.novabank.tests.UsersTest">
+        <methods>
+          <include name="testCustomerIsRedirectedFromUsersPage"/>
+          <include name="testUsersPageSubtitle"/>
+          <include name="testUsersPageShowsSeededUsers"/>
+          <include name="launchBrowser"/>
+          <include name="testUsersPageDisplaysSeededUserNames"/>
+          <include name="closeContextAndPage"/>
+          <include name="createContextAndPage"/>
+          <include name="testManagerCanAccessUsersPage"/>
+          <include name="closeBrowser"/>
+          <include name="testUnauthorizedPageContent"/>
+        </methods>
+      </class> <!-- com.novabank.tests.UsersTest -->
+    </classes>
+  </test> <!-- Users Tests(failed) -->
+  <test thread-count="5" name="Accounts Tests(failed)" verbose="0">
+    <classes>
+      <class name="com.novabank.tests.AccountsTest">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="closeContextAndPage"/>
+          <include name="testUnauthenticatedAccountsAccessRedirects"/>
+          <include name="createContextAndPage"/>
+          <include name="testAccountsPageIsAccessible"/>
+          <include name="testAccountsPageHeading"/>
+          <include name="testAccountsPageShowsSeededAccounts"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.novabank.tests.AccountsTest -->
+    </classes>
+  </test> <!-- Accounts Tests(failed) -->
+  <test thread-count="5" name="Transactions Tests(failed)" verbose="0">
+    <classes>
+      <class name="com.novabank.tests.TransactionsTest">
+        <methods>
+          <include name="testTransactionsPageHeading"/>
+          <include name="testTransactionsFormElementsPresent"/>
+          <include name="testUnauthenticatedTransactionsAccessRedirects"/>
+          <include name="launchBrowser"/>
+          <include name="closeContextAndPage"/>
+          <include name="testTransactionsPageIsAccessible"/>
+          <include name="createContextAndPage"/>
+          <include name="testManagerCanAccessTransactions"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.novabank.tests.TransactionsTest -->
+    </classes>
+  </test> <!-- Transactions Tests(failed) -->
+  <test thread-count="5" name="Transfers Tests(failed)" verbose="0">
+    <classes>
+      <class name="com.novabank.tests.TransfersTest">
+        <methods>
+          <include name="testUnauthenticatedTransfersAccessRedirects"/>
+          <include name="testTransfersPageIsAccessible"/>
+          <include name="testTransfersFormElementsPresent"/>
+          <include name="launchBrowser"/>
+          <include name="testTransfersPageHeading"/>
+          <include name="closeContextAndPage"/>
+          <include name="createContextAndPage"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.novabank.tests.TransfersTest -->
+    </classes>
+  </test> <!-- Transfers Tests(failed) -->
+</suite> <!-- Failed suite [NovaBank Banking Application Test Suite] -->
