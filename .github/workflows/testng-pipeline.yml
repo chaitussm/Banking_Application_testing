@@ -139,6 +139,7 @@ jobs:
           branch      = os.environ.get('BRANCH', '')
           sha         = os.environ.get('SHA', '')
           run_url     = os.environ.get('RUN_URL', '#')
+          artifacts_url = run_url + '#artifacts'
           banner_color = '#27ae60' if job_status == 'success' else '#e74c3c'
 
           table_rows = '\n'.join(rows) if rows else '<tr><td colspan="5">No test results found.</td></tr>'
@@ -184,6 +185,10 @@ jobs:
                   <a href="{run_url}" style="background:#2c3e50;color:#fff;padding:10px 20px;text-decoration:none;border-radius:4px">
                     View Full Run
                   </a>
+                  &nbsp;
+                  <a href="{artifacts_url}" style="background:#2980b9;color:#fff;padding:10px 20px;text-decoration:none;border-radius:4px">
+                    Download Reports
+                  </a>
                 </p>
               </div>
             </div>
@@ -195,7 +200,7 @@ jobs:
           print('email-report.html written successfully.')
           REPORT_SCRIPT
 
-      - name: Send email with HTML report and zip attachment
+      - name: Send email with HTML report
         if: always()
         uses: dawidd6/action-send-mail@v3
         with:
@@ -207,4 +212,3 @@ jobs:
           to: ${{ secrets.EMAIL_TO }}
           from: ${{ secrets.SMTP_USERNAME }}
           html_body: file://email-report.html
-          attachments: test-reports.zip
