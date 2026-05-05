@@ -92,7 +92,7 @@ jobs:
           SHA: ${{ github.sha }}
           RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
         run: |
-          python3 << 'PYEOF2'
+          python3 << 'REPORT_SCRIPT'
           import os
           import glob
           import html
@@ -193,7 +193,7 @@ jobs:
           with open('email-report.html', 'w') as f:
               f.write(report_html)
           print('email-report.html written successfully.')
-          PYEOF2
+          REPORT_SCRIPT
 
       - name: Send email with HTML report and zip attachment
         if: always()
@@ -203,9 +203,8 @@ jobs:
           server_port: 587
           username: ${{ secrets.SMTP_USERNAME }}
           password: ${{ secrets.SMTP_PASSWORD }}
-          subject: "TestNG Pipeline – ${{ job.status }} | ${{ github.ref_name }} @ ${{ github.sha }}"
+          subject: "TestNG Pipeline – ${{ env.JOB_STATUS }} | ${{ github.ref_name }} @ ${{ github.sha }}"
           to: ${{ secrets.EMAIL_TO }}
           from: ${{ secrets.SMTP_USERNAME }}
           html_body: file://email-report.html
           attachments: test-reports.zip
-          ignore_cert: true
