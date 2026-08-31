@@ -23,7 +23,6 @@ public class LoginTest extends BaseTest {
         loginPage.login(TestData.CUSTOMER1_EMAIL, TestData.CUSTOMER1_PASSWORD);
 
         page.waitForURL("**/dashboard");
-
         DashboardPage dashboardPage = new DashboardPage(page);
         Assert.assertTrue(dashboardPage.isDashboardDisplayed(), "Dashboard should be displayed after login");
         Assert.assertTrue(

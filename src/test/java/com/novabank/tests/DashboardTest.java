@@ -18,6 +18,7 @@ public class DashboardTest extends BaseTest {
         loginPage.navigate();
         loginPage.login(email, password);
         page.waitForURL("**/dashboard");
+        new DashboardPage(page).waitUntilReady();
     }
 
     @Test(description = "Dashboard displays 4 stat cards after login")
