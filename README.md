@@ -48,11 +48,12 @@ This project uses a GitHub Actions workflow at `.github/workflows/testng-pipelin
 
 ### What the workflow does
 
-1. Sets up Java 17
-2. Installs Playwright Linux dependencies
-3. Runs TestNG tests with Maven (`mvn -B clean test`)
-4. Generates Surefire HTML report (`mvn -B surefire-report:report`)
-5. Uploads report artifacts even when tests fail
+1. Sets up Java 17 and Node.js
+2. Checks out `chaitussm/Banking_Application` and starts backend (`:4000`) plus frontend (`:5173`)
+3. Installs Playwright Linux dependencies and Chromium
+4. Runs TestNG tests with Maven (`mvn -B clean test`) against the running app
+5. Generates Surefire HTML report (`mvn -B surefire-report:report-only`)
+6. Uploads report artifacts even when tests fail
 
 ### Download and view HTML reports
 
