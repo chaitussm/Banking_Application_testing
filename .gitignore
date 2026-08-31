@@ -4,6 +4,9 @@ target/
 # ExtentReports HTML report and screenshots
 test-output/
 
+# Pipeline-generated email report
+email-report.html
+
 # IDE files
 .idea/
 *.iml
@@ -14,3 +17,7 @@ test-output/
 # OS files
 .DS_Store
 Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
